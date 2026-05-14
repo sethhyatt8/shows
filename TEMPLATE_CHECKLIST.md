@@ -20,6 +20,14 @@ Use this checklist each time you clone this repository for a new app.
 - In GitHub repo **Settings → Pages**: **Build and deployment → Source** = **Deploy from a branch** → branch **`gh-pages`**, folder **`/`** (root).
 - Optionally run manual deploy with `npm run deploy`.
 
+**Pages pitfalls (this workflow = branch `gh-pages`, not “GitHub Actions”):**
+
+- The **branch** dropdown must be **`gh-pages`**, not **`main`**, or the site is blank / wrong (GitHub would serve dev `index.html` from `main`).
+- First time: run workflow once, then refresh **Pages** if **`gh-pages`** was not in the list yet.
+- Live URL is always **`https://<user>.github.io/<repo>/`** (include **`/<repo>/`**).
+- CI sets **`VITE_BASE_PATH`** from the repo name; don’t remove that from the workflow if you rename the repo.
+- Don’t mix this with the **other** Pages mode (“GitHub Actions” + `deploy-pages`) unless you change the workflow to match.
+
 ## 4) Agent workflow defaults
 
 - Start broad requests in plan/discussion mode when requirements are ambiguous.
