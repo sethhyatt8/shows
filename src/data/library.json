@@ -138,25 +138,26 @@
       "id": "for-all-mankind",
       "kind": "tv",
       "external": {
-        "tmdbId": 84958,
+        "tmdbId": 87917,
         "searchQuery": "For All Mankind"
       },
       "cached": {
-        "title": "Loki",
-        "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.",
-        "posterPath": "/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
-        "backdropPath": "/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg",
+        "title": "For All Mankind",
+        "overview": "Explore an aspirational world where NASA and the space program remained a priority and a focal point of our hopes and dreams as told through the lives of NASA astronauts, engineers, and their families.",
+        "posterPath": "/JP3DItWMbrrLiKR5AYUfpsNf2b.jpg",
+        "backdropPath": "/9OQ5BIITkJwRJo9JA6AlCfJIGBQ.jpg",
         "genreNames": [
           "Drama",
-          "Sci-Fi & Fantasy"
+          "Sci-Fi & Fantasy",
+          "War & Politics"
         ],
-        "firstAirYear": "2021",
+        "firstAirYear": "2019",
         "topCast": [
-          "Tom Hiddleston",
-          "Sophia Di Martino",
-          "Wunmi Mosaku",
-          "Eugene Cordero",
-          "Ke Huy Quan"
+          "Toby Kebbell",
+          "Mireille Enos",
+          "Edi Gathegi",
+          "Cynthy Wu",
+          "Coral Peña"
         ]
       },
       "mine": {
