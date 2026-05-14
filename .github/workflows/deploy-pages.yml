@@ -11,13 +11,18 @@ permissions:
   pages: write
   id-token: write
 
+# Avoid cancelling a nearly-finished deploy when you push twice; that shows up as "failed".
 concurrency:
-  group: pages
-  cancel-in-progress: true
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,6 +37,9 @@ jobs:
         run: npm ci
 
       - name: Build
+        env:
+          # Must match the repo name segment in https://<user>.github.io/<repo>/
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
         run: npm run build
 
       - name: Upload Pages artifact
@@ -42,6 +50,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
