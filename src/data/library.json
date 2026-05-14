@@ -4,15 +4,28 @@
     {
       "id": "widows-bay",
       "kind": "tv",
-      "external": { "tmdbId": null, "searchQuery": "Widow's Bay" },
+      "external": {
+        "tmdbId": 270476,
+        "searchQuery": "Widow's Bay"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "Widow's Bay",
+        "overview": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
+        "posterPath": "/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+        "backdropPath": "/u6XtMg9Ai9siEbEs0UudPS3EaZY.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery",
+          "Comedy"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Matthew Rhys",
+          "Stephen Root",
+          "Kate O'Flynn",
+          "Kevin Carroll",
+          "Dale Dickey"
+        ]
       },
       "mine": {
         "title": "Widow's Bay",
@@ -25,15 +38,27 @@
     {
       "id": "margo-has-money-troubles",
       "kind": "tv",
-      "external": { "tmdbId": null, "searchQuery": "Margo Has Money Troubles" },
+      "external": {
+        "tmdbId": 245318,
+        "searchQuery": "Margo's Got Money Troubles"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "Margo's Got Money Troubles",
+        "overview": "The daughter of a former Hooter's waitress and an ex-pro wrestler, Margo is a recent college dropout and aspiring writer. Faced with a new baby, mounting pile of bills, and dwindling number of ways to pay them, Margo must find a way forward.",
+        "posterPath": "/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
+        "backdropPath": "/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
+        "genreNames": [
+          "Drama",
+          "Comedy"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Elle Fanning",
+          "Nick Offerman",
+          "Greg Kinnear",
+          "Thaddea Graham",
+          "Michelle Pfeiffer"
+        ]
       },
       "mine": {
         "title": "Margo Has Money Troubles",
@@ -46,15 +71,27 @@
     {
       "id": "the-boys",
       "kind": "tv",
-      "external": { "tmdbId": 76479, "searchQuery": "The Boys" },
+      "external": {
+        "tmdbId": 76479,
+        "searchQuery": "The Boys"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "The Boys",
+        "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+        "posterPath": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
+        "backdropPath": "/bq28ajZaoMyzEIm6REelqyqtEDZ.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Karl Urban",
+          "Jack Quaid",
+          "Antony Starr",
+          "Erin Moriarty",
+          "Laz Alonso"
+        ]
       },
       "mine": {
         "title": "The Boys",
@@ -67,15 +104,27 @@
     {
       "id": "the-audacity",
       "kind": "tv",
-      "external": { "tmdbId": null, "searchQuery": "The Audacity" },
+      "external": {
+        "tmdbId": 258036,
+        "searchQuery": "The Audacity"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "The Audacity",
+        "overview": "Inside the bubble of Silicon Valley, a data-mining CEO strives to turn insight and influence into profit and power in this darkly comedic look at the warped dreams, outsized egos, and ethical lapses of the self-styled inventors of the future.",
+        "posterPath": "/ea6hHjW8yWjROSYwynpWsYc4mYZ.jpg",
+        "backdropPath": "/4X86dOxMsrZudL0PdsMv30NGBWZ.jpg",
+        "genreNames": [
+          "Drama",
+          "Comedy"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Billy Magnussen",
+          "Meaghan Rath",
+          "Zach Galifianakis",
+          "Lucy Punch",
+          "Simon Helberg"
+        ]
       },
       "mine": {
         "title": "The Audacity",
@@ -88,15 +137,27 @@
     {
       "id": "for-all-mankind",
       "kind": "tv",
-      "external": { "tmdbId": 84958, "searchQuery": "For All Mankind" },
+      "external": {
+        "tmdbId": 84958,
+        "searchQuery": "For All Mankind"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "Loki",
+        "overview": "After stealing the Tesseract during the events of “Avengers: Endgame,” an alternate version of Loki is brought to the mysterious Time Variance Authority, a bureaucratic organization that exists outside of time and space and monitors the timeline. They give Loki a choice: face being erased from existence due to being a “time variant” or help fix the timeline and stop a greater threat.",
+        "posterPath": "/kEl2t3OhXc3Zb9FBh1AuYzRTgZp.jpg",
+        "backdropPath": "/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg",
+        "genreNames": [
+          "Drama",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Tom Hiddleston",
+          "Sophia Di Martino",
+          "Wunmi Mosaku",
+          "Eugene Cordero",
+          "Ke Huy Quan"
+        ]
       },
       "mine": {
         "title": "For All Mankind",
@@ -109,15 +170,27 @@
     {
       "id": "dtf-st-louis",
       "kind": "tv",
-      "external": { "tmdbId": null, "searchQuery": "DTF St Louis" },
+      "external": {
+        "tmdbId": 206828,
+        "searchQuery": "DTF St Louis"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "DTF St. Louis",
+        "overview": "A love triangle among three adults experiencing middle-age malaise leads to one of them ending up dead.",
+        "posterPath": "/xHfafw9UmomDc7jO25s9MpiL4Zs.jpg",
+        "backdropPath": "/8mO4cYZI1X8sanR4u6f07FiQ8dC.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Jason Bateman",
+          "David Harbour",
+          "Linda Cardellini",
+          "Richard Jenkins",
+          "Joy Sunday"
+        ]
       },
       "mine": {
         "title": "DTF St Louis",
@@ -130,15 +203,26 @@
     {
       "id": "rooster",
       "kind": "tv",
-      "external": { "tmdbId": null, "searchQuery": "Rooster" },
+      "external": {
+        "tmdbId": 254953,
+        "searchQuery": "Rooster"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "Rooster",
+        "overview": "On a college campus, an author navigates a complicated relationship with his daughter.",
+        "posterPath": "/aikvD4Nu7N6ekbrXNua8vJlO8JU.jpg",
+        "backdropPath": "/mhZAT8ktiNi7YwuL50kmumsau69.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Steve Carell",
+          "Danielle Deadwyler",
+          "Phil Dunster",
+          "John C. McGinley",
+          "Lauren Tsai"
+        ]
       },
       "mine": {
         "title": "Rooster",
@@ -151,15 +235,27 @@
     {
       "id": "big-mistakes",
       "kind": "tv",
-      "external": { "tmdbId": null, "searchQuery": "Big Mistakes" },
+      "external": {
+        "tmdbId": 291506,
+        "searchQuery": "Big Mistakes"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "Big Mistakes",
+        "overview": "Blackmailed into working for some very dangerous people, two deeply incapable siblings become the most disorganized duo in organized crime.",
+        "posterPath": "/mgXTCQ86lV3oudr2KXXO5zGEqIb.jpg",
+        "backdropPath": "/oGORe3yzIPBueHVHroSmsaMVKDi.jpg",
+        "genreNames": [
+          "Comedy",
+          "Crime"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Dan Levy",
+          "Laurie Metcalf",
+          "Taylor Ortega",
+          "Abby Quinn",
+          "Jack Innanen"
+        ]
       },
       "mine": {
         "title": "Big Mistakes",
@@ -172,15 +268,26 @@
     {
       "id": "ted",
       "kind": "tv",
-      "external": { "tmdbId": null, "searchQuery": "Ted Peacock" },
+      "external": {
+        "tmdbId": 201834,
+        "searchQuery": "Ted"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "ted",
+        "overview": "It's 1993 and Ted the bear's moment of fame has passed, leaving him living with his best friend, 16-year-old John Bennett, who lives in a working-class Boston home with his parents and cousin. Ted may not be the best influence on John, but when it comes right down to it, he's willing to go out on a limb to help his friend and his family.",
+        "posterPath": "/cPn71YFDENH0JkWUezlsLyWmLfN.jpg",
+        "backdropPath": "/xaiKpxuf9YGuTsqpdK5HSbD8M8f.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Seth MacFarlane",
+          "Max Burkholder",
+          "Alanna Ubach",
+          "Scott Grimes",
+          "Giorgia Whigham"
+        ]
       },
       "mine": {
         "title": "Ted",
@@ -193,15 +300,26 @@
     {
       "id": "abbott-elementary",
       "kind": "tv",
-      "external": { "tmdbId": 125935, "searchQuery": "Abbott Elementary" },
+      "external": {
+        "tmdbId": 125935,
+        "searchQuery": "Abbott Elementary"
+      },
       "cached": {
-        "title": null,
-        "overview": null,
-        "posterPath": null,
-        "backdropPath": null,
-        "genreNames": [],
-        "firstAirYear": null,
-        "topCast": []
+        "title": "Abbott Elementary",
+        "overview": "In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don’t love the school district’s less-than-stellar attitude toward educating children.",
+        "posterPath": "/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
+        "backdropPath": "/asDINJT3b7tEa76uWI1rZ5TWdJF.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Quinta Brunson",
+          "Tyler James Williams",
+          "Sheryl Lee Ralph",
+          "Lisa Ann Walter",
+          "Chris Perfetti"
+        ]
       },
       "mine": {
         "title": "Abbott Elementary",
