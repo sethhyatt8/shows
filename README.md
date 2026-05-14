@@ -1,59 +1,41 @@
-# Cursor Web App Template
+# Shows
 
-Starter template for static web apps deployed to GitHub Pages with:
+Personal, read-only catalog of TV you are watching. Static React + Vite app for GitHub Pages. Your library lives in [`src/data/library.json`](src/data/library.json). Posters, genres, and cast come from [TMDB](https://www.themoviedb.org/) after you run the enrich script.
 
-- React
-- Vite
-- TypeScript
-- ESLint
-- `gh-pages` deployment script
-- GitHub Actions Pages deployment workflow
-
-## Quick start (for a new app)
-
-1. Clone this template repository.
-2. Rename the folder/repository for your app.
-3. Install dependencies:
+## Quick start
 
 ```bash
 npm install
-```
-
-4. Start development:
-
-```bash
 npm run dev
 ```
 
-## Deploy to GitHub Pages
+## Fill posters and metadata (TMDB)
 
-This template includes:
-
-- `predeploy`: `npm run build`
-- `deploy`: `gh-pages -d dist`
-
-To deploy:
+1. Create a [TMDB API key](https://www.themoviedb.org/settings/api) (v3 read access).
+2. Copy `.env.example` to `.env` and set `TMDB_API_KEY`.
+3. Run:
 
 ```bash
-npm run deploy
+npm run enrich
 ```
 
-`vite.config.ts` uses `base: './'` so the built app remains portable for GitHub Pages project hosting.
+This updates `src/data/library.json` in place. For rows without `external.tmdbId`, the script uses `external.searchQuery`, picks the **first** search hit, and logs a warning so you can fix the id if the match is wrong.
 
-For automatic deploys, this template also includes `.github/workflows/deploy-pages.yml`, which publishes on pushes to `main`.
+## Build and deploy
 
-## One-time Cursor setup (important)
+```bash
+npm run lint
+npm run build
+```
 
-Repository rules can guide agent behavior, but frequent run-approval prompts are controlled by your Cursor permissions mode.
+Deploy with `npm run deploy` or rely on [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) on push to `main`.
 
-In Cursor:
+`vite.config.ts` uses `base: './'` for GitHub Pages project sites.
 
-1. Open Agent settings and set approval mode to `allowlist` (or a less strict mode you are comfortable with).
-2. Expand your allowlist to include normal dev commands (for example: `npm install`, `npm run *`, `npx vite`, `git status`, `git diff`, `git log`).
-3. Keep destructive commands requiring approval (for example: `rm -rf`, `git reset --hard`, force pushes).
+## One-time Cursor setup (fewer approval prompts)
 
-After this one-time setup, cloned repos using this template should run with far fewer interruptions.
+Repository rules guide agents, but run approvals are controlled in Cursor Agent settings. Prefer an allowlist that includes normal dev commands (`npm install`, `npm run *`, `git status`, `git diff`, `git log`) and keep destructive commands gated.
 
-## Template intent
+## Attribution
 
-This repo is intentionally minimal and cloneable so you can quickly start new apps (for example, a darts scoring app) while keeping consistent tooling and agent behavior defaults.
+This product uses the TMDB API but is not endorsed or certified by TMDB.

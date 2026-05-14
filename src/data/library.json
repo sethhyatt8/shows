@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "widows-bay",
+      "kind": "tv",
+      "external": { "tmdbId": null, "searchQuery": "Widow's Bay" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "Widow's Bay",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "margo-has-money-troubles",
+      "kind": "tv",
+      "external": { "tmdbId": null, "searchQuery": "Margo Has Money Troubles" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "Margo Has Money Troubles",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-boys",
+      "kind": "tv",
+      "external": { "tmdbId": 76479, "searchQuery": "The Boys" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "The Boys",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-audacity",
+      "kind": "tv",
+      "external": { "tmdbId": null, "searchQuery": "The Audacity" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "The Audacity",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "for-all-mankind",
+      "kind": "tv",
+      "external": { "tmdbId": 84958, "searchQuery": "For All Mankind" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "For All Mankind",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "dtf-st-louis",
+      "kind": "tv",
+      "external": { "tmdbId": null, "searchQuery": "DTF St Louis" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "DTF St Louis",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "rooster",
+      "kind": "tv",
+      "external": { "tmdbId": null, "searchQuery": "Rooster" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "Rooster",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "big-mistakes",
+      "kind": "tv",
+      "external": { "tmdbId": null, "searchQuery": "Big Mistakes" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "Big Mistakes",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "ted",
+      "kind": "tv",
+      "external": { "tmdbId": null, "searchQuery": "Ted Peacock" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "Ted",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "abbott-elementary",
+      "kind": "tv",
+      "external": { "tmdbId": 125935, "searchQuery": "Abbott Elementary" },
+      "cached": {
+        "title": null,
+        "overview": null,
+        "posterPath": null,
+        "backdropPath": null,
+        "genreNames": [],
+        "firstAirYear": null,
+        "topCast": []
+      },
+      "mine": {
+        "title": "Abbott Elementary",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    }
+  ]
+}

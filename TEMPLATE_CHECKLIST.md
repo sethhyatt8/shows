@@ -25,6 +25,7 @@ Use this checklist each time you clone this repository for a new app.
 - Start broad requests in plan/discussion mode when requirements are ambiguous.
 - After plan approval, execute end-to-end with minimal interruption.
 - Ask concise questions only when blocked by missing external information.
+- Run `npm install`, `npm run dev`, and other routine shell commands without pausing for per-command approval (use Cursor allowlists for trusted commands); finish substantive work with `npm run lint` and `npm run build`, then commit/push or deploy as appropriate unless the user opts out.
 
 ## 5) Quality gates for substantive changes
 
@@ -46,4 +47,5 @@ I cloned this web-app template. Help me build [APP NAME].
 Start with a short plan, ask only critical clarifying questions, then implement end-to-end with minimal interruptions.
 Stack: React + Vite + TypeScript.
 Target: static app deployable to GitHub Pages.
+Run dev server, lint, and build without asking me to approve each terminal command; push to GitHub (or deploy) at the end unless I say otherwise.
 ```

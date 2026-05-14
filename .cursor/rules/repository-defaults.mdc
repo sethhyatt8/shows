@@ -24,7 +24,7 @@ alwaysApply: true
 
 - Use plan/discussion first when requests are broad or ambiguous.
 - After plan approval, execute end-to-end with minimal interruption.
-- Run lint and build checks after substantive changes.
+- Run lint and build checks after substantive changes; run `npm run dev` or preview when it helps verify the UI; push or deploy when the user wants shipping and it is safe to do so.
 - If blocked by missing external info (for example, repository URL), ask concise questions and continue immediately.
 
 ## Safety
