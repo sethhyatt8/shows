@@ -28,9 +28,18 @@ npm run lint
 npm run build
 ```
 
-Deploy with `npm run deploy` or rely on [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) on push to `main`.
+On every push to `main`, [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) builds the site and pushes the result to the **`gh-pages`** branch.
 
-`vite.config.ts` uses `base: './'` for GitHub Pages project sites.
+**One-time GitHub setting (repo → Settings → Pages):**
+
+- **Build and deployment → Source:** **Deploy from a branch**
+- **Branch:** `gh-pages` / **folder:** `/` (root)
+
+(If you previously chose “GitHub Actions” for this repo, switch it to **Deploy from a branch** as above so this workflow can publish.)
+
+`vite.config.ts` uses `VITE_BASE_PATH` in CI so assets load at `https://<user>.github.io/<repo>/`.
+
+You can still use `npm run deploy` for manual `gh-pages` pushes if you prefer.
 
 ## One-time Cursor setup (fewer approval prompts)
 

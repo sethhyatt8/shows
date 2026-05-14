@@ -16,8 +16,8 @@ Use this checklist each time you clone this repository for a new app.
 
 ## 3) Set up GitHub Pages
 
-- In GitHub repo settings, enable Pages with **GitHub Actions** as the source.
-- Push to `main` and confirm `.github/workflows/deploy-pages.yml` runs successfully.
+- Push to `main` so `.github/workflows/deploy-pages.yml` runs (it publishes the `dist` folder to the **`gh-pages`** branch).
+- In GitHub repo **Settings → Pages**: **Build and deployment → Source** = **Deploy from a branch** → branch **`gh-pages`**, folder **`/`** (root).
 - Optionally run manual deploy with `npm run deploy`.
 
 ## 4) Agent workflow defaults
