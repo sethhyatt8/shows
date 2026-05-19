@@ -90,11 +90,11 @@ export default function App() {
       {selected ? (
         <ShowDetailModal
           item={selected}
-          review={getReview(selected.id)}
+          review={getReview(selected.id, selected.mine.status)}
           canEdit={canEdit}
           onRequestEdit={requestEdit}
           onClose={() => setSelected(null)}
-          onSave={saveReview}
+          onSave={(id, patch) => saveReview(id, patch, selected.mine.status)}
         />
       ) : null}
 

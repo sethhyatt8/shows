@@ -381,6 +381,12 @@
   color: #b91c1c;
 }
 
+.modal__notice {
+  margin: 0.25rem 0 0;
+  font-size: 0.82rem;
+  color: var(--text);
+}
+
 .modal__actions {
   margin-top: 0.5rem;
 }

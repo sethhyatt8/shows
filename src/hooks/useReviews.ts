@@ -1,30 +1,44 @@
 import { useCallback, useEffect, useState } from 'react'
 import { isEditUnlocked } from '../lib/appAuth'
-import { normalizeEntry } from '../lib/reviewsStorage'
-import { supabase, supabaseConfigured } from '../lib/supabase'
+import {
+  defaultEntry,
+  mergeEntries,
+  normalizeEntry,
+  readLocalEntries,
+  writeLocalEntries,
+} from '../lib/reviewsStorage'
+import { supabase } from '../lib/supabase'
+import type { WatchStatus } from '../types/library'
 import type { ReviewsMap, ShowReview } from '../types/reviews'
-
-const EMPTY_REVIEW: ShowReview = {
-  rating: null,
-  review: '',
-  updatedAt: null,
-}
 
 type ReviewRow = {
   show_id: string
   rating: number | null
   review: string
+  status: string | null
   updated_at: string
+}
+
+function rowToEntry(row: ReviewRow): ShowReview {
+  const status = row.status as WatchStatus
+  return {
+    rating: row.rating,
+    review: row.review ?? '',
+    status:
+      status === 'watching' ||
+      status === 'completed' ||
+      status === 'dropped' ||
+      status === 'queued'
+        ? status
+        : 'watching',
+    updatedAt: row.updated_at,
+  }
 }
 
 function rowsToMap(rows: ReviewRow[]): ReviewsMap {
   const map: ReviewsMap = {}
   for (const row of rows) {
-    map[row.show_id] = {
-      rating: row.rating,
-      review: row.review ?? '',
-      updatedAt: row.updated_at,
-    }
+    map[row.show_id] = rowToEntry(row)
   }
   return map
 }
@@ -33,13 +47,9 @@ async function fetchReviewsFromCloud(): Promise<{
   reviews: ReviewsMap
   error: string | null
 }> {
-  if (!supabaseConfigured || !supabase) {
-    return { reviews: {}, error: null }
-  }
-
   const { data, error: loadError } = await supabase
     .from('show_reviews')
-    .select('show_id,rating,review,updated_at')
+    .select('show_id,rating,review,status,updated_at')
 
   if (loadError) {
     return { reviews: {}, error: loadError.message }
@@ -48,85 +58,104 @@ async function fetchReviewsFromCloud(): Promise<{
   return { reviews: rowsToMap((data ?? []) as ReviewRow[]), error: null }
 }
 
+function cloudSaveHint(message: string): string {
+  if (message.includes('does not exist') || message.includes('show_reviews')) {
+    return 'Saved on this device only. The cloud table still needs to be created in Supabase (see supabase/show-reviews.sql).'
+  }
+  if (message.includes('status') && message.includes('column')) {
+    return 'Saved on this device only. Add the status column in Supabase (re-run supabase/show-reviews.sql).'
+  }
+  return `Saved on this device only. Cloud error: ${message}`
+}
+
 export function useReviews(enabled: boolean) {
   const [reviews, setReviews] = useState<ReviewsMap>({})
   const [ready, setReady] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
-  const applyCloudResult = useCallback(
-    (result: { reviews: ReviewsMap; error: string | null }) => {
-      setReviews(result.reviews)
-      setError(result.error)
-      setReady(true)
-    },
-    [],
-  )
+  const applyLoaded = useCallback((cloud: ReviewsMap, cloudError: string | null) => {
+    const local = readLocalEntries()
+    const merged = mergeEntries(local, cloud)
+    writeLocalEntries(merged)
+    setReviews(merged)
+    setError(cloudError)
+    setReady(true)
+  }, [])
 
   useEffect(() => {
     if (!enabled) return
     let cancelled = false
 
     void fetchReviewsFromCloud().then((result) => {
-      if (!cancelled) applyCloudResult(result)
+      if (!cancelled) applyLoaded(result.reviews, result.error)
     })
 
     return () => {
       cancelled = true
     }
-  }, [enabled, applyCloudResult])
+  }, [enabled, applyLoaded])
 
   useEffect(() => {
-    const client = supabase
-    if (!enabled || !supabaseConfigured || !client) return
+    if (!enabled) return
 
-    const channel = client
+    const channel = supabase
       .channel('show-reviews')
       .on(
         'postgres_changes',
         { event: '*', schema: 'public', table: 'show_reviews' },
         () => {
-          void fetchReviewsFromCloud().then(applyCloudResult)
+          void fetchReviewsFromCloud().then((result) =>
+            applyLoaded(result.reviews, result.error),
+          )
         },
       )
       .subscribe()
 
     return () => {
-      void client.removeChannel(channel)
+      void supabase.removeChannel(channel)
     }
-  }, [enabled, applyCloudResult])
+  }, [enabled, applyLoaded])
+
+  const getReview = useCallback(
+    (showId: string, fallbackStatus: WatchStatus = 'watching'): ShowReview => {
+      const entry = reviews[showId]
+      if (entry) return entry
+      return defaultEntry(fallbackStatus)
+    },
+    [reviews],
+  )
 
   const saveReview = useCallback(
     async (
       showId: string,
-      patch: Partial<Pick<ShowReview, 'rating' | 'review'>>,
+      patch: Partial<Pick<ShowReview, 'rating' | 'review' | 'status'>>,
+      fallbackStatus: WatchStatus = 'watching',
     ) => {
       if (!isEditUnlocked()) {
-        throw new Error('Enter the edit password before saving.')
-      }
-      if (!supabaseConfigured || !supabase) {
-        throw new Error('Supabase is not configured for this build.')
+        throw new Error('Click Edit and enter the password before saving.')
       }
 
-      const existing = reviews[showId] ?? EMPTY_REVIEW
+      const existing = reviews[showId] ?? defaultEntry(fallbackStatus)
       const entry = normalizeEntry(patch, existing)
+
+      const next = { ...reviews, [showId]: entry }
+      setReviews(next)
+      writeLocalEntries(next)
 
       const { error: saveError } = await supabase.from('show_reviews').upsert({
         show_id: showId,
         rating: entry.rating,
         review: entry.review,
+        status: entry.status,
         updated_at: entry.updatedAt,
       })
 
-      if (saveError) throw new Error(saveError.message)
+      if (saveError) {
+        throw new Error(cloudSaveHint(saveError.message))
+      }
 
-      setReviews((prev) => ({ ...prev, [showId]: entry }))
       return entry
     },
-    [reviews],
-  )
-
-  const getReview = useCallback(
-    (showId: string): ShowReview => reviews[showId] ?? EMPTY_REVIEW,
     [reviews],
   )
 

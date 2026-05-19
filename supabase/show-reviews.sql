@@ -1,15 +1,21 @@
 -- Run once in Supabase SQL Editor (same project as Emily is fine).
--- Stores your TV ratings/reviews in the cloud.
 
 create table if not exists public.show_reviews (
   show_id text primary key,
   rating smallint,
   review text not null default '',
+  status text not null default 'watching',
   updated_at timestamptz not null default now(),
   constraint show_reviews_rating_range check (
     rating is null or (rating >= 0 and rating <= 100)
+  ),
+  constraint show_reviews_status_check check (
+    status in ('watching', 'completed', 'dropped', 'queued')
   )
 );
+
+-- If you already created the table without status, run this line only:
+-- alter table public.show_reviews add column if not exists status text not null default 'watching';
 
 alter table public.show_reviews enable row level security;
 

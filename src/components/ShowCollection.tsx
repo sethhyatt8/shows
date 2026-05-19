@@ -24,6 +24,10 @@ function reviewRating(reviews: ReviewsMap, id: string): number | null {
   return reviews[id]?.rating ?? null
 }
 
+function showStatus(item: LibraryTvItem, reviews: ReviewsMap): WatchStatus {
+  return reviews[item.id]?.status ?? item.mine.status
+}
+
 export function ShowCollection({
   items,
   reviews,
@@ -34,7 +38,7 @@ export function ShowCollection({
   const filtered =
     statusFilter === 'all'
       ? items
-      : items.filter((i) => i.mine.status === statusFilter)
+      : items.filter((i) => showStatus(i, reviews) === statusFilter)
 
   const sorted = [...filtered].sort((a, b) => {
     const ra = reviewRating(reviews, a.id)
@@ -44,8 +48,6 @@ export function ShowCollection({
     if (rb == null) return -1
     return rb - ra
   })
-
-  const emptyReview = { rating: null, review: '', updatedAt: null }
 
   return (
     <div className="collection">
@@ -67,14 +69,14 @@ export function ShowCollection({
       </div>
 
       {sorted.length === 0 ? (
-        <p className="collection__empty">Nothing in this list yet.</p>
+        <p className="collection__empty">No shows in this list.</p>
       ) : (
         <div className="collection__grid">
           {sorted.map((item) => (
             <ShowCard
               key={item.id}
               item={item}
-              review={reviews[item.id] ?? emptyReview}
+              review={reviews[item.id] ?? { rating: null, review: '', status: item.mine.status, updatedAt: null }}
               onSelect={onSelect}
             />
           ))}

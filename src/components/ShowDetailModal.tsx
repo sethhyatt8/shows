@@ -1,7 +1,14 @@
 import { useEffect, useState } from 'react'
-import type { LibraryTvItem } from '../types/library'
+import type { LibraryTvItem, WatchStatus } from '../types/library'
 import type { ShowReview } from '../types/reviews'
 import { displayTitle, posterUrl } from '../lib/display'
+
+const STATUS_OPTIONS: { value: WatchStatus; label: string }[] = [
+  { value: 'watching', label: 'Watching' },
+  { value: 'completed', label: 'Completed' },
+  { value: 'queued', label: 'Queued' },
+  { value: 'dropped', label: 'Dropped' },
+]
 
 type Props = {
   item: LibraryTvItem
@@ -11,7 +18,7 @@ type Props = {
   onClose: () => void
   onSave: (
     showId: string,
-    patch: Partial<Pick<ShowReview, 'rating' | 'review'>>,
+    patch: Partial<Pick<ShowReview, 'rating' | 'review' | 'status'>>,
   ) => Promise<unknown>
 }
 
@@ -29,12 +36,17 @@ export function ShowDetailModal({
     review.rating == null ? '' : String(review.rating),
   )
   const [reviewText, setReviewText] = useState(review.review)
+  const [status, setStatus] = useState<WatchStatus>(review.status)
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState<string | null>(null)
+  const [saveNotice, setSaveNotice] = useState<string | null>(null)
 
   useEffect(() => {
     setRatingInput(review.rating == null ? '' : String(review.rating))
     setReviewText(review.review)
+    setStatus(review.status)
+    setSaveError(null)
+    setSaveNotice(null)
   }, [review, item.id])
 
   useEffect(() => {
@@ -53,6 +65,7 @@ export function ShowDetailModal({
     }
     setSaving(true)
     setSaveError(null)
+    setSaveNotice(null)
     try {
       const trimmed = ratingInput.trim()
       const rating =
@@ -61,17 +74,27 @@ export function ShowDetailModal({
         setSaveError('Rating must be a number from 0 to 100.')
         return
       }
-      await onSave(item.id, { rating, review: reviewText })
+      await onSave(item.id, { rating, review: reviewText, status })
       onClose()
     } catch (err) {
-      setSaveError(err instanceof Error ? err.message : 'Could not save')
+      const msg = err instanceof Error ? err.message : 'Could not save'
+      if (msg.includes('Saved on this device only')) {
+        setSaveNotice(msg)
+      } else {
+        setSaveError(msg)
+      }
     } finally {
       setSaving(false)
     }
   }
 
   const hasReviewContent =
-    review.rating != null || review.review.trim().length > 0
+    review.rating != null ||
+    review.review.trim().length > 0 ||
+    review.status !== 'watching'
+
+  const statusLabel =
+    STATUS_OPTIONS.find((o) => o.value === review.status)?.label ?? review.status
 
   return (
     <div className="modal" role="presentation" onClick={onClose}>
@@ -117,6 +140,23 @@ export function ShowDetailModal({
 
             {canEdit ? (
               <form className="modal__form" onSubmit={handleSubmit}>
+                <label className="modal__label" htmlFor="show-status">
+                  Status
+                </label>
+                <select
+                  id="show-status"
+                  className="modal__input"
+                  value={status}
+                  disabled={saving}
+                  onChange={(e) => setStatus(e.target.value as WatchStatus)}
+                >
+                  {STATUS_OPTIONS.map(({ value, label }) => (
+                    <option key={value} value={value}>
+                      {label}
+                    </option>
+                  ))}
+                </select>
+
                 <label className="modal__label" htmlFor="show-rating">
                   Rating (0–100)
                 </label>
@@ -151,6 +191,11 @@ export function ShowDetailModal({
                     {saveError}
                   </p>
                 ) : null}
+                {saveNotice ? (
+                  <p className="modal__notice" role="status">
+                    {saveNotice}
+                  </p>
+                ) : null}
 
                 <div className="modal__actions">
                   <button
@@ -164,6 +209,9 @@ export function ShowDetailModal({
               </form>
             ) : (
               <div className="modal__readonly">
+                <p className="modal__readonly-rating">
+                  <strong>Status:</strong> {statusLabel}
+                </p>
                 {hasReviewContent ? (
                   <>
                     {review.rating != null ? (
@@ -183,7 +231,7 @@ export function ShowDetailModal({
                   className="modal__save"
                   onClick={onRequestEdit}
                 >
-                  Edit reviews
+                  Edit
                 </button>
               </div>
             )}
