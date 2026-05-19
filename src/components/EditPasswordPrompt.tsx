@@ -13,6 +13,7 @@ type Props = {
 export function EditPasswordPrompt({ onClose, onUnlocked }: Props) {
   const [value, setValue] = useState('')
   const [error, setError] = useState('')
+  const [checking, setChecking] = useState(false)
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -22,19 +23,26 @@ export function EditPasswordPrompt({ onClose, onUnlocked }: Props) {
     return () => window.removeEventListener('keydown', onKey)
   }, [onClose])
 
-  function handleSubmit(e: FormEvent) {
+  async function handleSubmit(e: FormEvent) {
     e.preventDefault()
     if (!passwordConfigured()) {
-      setError('Editing is not configured on this build yet.')
+      setError('Editing is not configured on this build.')
       return
     }
-    if (!checkPassword(value)) {
-      setError('Wrong password.')
-      return
+    setChecking(true)
+    setError('')
+    try {
+      const ok = await checkPassword(value)
+      if (!ok) {
+        setError('Wrong password.')
+        return
+      }
+      unlockEditing()
+      onUnlocked()
+      onClose()
+    } finally {
+      setChecking(false)
     }
-    unlockEditing()
-    onUnlocked()
-    onClose()
   }
 
   return (
@@ -58,8 +66,8 @@ export function EditPasswordPrompt({ onClose, onUnlocked }: Props) {
           Edit reviews
         </h2>
         <p className="gate__text">
-          Enter your password to change ratings and reviews. Everyone can still
-          read the site without signing in.
+          Enter your password once — you can edit any show until you click{' '}
+          <strong>Stop editing</strong> or close this browser.
         </p>
         <form className="gate__form" onSubmit={handleSubmit}>
           <label className="gate__label" htmlFor="edit-password">
@@ -71,6 +79,7 @@ export function EditPasswordPrompt({ onClose, onUnlocked }: Props) {
             type="password"
             autoComplete="current-password"
             value={value}
+            disabled={checking}
             onChange={(e) => {
               setValue(e.target.value)
               setError('')
@@ -81,8 +90,8 @@ export function EditPasswordPrompt({ onClose, onUnlocked }: Props) {
               {error}
             </p>
           ) : null}
-          <button type="submit" className="gate__submit">
-            Unlock editing
+          <button type="submit" className="gate__submit" disabled={checking}>
+            {checking ? 'Checking…' : 'Unlock editing'}
           </button>
         </form>
       </div>

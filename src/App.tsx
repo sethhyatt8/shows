@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import libraryFile from './data/library.json'
 import { EditPasswordPrompt } from './components/EditPasswordPrompt'
 import { HomeBlock } from './components/HomeBlock'
@@ -35,6 +35,16 @@ export default function App() {
   const [canEdit, setCanEdit] = useState(isEditUnlocked)
   const [showPasswordPrompt, setShowPasswordPrompt] = useState(false)
 
+  useEffect(() => {
+    const sync = () => setCanEdit(isEditUnlocked())
+    window.addEventListener('shows-edit-unlock', sync)
+    window.addEventListener('storage', sync)
+    return () => {
+      window.removeEventListener('shows-edit-unlock', sync)
+      window.removeEventListener('storage', sync)
+    }
+  }, [])
+
   const { reviews, getReview, saveReview, ready, error } = useReviews(true)
 
   function requestEdit() {
@@ -68,7 +78,7 @@ export default function App() {
         </div>
         <p className="app__tagline">
           Browse everyone’s ratings and reviews. Use <strong>Edit reviews</strong>{' '}
-          (password) to change yours.
+          once per visit — then edit any show until you click Stop editing.
         </p>
         {!supabaseConfigured ? (
           <p className="app__banner app__banner--error">
