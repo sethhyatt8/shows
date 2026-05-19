@@ -19,6 +19,7 @@ export interface LibraryTvExternal {
 export interface LibraryMine {
   title: string
   status: WatchStatus
+  /** Legacy; prefer server reviews (0–100) */
   rating: number | null
   notes: string
   tags: string[]

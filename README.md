@@ -9,6 +9,8 @@ npm install
 npm run dev
 ```
 
+Click any poster on the site to set a **rating (0–100)** and **review**; ratings are stored in your browser automatically.
+
 ## Fill posters and metadata (TMDB)
 
 1. Create a [TMDB API key](https://www.themoviedb.org/settings/api) (v3 read access).

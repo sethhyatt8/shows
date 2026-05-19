@@ -329,6 +329,424 @@
         "notes": "",
         "tags": []
       }
+    },
+    {
+      "id": "gen-v",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 205715,
+        "searchQuery": "Gen V"
+      },
+      "cached": {
+        "title": "Gen V",
+        "overview": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become.",
+        "posterPath": "/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg",
+        "backdropPath": "/tldMHeR7UnihV5ffrxxM8cDhbtT.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Drama",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2023",
+        "topCast": [
+          "Jaz Sinclair",
+          "Lizze Broadway",
+          "Maddie Phillips",
+          "London Thor",
+          "Derek Luh"
+        ]
+      },
+      "mine": {
+        "title": "Gen V",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "silo",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 125988,
+        "searchQuery": "Silo"
+      },
+      "cached": {
+        "title": "Silo",
+        "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
+        "posterPath": "/fDMTqUcEh6qJwWZP1SHTfoaqsCy.jpg",
+        "backdropPath": "/4XccmjsOmQZw8S2iW1wvlvmb5v1.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama"
+        ],
+        "firstAirYear": "2023",
+        "topCast": [
+          "Rebecca Ferguson",
+          "Common",
+          "Harriet Walter",
+          "Chinaza Uche",
+          "Avi Nash"
+        ]
+      },
+      "mine": {
+        "title": "Silo",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "pluribus",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 225171,
+        "searchQuery": "Pluribus"
+      },
+      "cached": {
+        "title": "Pluribus",
+        "overview": "The most miserable person on Earth must save the world from happiness.",
+        "posterPath": "/z7Nga7Q9IGFWs5OEduY2gGFxnX3.jpg",
+        "backdropPath": "/vNCNUxNHHgP0WsA19hxztUsG3yG.jpg",
+        "genreNames": [
+          "Drama",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2025",
+        "topCast": [
+          "Rhea Seehorn",
+          "Karolina Wydra",
+          "Carlos-Manuel Vesga"
+        ]
+      },
+      "mine": {
+        "title": "Pluribus",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "severance",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 95396,
+        "searchQuery": "Severance"
+      },
+      "cached": {
+        "title": "Severance",
+        "overview": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
+        "posterPath": "/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg",
+        "backdropPath": "/ixgFmf1X59PUZam2qbAfskx2gQr.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Adam Scott",
+          "Britt Lower",
+          "Tramell Tillman",
+          "Zach Cherry",
+          "Jen Tullock"
+        ]
+      },
+      "mine": {
+        "title": "Severance",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "rick-and-morty",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 60625,
+        "searchQuery": "Rick and Morty"
+      },
+      "cached": {
+        "title": "Rick and Morty",
+        "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
+        "posterPath": "/WGRQ8FpjkDTzivQJ43t94bOuY0.jpg",
+        "backdropPath": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
+        "genreNames": [
+          "Animation",
+          "Comedy",
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2013",
+        "topCast": [
+          "Chris Parnell",
+          "Spencer Grammer",
+          "Sarah Chalke",
+          "Ian Cardoni",
+          "Harry Belden"
+        ]
+      },
+      "mine": {
+        "title": "Rick and Morty",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bojack-horseman",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 61222,
+        "searchQuery": "BoJack Horseman"
+      },
+      "cached": {
+        "title": "BoJack Horseman",
+        "overview": "Meet the most beloved sitcom horse of the '90s , 20 years later. He's a curmudgeon with a heart of...not quite gold...but something like gold. Copper?",
+        "posterPath": "/6JFWzlChcGgLiIUo2COgNlWGFKy.jpg",
+        "backdropPath": "/qFYDJUIFh8zgEDy3EvnHwhgOl0S.jpg",
+        "genreNames": [
+          "Animation",
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2014",
+        "topCast": [
+          "Will Arnett",
+          "Aaron Paul",
+          "Alison Brie",
+          "Amy Sedaris",
+          "Paul F. Tompkins"
+        ]
+      },
+      "mine": {
+        "title": "BoJack Horseman",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "ap-bio",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 71737,
+        "searchQuery": "AP Bio"
+      },
+      "cached": {
+        "title": "A.P. Bio",
+        "overview": "When disgraced Harvard philosophy scholar Jack Griffin loses out on his dream job, he is forced to return to Toledo, Ohio, and work as a high school Advanced Placement biology teacher.",
+        "posterPath": "/8GwiuZazRFNrmvSkagZlEDH7qSS.jpg",
+        "backdropPath": "/t1EBs3EqB69DaA0SJLFZqanuPyq.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Glenn Howerton",
+          "Patton Oswalt",
+          "Paula Pell",
+          "Lyric Lewis",
+          "Mary Sohn"
+        ]
+      },
+      "mine": {
+        "title": "AP Bio",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "great-news",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 71209,
+        "searchQuery": "Great News"
+      },
+      "cached": {
+        "title": "Great News",
+        "overview": "A New Jersey mom puts her relationship with her daughter to the test when she lands an internship at the same TV station where her daughter works.",
+        "posterPath": "/vEqPNbSY0mJmlywFmMwIhuoEHHM.jpg",
+        "backdropPath": "/vUM7E6KtBAW2tTkLPoqjO3JiUeo.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Briga Heelan",
+          "Andrea Martin",
+          "Adam Campbell",
+          "Nicole Richie",
+          "John Michael Higgins"
+        ]
+      },
+      "mine": {
+        "title": "Great News",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "nathan-for-you",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 58957,
+        "searchQuery": "Nathan For You"
+      },
+      "cached": {
+        "title": "Nathan for You",
+        "overview": "Self-proclaimed business expert, writer, director and comedian Nathan Fielder helps real small businesses turn a profit with marketing tactics that no ordinary consultant would dare to attempt. From driving foot traffic to an off-the-strip souvenir shop by using Hollywood flair and a Johnny Depp impersonator, to creating a rebate that can only be redeemed by climbing a mountain, to founding a coffee shop called \"Dumb Starbucks,” Nathan has always gone to the limit to make his ideas come to life. With his unorthodox approach to problem solving, Nathan’s genuine efforts to do good often draw the real people he encounters into an experience far beyond what they signed up for.",
+        "posterPath": "/6tGXlz61c44onUg6EdRkbhjcaPA.jpg",
+        "backdropPath": "/5ix5qtVlLR2O0sgAJp5urHLbGZe.jpg",
+        "genreNames": [
+          "Comedy",
+          "Documentary"
+        ],
+        "firstAirYear": "2013",
+        "topCast": [
+          "Nathan Fielder"
+        ]
+      },
+      "mine": {
+        "title": "Nathan For You",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-rehearsal",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 204284,
+        "searchQuery": "The Rehearsal"
+      },
+      "cached": {
+        "title": "The Rehearsal",
+        "overview": "With a construction crew, a legion of actors, and seemingly unlimited resources, Nathan Fielder allows ordinary people to prepare for life's biggest moments by \"rehearsing\" them in carefully crafted simulations of his own design. When a single misstep could shatter your entire world, why leave life to chance?",
+        "posterPath": "/mIevNYxovnH4sR22qkUmAgS5vdv.jpg",
+        "backdropPath": "/iFPbB1II79kZNPbT7ePx2W06cd2.jpg",
+        "genreNames": [
+          "Comedy",
+          "Documentary"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Nathan Fielder"
+        ]
+      },
+      "mine": {
+        "title": "The Rehearsal",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "reno-911",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 2187,
+        "searchQuery": "Reno 911!"
+      },
+      "cached": {
+        "title": "Reno 911!",
+        "overview": "This partially unscripted comedy brings viewers into the squad car as incompetent officers swing into action, answering 911 calls about everything from speeding violations and prostitution to staking out a drug den. Within each episode, viewers catch a \"fly on the wall\" glimpse of the cops' often politically incorrect opinions, ranging from their personal feelings to professional critiques of their colleagues.",
+        "posterPath": "/jIoeMgmcGdgTDqQUq4sDWFNsPUD.jpg",
+        "backdropPath": "/tZ2kKliPcBVEKQOTYbndFdIKIB8.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2003",
+        "topCast": [
+          "Thomas Lennon",
+          "Cedric Yarbrough",
+          "Kerri Kenney",
+          "Robert Ben Garant",
+          "Niecy Nash"
+        ]
+      },
+      "mine": {
+        "title": "Reno 911!",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "newsradio",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 3968,
+        "searchQuery": "NewsRadio"
+      },
+      "cached": {
+        "title": "NewsRadio",
+        "overview": "The office politics and interpersonal relationships among the staff of WNYX NewsRadio, New York's #2 news radio station.",
+        "posterPath": "/nP698ZfQ9OqCXnxhEPapa8QOgdX.jpg",
+        "backdropPath": "/9cusPHYQfwgI0fNbAhCjdngwBsb.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "1995",
+        "topCast": [
+          "Dave Foley",
+          "Maura Tierney",
+          "Stephen Root",
+          "Andy Dick",
+          "Vicki Lewis"
+        ]
+      },
+      "mine": {
+        "title": "NewsRadio",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "seinfeld",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1400,
+        "searchQuery": "Seinfeld"
+      },
+      "cached": {
+        "title": "Seinfeld",
+        "overview": "A stand-up comedian and his three offbeat friends weather the pitfalls and payoffs of life in New York City in the '90s. It's a show about nothing.",
+        "posterPath": "/aCw8ONfyz3AhngVQa1E2Ss4KSUQ.jpg",
+        "backdropPath": "/tMRdEsMg9MyXAkcufK9YJEeIaNW.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "1989",
+        "topCast": [
+          "Jerry Seinfeld",
+          "Jason Alexander",
+          "Michael Richards",
+          "Julia Louis-Dreyfus"
+        ]
+      },
+      "mine": {
+        "title": "Seinfeld",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
     }
   ]
 }
