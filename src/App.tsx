@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import libraryFile from './data/library.json'
 import { EditPasswordPrompt } from './components/EditPasswordPrompt'
+import { HomeBlock } from './components/HomeBlock'
 import { ShowCollection } from './components/ShowCollection'
 import { ShowDetailModal } from './components/ShowDetailModal'
 import { useReviews } from './hooks/useReviews'
@@ -80,6 +81,8 @@ export default function App() {
           </p>
         ) : null}
       </header>
+
+      <HomeBlock />
 
       <main className="app__main">
         {!ready ? (
