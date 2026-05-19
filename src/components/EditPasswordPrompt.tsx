@@ -65,10 +65,6 @@ export function EditPasswordPrompt({ onClose, onUnlocked }: Props) {
         <h2 id="edit-password-title" className="gate__title">
           Edit reviews
         </h2>
-        <p className="gate__text">
-          Enter your password once — you can edit any show until you click{' '}
-          <strong>Stop editing</strong> or close this browser.
-        </p>
         <form className="gate__form" onSubmit={handleSubmit}>
           <label className="gate__label" htmlFor="edit-password">
             Password

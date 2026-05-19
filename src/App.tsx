@@ -1,12 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import libraryFile from './data/library.json'
 import { EditPasswordPrompt } from './components/EditPasswordPrompt'
-import { HomeBlock } from './components/HomeBlock'
 import { ShowCollection } from './components/ShowCollection'
 import { ShowDetailModal } from './components/ShowDetailModal'
 import { useReviews } from './hooks/useReviews'
 import { isEditUnlocked, lockEditing } from './lib/appAuth'
-import { supabaseConfigured } from './lib/supabase'
 import type {
   LibraryFile,
   LibraryItem,
@@ -45,7 +43,7 @@ export default function App() {
     }
   }, [])
 
-  const { reviews, getReview, saveReview, ready, error } = useReviews(true)
+  const { reviews, getReview, saveReview, ready } = useReviews(true)
 
   function requestEdit() {
     if (canEdit) return
@@ -60,39 +58,20 @@ export default function App() {
   return (
     <div className="app">
       <header className="app__header">
-        <div className="app__header-row">
-          <h1 className="app__title">Shows</h1>
-          {canEdit ? (
-            <button type="button" className="app__lock" onClick={stopEditing}>
-              Stop editing
-            </button>
-          ) : (
-            <button
-              type="button"
-              className="app__lock"
-              onClick={() => setShowPasswordPrompt(true)}
-            >
-              Edit reviews
-            </button>
-          )}
-        </div>
-        <p className="app__tagline">
-          Browse everyone’s ratings and reviews. Use <strong>Edit reviews</strong>{' '}
-          once per visit — then edit any show until you click Stop editing.
-        </p>
-        {!supabaseConfigured ? (
-          <p className="app__banner app__banner--error">
-            Cloud save is not configured on this build yet.
-          </p>
-        ) : null}
-        {error ? (
-          <p className="app__banner app__banner--error">
-            Could not load reviews: {error}
-          </p>
-        ) : null}
+        {canEdit ? (
+          <button type="button" className="app__lock" onClick={stopEditing}>
+            Stop editing
+          </button>
+        ) : (
+          <button
+            type="button"
+            className="app__lock"
+            onClick={() => setShowPasswordPrompt(true)}
+          >
+            Edit
+          </button>
+        )}
       </header>
-
-      <HomeBlock />
 
       <main className="app__main">
         {!ready ? (
