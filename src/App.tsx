@@ -1,10 +1,10 @@
 import { useMemo, useState } from 'react'
 import libraryFile from './data/library.json'
-import { PasswordGate } from './components/PasswordGate'
+import { EditPasswordPrompt } from './components/EditPasswordPrompt'
 import { ShowCollection } from './components/ShowCollection'
 import { ShowDetailModal } from './components/ShowDetailModal'
 import { useReviews } from './hooks/useReviews'
-import { isAppUnlocked, lockApp } from './lib/appAuth'
+import { isEditUnlocked, lockEditing } from './lib/appAuth'
 import { supabaseConfigured } from './lib/supabase'
 import type {
   LibraryFile,
@@ -21,16 +21,6 @@ function isTvItem(item: LibraryItem): item is LibraryTvItem {
 }
 
 export default function App() {
-  const [unlocked, setUnlocked] = useState(isAppUnlocked)
-
-  if (!unlocked) {
-    return <PasswordGate onUnlocked={() => setUnlocked(true)} />
-  }
-
-  return <ShowsApp onLock={() => { lockApp(); setUnlocked(false) }} />
-}
-
-function ShowsApp({ onLock }: { onLock: () => void }) {
   const tvItems = useMemo(
     () => library.items.filter(isTvItem),
     [],
@@ -41,20 +31,43 @@ function ShowsApp({ onLock }: { onLock: () => void }) {
   >('all')
 
   const [selected, setSelected] = useState<LibraryTvItem | null>(null)
+  const [canEdit, setCanEdit] = useState(isEditUnlocked)
+  const [showPasswordPrompt, setShowPasswordPrompt] = useState(false)
+
   const { reviews, getReview, saveReview, ready, error } = useReviews(true)
+
+  function requestEdit() {
+    if (canEdit) return
+    setShowPasswordPrompt(true)
+  }
+
+  function stopEditing() {
+    lockEditing()
+    setCanEdit(false)
+  }
 
   return (
     <div className="app">
       <header className="app__header">
         <div className="app__header-row">
           <h1 className="app__title">Shows</h1>
-          <button type="button" className="app__lock" onClick={onLock}>
-            Lock
-          </button>
+          {canEdit ? (
+            <button type="button" className="app__lock" onClick={stopEditing}>
+              Stop editing
+            </button>
+          ) : (
+            <button
+              type="button"
+              className="app__lock"
+              onClick={() => setShowPasswordPrompt(true)}
+            >
+              Edit reviews
+            </button>
+          )}
         </div>
         <p className="app__tagline">
-          Click a poster to rate it (0–100) or leave a review. Ratings are saved
-          online and stay in sync across your devices.
+          Browse everyone’s ratings and reviews. Use <strong>Edit reviews</strong>{' '}
+          (password) to change yours.
         </p>
         {!supabaseConfigured ? (
           <p className="app__banner app__banner--error">
@@ -63,9 +76,7 @@ function ShowsApp({ onLock }: { onLock: () => void }) {
         ) : null}
         {error ? (
           <p className="app__banner app__banner--error">
-            Could not load reviews: {error}. If this is new, run the SQL in{' '}
-            <code className="app__code">supabase/show-reviews.sql</code> in your
-            Supabase project.
+            Could not load reviews: {error}
           </p>
         ) : null}
       </header>
@@ -88,8 +99,17 @@ function ShowsApp({ onLock }: { onLock: () => void }) {
         <ShowDetailModal
           item={selected}
           review={getReview(selected.id)}
+          canEdit={canEdit}
+          onRequestEdit={requestEdit}
           onClose={() => setSelected(null)}
           onSave={saveReview}
+        />
+      ) : null}
+
+      {showPasswordPrompt ? (
+        <EditPasswordPrompt
+          onClose={() => setShowPasswordPrompt(false)}
+          onUnlocked={() => setCanEdit(true)}
         />
       ) : null}
 

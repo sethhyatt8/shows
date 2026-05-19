@@ -1,6 +1,6 @@
-const SESSION_KEY = 'shows-app-unlocked'
+const SESSION_KEY = 'shows-edit-unlocked'
 
-export function isAppUnlocked(): boolean {
+export function isEditUnlocked(): boolean {
   try {
     return sessionStorage.getItem(SESSION_KEY) === '1'
   } catch {
@@ -8,11 +8,11 @@ export function isAppUnlocked(): boolean {
   }
 }
 
-export function unlockApp(): void {
+export function unlockEditing(): void {
   sessionStorage.setItem(SESSION_KEY, '1')
 }
 
-export function lockApp(): void {
+export function lockEditing(): void {
   sessionStorage.removeItem(SESSION_KEY)
 }
 

@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
+import { isEditUnlocked } from '../lib/appAuth'
 import { normalizeEntry } from '../lib/reviewsStorage'
 import { supabase, supabaseConfigured } from '../lib/supabase'
 import type { ReviewsMap, ShowReview } from '../types/reviews'
@@ -99,6 +100,9 @@ export function useReviews(enabled: boolean) {
       showId: string,
       patch: Partial<Pick<ShowReview, 'rating' | 'review'>>,
     ) => {
+      if (!isEditUnlocked()) {
+        throw new Error('Enter the edit password before saving.')
+      }
       if (!supabaseConfigured || !supabase) {
         throw new Error('Supabase is not configured for this build.')
       }

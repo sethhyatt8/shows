@@ -1,6 +1,6 @@
 # One-time cloud setup (no terminal)
 
-Your ratings live in **Supabase** (same kind of setup as the Emily calendar). The site asks for your password before it opens.
+Your ratings live in **Supabase** (same kind of setup as the Emily calendar). **Anyone can browse** the site; the password is only for **editing** your ratings and reviews.
 
 ## 1. Create the reviews table
 

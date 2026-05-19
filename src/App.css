@@ -54,6 +54,11 @@
   box-shadow: var(--shadow);
 }
 
+.gate__panel--compact {
+  position: relative;
+  width: min(24rem, 100%);
+}
+
 .gate__title {
   margin: 0 0 0.5rem;
   font-size: 1.5rem;
@@ -439,4 +444,24 @@
   margin: 0.5rem 0 0;
   font-size: 0.82rem;
   color: var(--text);
+}
+
+.modal__readonly {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.modal__readonly-rating,
+.modal__readonly-review,
+.modal__readonly-empty {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--text);
+}
+
+.modal__readonly-review {
+  white-space: pre-wrap;
 }

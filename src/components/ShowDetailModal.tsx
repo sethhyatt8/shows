@@ -6,6 +6,8 @@ import { displayTitle, posterUrl } from '../lib/display'
 type Props = {
   item: LibraryTvItem
   review: ShowReview
+  canEdit: boolean
+  onRequestEdit: () => void
   onClose: () => void
   onSave: (
     showId: string,
@@ -16,6 +18,8 @@ type Props = {
 export function ShowDetailModal({
   item,
   review,
+  canEdit,
+  onRequestEdit,
   onClose,
   onSave,
 }: Props) {
@@ -43,6 +47,10 @@ export function ShowDetailModal({
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
+    if (!canEdit) {
+      onRequestEdit()
+      return
+    }
     setSaving(true)
     setSaveError(null)
     try {
@@ -61,6 +69,9 @@ export function ShowDetailModal({
       setSaving(false)
     }
   }
+
+  const hasReviewContent =
+    review.rating != null || review.review.trim().length > 0
 
   return (
     <div className="modal" role="presentation" onClick={onClose}>
@@ -104,52 +115,78 @@ export function ShowDetailModal({
               </p>
             ) : null}
 
-            <form className="modal__form" onSubmit={handleSubmit}>
-              <label className="modal__label" htmlFor="show-rating">
-                Rating (0–100)
-              </label>
-              <input
-                id="show-rating"
-                className="modal__input"
-                type="number"
-                min={0}
-                max={100}
-                step={1}
-                value={ratingInput}
-                onChange={(e) => setRatingInput(e.target.value)}
-                placeholder="—"
-                disabled={saving}
-              />
-
-              <label className="modal__label" htmlFor="show-review">
-                Review
-              </label>
-              <textarea
-                id="show-review"
-                className="modal__textarea"
-                rows={5}
-                value={reviewText}
-                onChange={(e) => setReviewText(e.target.value)}
-                placeholder="Your thoughts…"
-                disabled={saving}
-              />
-
-              {saveError ? (
-                <p className="modal__error" role="alert">
-                  {saveError}
-                </p>
-              ) : null}
-
-              <div className="modal__actions">
-                <button
-                  type="submit"
-                  className="modal__save"
+            {canEdit ? (
+              <form className="modal__form" onSubmit={handleSubmit}>
+                <label className="modal__label" htmlFor="show-rating">
+                  Rating (0–100)
+                </label>
+                <input
+                  id="show-rating"
+                  className="modal__input"
+                  type="number"
+                  min={0}
+                  max={100}
+                  step={1}
+                  value={ratingInput}
+                  onChange={(e) => setRatingInput(e.target.value)}
+                  placeholder="—"
                   disabled={saving}
+                />
+
+                <label className="modal__label" htmlFor="show-review">
+                  Review
+                </label>
+                <textarea
+                  id="show-review"
+                  className="modal__textarea"
+                  rows={5}
+                  value={reviewText}
+                  onChange={(e) => setReviewText(e.target.value)}
+                  placeholder="Your thoughts…"
+                  disabled={saving}
+                />
+
+                {saveError ? (
+                  <p className="modal__error" role="alert">
+                    {saveError}
+                  </p>
+                ) : null}
+
+                <div className="modal__actions">
+                  <button
+                    type="submit"
+                    className="modal__save"
+                    disabled={saving}
+                  >
+                    {saving ? 'Saving…' : 'Save'}
+                  </button>
+                </div>
+              </form>
+            ) : (
+              <div className="modal__readonly">
+                {hasReviewContent ? (
+                  <>
+                    {review.rating != null ? (
+                      <p className="modal__readonly-rating">
+                        <strong>Rating:</strong> {review.rating}/100
+                      </p>
+                    ) : null}
+                    {review.review.trim() ? (
+                      <p className="modal__readonly-review">{review.review}</p>
+                    ) : null}
+                  </>
+                ) : (
+                  <p className="modal__readonly-empty">No rating or review yet.</p>
+                )}
+                <button
+                  type="button"
+                  className="modal__save"
+                  onClick={onRequestEdit}
                 >
-                  {saving ? 'Saving…' : 'Save'}
+                  Edit reviews
                 </button>
               </div>
-            </form>
+            )}
           </div>
         </div>
       </div>
