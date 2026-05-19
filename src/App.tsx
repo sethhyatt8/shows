@@ -1,8 +1,11 @@
 import { useMemo, useState } from 'react'
 import libraryFile from './data/library.json'
+import { PasswordGate } from './components/PasswordGate'
 import { ShowCollection } from './components/ShowCollection'
 import { ShowDetailModal } from './components/ShowDetailModal'
 import { useReviews } from './hooks/useReviews'
+import { isAppUnlocked, lockApp } from './lib/appAuth'
+import { supabaseConfigured } from './lib/supabase'
 import type {
   LibraryFile,
   LibraryItem,
@@ -18,6 +21,16 @@ function isTvItem(item: LibraryItem): item is LibraryTvItem {
 }
 
 export default function App() {
+  const [unlocked, setUnlocked] = useState(isAppUnlocked)
+
+  if (!unlocked) {
+    return <PasswordGate onUnlocked={() => setUnlocked(true)} />
+  }
+
+  return <ShowsApp onLock={() => { lockApp(); setUnlocked(false) }} />
+}
+
+function ShowsApp({ onLock }: { onLock: () => void }) {
   const tvItems = useMemo(
     () => library.items.filter(isTvItem),
     [],
@@ -28,16 +41,33 @@ export default function App() {
   >('all')
 
   const [selected, setSelected] = useState<LibraryTvItem | null>(null)
-  const { reviews, getReview, saveReview, ready } = useReviews()
+  const { reviews, getReview, saveReview, ready, error } = useReviews(true)
 
   return (
     <div className="app">
       <header className="app__header">
-        <h1 className="app__title">Shows</h1>
+        <div className="app__header-row">
+          <h1 className="app__title">Shows</h1>
+          <button type="button" className="app__lock" onClick={onLock}>
+            Lock
+          </button>
+        </div>
         <p className="app__tagline">
-          Click a poster to rate it (0–100) or leave a short review. Your ratings
-          are saved in this browser automatically.
+          Click a poster to rate it (0–100) or leave a review. Ratings are saved
+          online and stay in sync across your devices.
         </p>
+        {!supabaseConfigured ? (
+          <p className="app__banner app__banner--error">
+            Cloud save is not configured on this build yet.
+          </p>
+        ) : null}
+        {error ? (
+          <p className="app__banner app__banner--error">
+            Could not load reviews: {error}. If this is new, run the SQL in{' '}
+            <code className="app__code">supabase/show-reviews.sql</code> in your
+            Supabase project.
+          </p>
+        ) : null}
       </header>
 
       <main className="app__main">

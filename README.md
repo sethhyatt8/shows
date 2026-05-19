@@ -9,7 +9,9 @@ npm install
 npm run dev
 ```
 
-Click any poster on the site to set a **rating (0–100)** and **review**; ratings are stored in your browser automatically.
+Click any poster to set a **rating (0–100)** and **review**. Ratings are stored in **Supabase** (online, synced across devices). The site is protected by a simple password.
+
+See [`docs/cloud-setup.md`](docs/cloud-setup.md) for the one-time Supabase + GitHub secrets steps (no terminal).
 
 ## Fill posters and metadata (TMDB)
 

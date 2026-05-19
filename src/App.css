@@ -14,6 +14,95 @@
   padding-inline: 0.25rem;
 }
 
+.app__header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.app__lock {
+  font: inherit;
+  font-size: 0.78rem;
+  padding: 0.28rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-h);
+  cursor: pointer;
+}
+
+.app__lock:hover {
+  border-color: var(--accent-border);
+  background: var(--accent-bg);
+}
+
+.gate {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.gate__panel {
+  width: min(22rem, 100%);
+  padding: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--bg);
+  box-shadow: var(--shadow);
+}
+
+.gate__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.gate__text {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.gate__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.gate__label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+.gate__input {
+  font: inherit;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.gate__error {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #b91c1c;
+}
+
+.gate__submit {
+  margin-top: 0.35rem;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg);
+  color: var(--text-h);
+  cursor: pointer;
+}
+
 .app__title {
   margin: 0 0 0.25rem;
   font-size: 1.5rem;
