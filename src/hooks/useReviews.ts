@@ -28,7 +28,8 @@ function rowToEntry(row: ReviewRow): ShowReview {
       status === 'watching' ||
       status === 'completed' ||
       status === 'dropped' ||
-      status === 'queued'
+      status === 'queued' ||
+      status === 'archived'
         ? status
         : 'watching',
     updatedAt: row.updated_at,

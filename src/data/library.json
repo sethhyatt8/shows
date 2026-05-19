@@ -747,6 +747,520 @@
         "notes": "",
         "tags": []
       }
+    },
+    {
+      "id": "arrested-development",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 4589,
+        "searchQuery": "Arrested Development"
+      },
+      "cached": {
+        "title": "Arrested Development",
+        "overview": "The story of a wealthy family that lost everything, and the one son who had no choice but to keep them all together.",
+        "posterPath": "/p4r4RD7RsNcJVoz0H6z3dBoTBtW.jpg",
+        "backdropPath": "/8qn0u64JXSgnGKe2KkKqrfH7V84.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2003",
+        "topCast": [
+          "Jason Bateman",
+          "Portia De Rossi",
+          "Will Arnett",
+          "Michael Cera",
+          "Alia Shawkat"
+        ]
+      },
+      "mine": {
+        "title": "Arrested Development",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "ozark",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 69740,
+        "searchQuery": "Ozark"
+      },
+      "cached": {
+        "title": "Ozark",
+        "overview": "A financial adviser drags his family from Chicago to the Missouri Ozarks, where he must launder $500 million in five years to appease a drug boss.",
+        "posterPath": "/pCGyPVrI9Fzw6rE1Pvi4BIXF6ET.jpg",
+        "backdropPath": "/aatG9iVAUL7U7OyFEmupESpOrD2.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Jason Bateman",
+          "Laura Linney",
+          "Sofia Hublitz",
+          "Skylar Gaertner",
+          "Julia Garner"
+        ]
+      },
+      "mine": {
+        "title": "Ozark",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "best-medicine",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 291084,
+        "searchQuery": "Best Medicine"
+      },
+      "cached": {
+        "title": "Best Medicine",
+        "overview": "Martin Best is a brilliant surgeon who abruptly leaves his illustrious career in Boston to become the general practitioner in a quaint East Coast fishing village where he spent summers as a child. Unfortunately, Martin's blunt and borderline rude bedside manner rubs the quirky, needy locals the wrong way, and he quickly alienates the town, even though he's all they’ve got.",
+        "posterPath": "/q7SCSZfDaNDRPL3Xt4TiGSZQQht.jpg",
+        "backdropPath": "/fRi1Qf51rtFzrYM3gvl9ihGjT5Q.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Josh Charles",
+          "Abigail Spencer",
+          "Josh Segarra",
+          "Cree Cicchino",
+          "Annie Potts"
+        ]
+      },
+      "mine": {
+        "title": "Best Medicine",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "extras",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 2693,
+        "searchQuery": "Extras"
+      },
+      "cached": {
+        "title": "Extras",
+        "overview": "Andy Millman gave up his day job five years ago in the hope of achieving the big time, but he’s yet to land a speaking part, let alone saunter down the red carpet to pick up an Oscar. He remains optimistic however, as rubbing shoulders with the A-list on-set only serves to reinforce his belief that the big time is just a job or two away.",
+        "posterPath": "/oxiA2O4wRBCOzvfxYjNKZQuitQc.jpg",
+        "backdropPath": "/bWShstEC6UN1EuHpqGUGOnLmjqH.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2005",
+        "topCast": [
+          "Ricky Gervais",
+          "Ashley Jensen",
+          "Stephen Merchant",
+          "Shaun Williamson",
+          "Shaun Pye"
+        ]
+      },
+      "mine": {
+        "title": "Extras",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-office-uk",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 2996,
+        "searchQuery": "The Office"
+      },
+      "cached": {
+        "title": "The Office",
+        "overview": "Nightmare boss. Tedious colleagues. Pointless tasks. Welcome to Wernham Hogg. Fancy a tea break with David Brent? Classic comedy from the archive.",
+        "posterPath": "/oX2JKE1RzAONMbYlujHx0hRAJo1.jpg",
+        "backdropPath": "/9GWU1AyNqUYIUl1tU7CvXEHUVs9.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2001",
+        "topCast": [
+          "Ricky Gervais",
+          "Martin Freeman",
+          "Mackenzie Crook",
+          "Lucy Davis",
+          "Stirling Gallacher"
+        ]
+      },
+      "mine": {
+        "title": "The Office (UK)",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-office-us",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 2316,
+        "searchQuery": "The Office US"
+      },
+      "cached": {
+        "title": "The Office",
+        "overview": "The everyday lives of office employees in the Scranton, Pennsylvania branch of the fictional Dunder Mifflin Paper Company.",
+        "posterPath": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+        "backdropPath": "/mLyW3UTgi2lsMdtueYODcfAB9Ku.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2005",
+        "topCast": [
+          "Rainn Wilson",
+          "John Krasinski",
+          "Jenna Fischer",
+          "Ed Helms"
+        ]
+      },
+      "mine": {
+        "title": "The Office (US)",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "parks-and-recreation",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 8592,
+        "searchQuery": "Parks and Recreation"
+      },
+      "cached": {
+        "title": "Parks and Recreation",
+        "overview": "In an attempt to beautify her town — and advance her career — Leslie Knope, a mid-level bureaucrat in the Parks and Recreation Department of Pawnee, Indiana, takes on bureaucrats, cranky neighbors, and single-issue fanatics whose weapons are lawsuits, the jumble of city codes, and the democratic process she loves so much.",
+        "posterPath": "/5IOj62y2Eb2ngyYmEn1IJ7bFhzH.jpg",
+        "backdropPath": "/frwl2zBNAl5ZbFDJGoJv0mYo0rF.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2009",
+        "topCast": [
+          "Amy Poehler",
+          "Aziz Ansari",
+          "Nick Offerman",
+          "Aubrey Plaza",
+          "Chris Pratt"
+        ]
+      },
+      "mine": {
+        "title": "Parks and Recreation",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "derek",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 60655,
+        "searchQuery": "Derek"
+      },
+      "cached": {
+        "title": "Derek",
+        "overview": "Derek is a loyal nursing home caretaker who sees only the good in his quirky co-workers as they struggle against prejudice and shrinking budgets to care for their elderly residents.",
+        "posterPath": "/nfcvAjfV4u6uFtrA9X55nyJjrN7.jpg",
+        "backdropPath": "/kb66i9MPg7dBw7FGofzqX8lRgJp.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2013",
+        "topCast": [
+          "Ricky Gervais",
+          "Kerry Godliman",
+          "David Earl",
+          "Barry Martin",
+          "Tim Barlow"
+        ]
+      },
+      "mine": {
+        "title": "Derek",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "taskmaster",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 63404,
+        "searchQuery": "Taskmaster"
+      },
+      "cached": {
+        "title": "Taskmaster",
+        "overview": "Greg Davies is the Taskmaster, and with the help of his ever-loyal assistant Alex Horne, they will set out to test the wiles, wit, wisdom and skills of five hyper-competitive comedians. Who will be crowned the Taskmaster champion?",
+        "posterPath": "/oHLZyN7G7EpXCHxYdpMcuUNCUgS.jpg",
+        "backdropPath": "/wQc6l7RaUi7cPMuCTNnYMKCjvUt.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2015",
+        "topCast": [
+          "Greg Davies",
+          "Alex Horne",
+          "Amy Gledhill",
+          "Armando Iannucci",
+          "Joanna Page"
+        ]
+      },
+      "mine": {
+        "title": "Taskmaster",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "flaked",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 65315,
+        "searchQuery": "Flaked"
+      },
+      "cached": {
+        "title": "Flaked",
+        "overview": "In his funky California beach enclave, Chip's the go-to guy for personal insights. But he isn't quite as enlightened when it comes to his own baggage.",
+        "posterPath": "/v8zzGClqvkpPUc2wxZLrA89sSjB.jpg",
+        "backdropPath": "/6MvBW6mHzsB3NzGbdT2VCfIBZR2.jpg",
+        "genreNames": [
+          "Drama",
+          "Comedy"
+        ],
+        "firstAirYear": "2016",
+        "topCast": [
+          "Will Arnett",
+          "David Sullivan",
+          "Ruth Kearney",
+          "George Basil"
+        ]
+      },
+      "mine": {
+        "title": "Flaked",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "upper-middle-bogan",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 58479,
+        "searchQuery": "Upper Middle Bogan"
+      },
+      "cached": {
+        "title": "Upper Middle Bogan",
+        "overview": "Follow the stories of two families living at opposite ends of the freeway. Bess Denyar is a doctor with a posh mother, Margaret, an architect husband, Danny Bright, and twin 13-year-olds at a private school, Oscar and Edwina. When Bess finds out that she is adopted, she is stunned, but even more so when she meets her birth parents, Wayne and Julie Wheeler. She also discovers that she has three siblings: Amber, Kayne and Brianna. The bogan Wheelers head up a drag racing team in the outer suburbs and are thrilled to discover the daughter they thought they had lost.",
+        "posterPath": "/pM4qvHRDpAiWUAaQ2PlvI3z6qmo.jpg",
+        "backdropPath": "/rxeex8VCXzOuP60pm2PFRaNe7od.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2013",
+        "topCast": [
+          "Annie Maynard",
+          "Patrick Brammall",
+          "Robyn Malcolm",
+          "Michala Banas",
+          "Rhys Mitchell"
+        ]
+      },
+      "mine": {
+        "title": "Upper Middle Bogan",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "colin-from-accounts",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 203614,
+        "searchQuery": "Colin From Accounts"
+      },
+      "cached": {
+        "title": "Colin from Accounts",
+        "overview": "Ashley and Gordon are two single(ish), complex humans who are brought together by a car accident and an injured dog. Flawed, funny people choosing each other and being brave enough to show their true self, scars and all, as they navigate life together.",
+        "posterPath": "/zYPRXAImgarNSKrwd4kXobjXQNQ.jpg",
+        "backdropPath": "/uOhTIXRxSyWbdP3KIX3eLXtx0Nt.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Harriet Dyer",
+          "Patrick Brammall"
+        ]
+      },
+      "mine": {
+        "title": "Colin From Accounts",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "platonic",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 112211,
+        "searchQuery": "Platonic"
+      },
+      "cached": {
+        "title": "Platonic",
+        "overview": "A platonic pair of former best friends approaching midlife reconnect after a long rift. The duo’s friendship becomes more consuming—and destabilizes their lives in a hilarious way.",
+        "posterPath": "/7G8wB9CG82nITeFwRFIRSk0sQJs.jpg",
+        "backdropPath": "/aZerXLRyZMuGjQXI61f2CmSig7o.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2023",
+        "topCast": [
+          "Rose Byrne",
+          "Seth Rogen",
+          "Luke Macfarlane",
+          "Carla Gallo"
+        ]
+      },
+      "mine": {
+        "title": "Platonic",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-studio",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 247767,
+        "searchQuery": "The Studio"
+      },
+      "cached": {
+        "title": "The Studio",
+        "overview": "Desperate for celebrity approval, the newly appointed head of a movie studio and his executive team at Continental Studios must juggle corporate demands with creative ambitions as they try to keep movies alive and relevant.",
+        "posterPath": "/2c6ofLTa5CRfeQjVA1bWiYBdxQN.jpg",
+        "backdropPath": "/j4nrXoHEEHnEgMyoFXUSvXYALFh.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2025",
+        "topCast": [
+          "Seth Rogen",
+          "Catherine O'Hara",
+          "Ike Barinholtz",
+          "Chase Sui Wonders",
+          "Kathryn Hahn"
+        ]
+      },
+      "mine": {
+        "title": "The Studio",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "foundation",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 93740,
+        "searchQuery": "Foundation"
+      },
+      "cached": {
+        "title": "Foundation",
+        "overview": "Follow a band of exiles on their monumental journey to save humanity and rebuild civilization amid the fall of the Galactic Empire.",
+        "posterPath": "/tg9I5pOY4M9CKj8U0cxVBTsm5eh.jpg",
+        "backdropPath": "/7NNNXo0qG2SqH4JoG7GPvJ2hzes.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Jared Harris",
+          "Lee Pace",
+          "Lou Llobell",
+          "Laura Birn",
+          "Cassian Bilton"
+        ]
+      },
+      "mine": {
+        "title": "Foundation",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "see",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 80752,
+        "searchQuery": "See"
+      },
+      "cached": {
+        "title": "See",
+        "overview": "A virus has decimated humankind. Those who survived emerged blind. Centuries later when twins are born with the mythic ability to see, their father must protect his tribe against a threatened queen.",
+        "posterPath": "/lKDIhc9FQibDiBQ57n3ELfZCyZg.jpg",
+        "backdropPath": "/u5N8tXgGDY6jS7R8Xn42LDeL0Dk.jpg",
+        "genreNames": [
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Jason Momoa",
+          "Sylvia Hoeks",
+          "Hera Hilmar",
+          "Christian Camargo",
+          "Archie Madekwe"
+        ]
+      },
+      "mine": {
+        "title": "See",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
     }
   ]
 }

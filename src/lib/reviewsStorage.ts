@@ -8,6 +8,7 @@ const VALID_STATUS = new Set<WatchStatus>([
   'completed',
   'dropped',
   'queued',
+  'archived',
 ])
 
 export function defaultEntry(status: WatchStatus = 'watching'): ShowReview {

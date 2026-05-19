@@ -18,6 +18,7 @@ const STATUS_OPTIONS: { value: StatusFilter; label: string }[] = [
   { value: 'completed', label: 'Completed' },
   { value: 'queued', label: 'Queued' },
   { value: 'dropped', label: 'Dropped' },
+  { value: 'archived', label: 'Archived' },
 ]
 
 function reviewRating(reviews: ReviewsMap, id: string): number | null {

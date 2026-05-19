@@ -8,20 +8,24 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const LIBRARY_PATH = join(__dirname, '..', 'src', 'data', 'library.json')
 
+/** [id, searchQuery, displayTitle?] */
 const NEW_SHOWS = [
-  ['gen-v', 'Gen V'],
-  ['silo', 'Silo'],
-  ['pluribus', 'Pluribus'],
-  ['severance', 'Severance'],
-  ['rick-and-morty', 'Rick and Morty'],
-  ['bojack-horseman', 'BoJack Horseman'],
-  ['ap-bio', 'AP Bio'],
-  ['great-news', 'Great News'],
-  ['nathan-for-you', 'Nathan For You'],
-  ['the-rehearsal', 'The Rehearsal'],
-  ['reno-911', 'Reno 911!'],
-  ['newsradio', 'NewsRadio'],
-  ['seinfeld', 'Seinfeld'],
+  ['arrested-development', 'Arrested Development'],
+  ['ozark', 'Ozark'],
+  ['best-medicine', 'Best Medicine'],
+  ['extras', 'Extras'],
+  ['the-office-uk', 'The Office UK'],
+  ['the-office-us', 'The Office US'],
+  ['parks-and-recreation', 'Parks and Recreation'],
+  ['derek', 'Derek'],
+  ['taskmaster', 'Taskmaster'],
+  ['flaked', 'Flaked'],
+  ['upper-middle-bogan', 'Upper Middle Bogan'],
+  ['colin-from-accounts', 'Colin From Accounts'],
+  ['platonic', 'Platonic'],
+  ['the-studio', 'The Studio'],
+  ['foundation', 'Foundation'],
+  ['see', 'See'],
 ]
 
 const emptyCached = {
@@ -34,11 +38,11 @@ const emptyCached = {
   topCast: [],
 }
 
-function stub(id, title) {
+function stub(id, title, searchQuery = title) {
   return {
     id,
     kind: 'tv',
-    external: { tmdbId: null, searchQuery: title },
+    external: { tmdbId: null, searchQuery },
     cached: { ...emptyCached },
     mine: {
       title,
@@ -53,9 +57,10 @@ function stub(id, title) {
 const library = JSON.parse(readFileSync(LIBRARY_PATH, 'utf8'))
 const ids = new Set(library.items.map((i) => i.id))
 let added = 0
-for (const [id, title] of NEW_SHOWS) {
+for (const row of NEW_SHOWS) {
+  const [id, searchQuery, title = searchQuery] = row
   if (ids.has(id)) continue
-  library.items.push(stub(id, title))
+  library.items.push(stub(id, title, searchQuery))
   ids.add(id)
   added++
 }

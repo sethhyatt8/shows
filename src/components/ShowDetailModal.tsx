@@ -8,6 +8,7 @@ const STATUS_OPTIONS: { value: WatchStatus; label: string }[] = [
   { value: 'completed', label: 'Completed' },
   { value: 'queued', label: 'Queued' },
   { value: 'dropped', label: 'Dropped' },
+  { value: 'archived', label: 'Archived' },
 ]
 
 type Props = {

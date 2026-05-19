@@ -1,4 +1,9 @@
-export type WatchStatus = 'watching' | 'completed' | 'dropped' | 'queued'
+export type WatchStatus =
+  | 'watching'
+  | 'completed'
+  | 'dropped'
+  | 'queued'
+  | 'archived'
 
 export interface LibraryTvCached {
   title: string | null
