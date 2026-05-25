@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const LIBRARY_PATH = join(__dirname, '..', 'src', 'data', 'library.json')
 
-/** [id, searchQuery, displayTitle?] */
+/** [id, searchQuery, displayTitle?, tmdbId?] */
 const NEW_SHOWS = [
   ['arrested-development', 'Arrested Development'],
   ['ozark', 'Ozark'],
@@ -26,6 +26,26 @@ const NEW_SHOWS = [
   ['the-studio', 'The Studio'],
   ['foundation', 'Foundation'],
   ['see', 'See'],
+  ['legends', 'Legends', 'Legends', 262280],
+  ['outlaws', 'The Outlaws', 'The Outlaws', 136044],
+  ['detroiters', 'Detroiters'],
+  ['i-think-you-should-leave', 'I Think You Should Leave with Tim Robinson'],
+  ['key-and-peele', 'Key & Peele'],
+  ['the-handmaids-tale', "The Handmaid's Tale"],
+  ['resident-alien', 'Resident Alien'],
+  ['the-testaments', 'The Testaments'],
+  ['mobland', 'MobLand'],
+  ['boardwalk-empire', 'Boardwalk Empire'],
+  ['battlestar-galactica', 'Battlestar Galactica', 'Battlestar Galactica (2004)', 1972],
+  ['true-detective', 'True Detective'],
+  ['the-white-lotus', 'The White Lotus'],
+  ['game-of-thrones', 'Game of Thrones'],
+  ['a-knight-of-the-seven-kingdoms', 'A Knight of the Seven Kingdoms'],
+  ['house-of-the-dragon', 'House of the Dragon'],
+  ['frayed', 'Frayed'],
+  ['this-way-up', 'This Way Up'],
+  ['game-face', 'GameFace', 'GameFace', 88471],
+  ['fleabag', 'Fleabag'],
 ]
 
 const emptyCached = {
@@ -36,13 +56,14 @@ const emptyCached = {
   genreNames: [],
   firstAirYear: null,
   topCast: [],
+  streamingProviders: [],
 }
 
-function stub(id, title, searchQuery = title) {
+function stub(id, title, searchQuery = title, tmdbId = null) {
   return {
     id,
     kind: 'tv',
-    external: { tmdbId: null, searchQuery },
+    external: { tmdbId, searchQuery },
     cached: { ...emptyCached },
     mine: {
       title,
@@ -58,9 +79,9 @@ const library = JSON.parse(readFileSync(LIBRARY_PATH, 'utf8'))
 const ids = new Set(library.items.map((i) => i.id))
 let added = 0
 for (const row of NEW_SHOWS) {
-  const [id, searchQuery, title = searchQuery] = row
+  const [id, searchQuery, title = searchQuery, tmdbId = null] = row
   if (ids.has(id)) continue
-  library.items.push(stub(id, title, searchQuery))
+  library.items.push(stub(id, title, searchQuery, tmdbId))
   ids.add(id)
   added++
 }

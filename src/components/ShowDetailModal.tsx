@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import type { LibraryTvItem, WatchStatus } from '../types/library'
 import type { ShowReview } from '../types/reviews'
 import { displayTitle, posterUrl } from '../lib/display'
+import { streamingProviders } from '../lib/streaming'
 
 const STATUS_OPTIONS: { value: WatchStatus; label: string }[] = [
   { value: 'watching', label: 'Watching' },
@@ -136,6 +137,12 @@ export function ShowDetailModal({
             {item.cached.topCast.length > 0 ? (
               <p className="modal__cast">
                 <strong>Cast:</strong> {item.cached.topCast.join(', ')}
+              </p>
+            ) : null}
+            {streamingProviders(item).length > 0 ? (
+              <p className="modal__cast">
+                <strong>Streaming (US):</strong>{' '}
+                {streamingProviders(item).join(', ')}
               </p>
             ) : null}
 

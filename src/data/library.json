@@ -25,6 +25,10 @@
           "Kate O'Flynn",
           "Kevin Carroll",
           "Dale Dickey"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -58,6 +62,10 @@
           "Greg Kinnear",
           "Thaddea Graham",
           "Michelle Pfeiffer"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -91,6 +99,10 @@
           "Antony Starr",
           "Erin Moriarty",
           "Laz Alonso"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
         ]
       },
       "mine": {
@@ -124,6 +136,15 @@
           "Zach Galifianakis",
           "Lucy Punch",
           "Simon Helberg"
+        ],
+        "streamingProviders": [
+          "Acorn TV",
+          "AMC",
+          "AMC Plus Apple TV Channel ",
+          "AMC+",
+          "AMC+ Amazon Channel",
+          "Philo",
+          "Spectrum On Demand"
         ]
       },
       "mine": {
@@ -158,6 +179,10 @@
           "Edi Gathegi",
           "Cynthy Wu",
           "Coral Peña"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -191,6 +216,11 @@
           "Linda Cardellini",
           "Richard Jenkins",
           "Joy Sunday"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Spectrum On Demand"
         ]
       },
       "mine": {
@@ -219,10 +249,15 @@
         "firstAirYear": "2026",
         "topCast": [
           "Steve Carell",
+          "Charly Clive",
           "Danielle Deadwyler",
           "Phil Dunster",
-          "John C. McGinley",
-          "Lauren Tsai"
+          "John C. McGinley"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Spectrum On Demand"
         ]
       },
       "mine": {
@@ -256,6 +291,10 @@
           "Taylor Ortega",
           "Abby Quinn",
           "Jack Innanen"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
         ]
       },
       "mine": {
@@ -288,6 +327,10 @@
           "Alanna Ubach",
           "Scott Grimes",
           "Giorgia Whigham"
+        ],
+        "streamingProviders": [
+          "Peacock Premium",
+          "Peacock Premium Plus"
         ]
       },
       "mine": {
@@ -320,6 +363,12 @@
           "Sheryl Lee Ralph",
           "Lisa Ann Walter",
           "Chris Perfetti"
+        ],
+        "streamingProviders": [
+          "fuboTV",
+          "HBO Max",
+          "Hulu",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -354,6 +403,10 @@
           "Maddie Phillips",
           "London Thor",
           "Derek Luh"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
         ]
       },
       "mine": {
@@ -387,6 +440,10 @@
           "Harriet Walter",
           "Chinaza Uche",
           "Avi Nash"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -418,6 +475,10 @@
           "Rhea Seehorn",
           "Karolina Wydra",
           "Carlos-Manuel Vesga"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -452,6 +513,10 @@
           "Tramell Tillman",
           "Zach Cherry",
           "Jen Tullock"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -487,6 +552,13 @@
           "Sarah Chalke",
           "Ian Cardoni",
           "Harry Belden"
+        ],
+        "streamingProviders": [
+          "Adult Swim",
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Hulu",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -521,6 +593,10 @@
           "Alison Brie",
           "Amy Sedaris",
           "Paul F. Tompkins"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
         ]
       },
       "mine": {
@@ -553,6 +629,10 @@
           "Paula Pell",
           "Lyric Lewis",
           "Mary Sohn"
+        ],
+        "streamingProviders": [
+          "Peacock Premium",
+          "Peacock Premium Plus"
         ]
       },
       "mine": {
@@ -585,7 +665,8 @@
           "Adam Campbell",
           "Nicole Richie",
           "John Michael Higgins"
-        ]
+        ],
+        "streamingProviders": []
       },
       "mine": {
         "title": "Great News",
@@ -614,6 +695,15 @@
         "firstAirYear": "2013",
         "topCast": [
           "Nathan Fielder"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
         ]
       },
       "mine": {
@@ -643,6 +733,10 @@
         "firstAirYear": "2022",
         "topCast": [
           "Nathan Fielder"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel"
         ]
       },
       "mine": {
@@ -675,6 +769,18 @@
           "Kerri Kenney",
           "Robert Ben Garant",
           "Niecy Nash"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "fuboTV",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Philo",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -707,7 +813,8 @@
           "Stephen Root",
           "Andy Dick",
           "Vicki Lewis"
-        ]
+        ],
+        "streamingProviders": []
       },
       "mine": {
         "title": "NewsRadio",
@@ -738,6 +845,10 @@
           "Jason Alexander",
           "Michael Richards",
           "Julia Louis-Dreyfus"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
         ]
       },
       "mine": {
@@ -770,6 +881,10 @@
           "Will Arnett",
           "Michael Cera",
           "Alia Shawkat"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
         ]
       },
       "mine": {
@@ -803,6 +918,10 @@
           "Sofia Hublitz",
           "Skylar Gaertner",
           "Julia Garner"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
         ]
       },
       "mine": {
@@ -836,6 +955,12 @@
           "Josh Segarra",
           "Cree Cicchino",
           "Annie Potts"
+        ],
+        "streamingProviders": [
+          "FOX One Amazon Channel",
+          "fuboTV",
+          "Hulu",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -868,6 +993,13 @@
           "Stephen Merchant",
           "Shaun Williamson",
           "Shaun Pye"
+        ],
+        "streamingProviders": [
+          "BritBox",
+          "BritBox Amazon Channel",
+          "Britbox Apple TV Channel ",
+          "Peacock Premium",
+          "Peacock Premium Plus"
         ]
       },
       "mine": {
@@ -900,6 +1032,14 @@
           "Mackenzie Crook",
           "Lucy Davis",
           "Stirling Gallacher"
+        ],
+        "streamingProviders": [
+          "BritBox",
+          "BritBox Amazon Channel",
+          "Britbox Apple TV Channel ",
+          "Hulu",
+          "Peacock Premium",
+          "Peacock Premium Plus"
         ]
       },
       "mine": {
@@ -931,6 +1071,11 @@
           "John Krasinski",
           "Jenna Fischer",
           "Ed Helms"
+        ],
+        "streamingProviders": [
+          "Peacock Premium",
+          "Peacock Premium Plus",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -963,6 +1108,10 @@
           "Nick Offerman",
           "Aubrey Plaza",
           "Chris Pratt"
+        ],
+        "streamingProviders": [
+          "Peacock Premium",
+          "Peacock Premium Plus"
         ]
       },
       "mine": {
@@ -996,6 +1145,10 @@
           "David Earl",
           "Barry Martin",
           "Tim Barlow"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
         ]
       },
       "mine": {
@@ -1028,7 +1181,8 @@
           "Amy Gledhill",
           "Armando Iannucci",
           "Joanna Page"
-        ]
+        ],
+        "streamingProviders": []
       },
       "mine": {
         "title": "Taskmaster",
@@ -1060,6 +1214,10 @@
           "David Sullivan",
           "Ruth Kearney",
           "George Basil"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
         ]
       },
       "mine": {
@@ -1092,6 +1250,12 @@
           "Robyn Malcolm",
           "Michala Banas",
           "Rhys Mitchell"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Netflix",
+          "Netflix Standard with Ads"
         ]
       },
       "mine": {
@@ -1121,6 +1285,15 @@
         "topCast": [
           "Harriet Dyer",
           "Patrick Brammall"
+        ],
+        "streamingProviders": [
+          "fuboTV",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Spectrum On Demand"
         ]
       },
       "mine": {
@@ -1152,6 +1325,10 @@
           "Seth Rogen",
           "Luke Macfarlane",
           "Carla Gallo"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -1185,6 +1362,10 @@
           "Ike Barinholtz",
           "Chase Sui Wonders",
           "Kathryn Hahn"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -1218,6 +1399,10 @@
           "Lou Llobell",
           "Laura Birn",
           "Cassian Bilton"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
@@ -1252,10 +1437,749 @@
           "Hera Hilmar",
           "Christian Camargo",
           "Archie Madekwe"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
         ]
       },
       "mine": {
         "title": "See",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "legends",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 262280,
+        "searchQuery": "Legends"
+      },
+      "cached": {
+        "title": "Legends",
+        "overview": "As drugs flood the streets of '90s Britain, a team of civil servants is thrust undercover to topple the gangs behind it.",
+        "posterPath": "/dGienbU1xNZJcbY8i8ubJusjDwD.jpg",
+        "backdropPath": "/4CtOMphAmfHJ6cztlAYjkdStkHP.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Tom Burke",
+          "Steve Coogan",
+          "Hayley Squires",
+          "Aml Ameen",
+          "Jasmine Blackborow"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Legends",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "detroiters",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 69866,
+        "searchQuery": "Detroiters"
+      },
+      "cached": {
+        "title": "Detroiters",
+        "overview": "Best friends and fledgling ad men Sam and Tim may not have the money, connections or talent that the big guys do, but they have ambition out the wazoo. Together, they’re out to build a local advertising empire and restore their home city of Detroit to its former glory in this new show from executive producers Lorne Michaels and Jason Sudeikis.",
+        "posterPath": "/hBxeoEzVola4LyhW3C7FjseFeWm.jpg",
+        "backdropPath": "/ffbR34OrgYe0VotKU8QqSmELMdI.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Sam Richardson",
+          "Tim Robinson"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ]
+      },
+      "mine": {
+        "title": "Detroiters",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "i-think-you-should-leave",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 88728,
+        "searchQuery": "I Think You Should Leave with Tim Robinson"
+      },
+      "cached": {
+        "title": "I Think You Should Leave with Tim Robinson",
+        "overview": "There is no such thing as an ordinary interaction in this offbeat sketch comedy series that features a deep roster of guest stars.",
+        "posterPath": "/26fMaTPRczCrTUOQ5svA1Db7l4h.jpg",
+        "backdropPath": "/3yA0Zw7jeftK4F51PbnZyJOoNs2.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Tim Robinson"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "I Think You Should Leave with Tim Robinson",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "key-and-peele",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 43082,
+        "searchQuery": "Key & Peele"
+      },
+      "cached": {
+        "title": "Key & Peele",
+        "overview": "Key & Peele is an American sketch comedy television show. It stars Keegan-Michael Key and Jordan Peele, both former cast members of MADtv. Each episode of the show consists of several pre-taped sketches starring the two actors, introduced by Key and Peele in front of a live studio audience.",
+        "posterPath": "/24csSdkE6gbYBCK6ngknvsJ1Zdj.jpg",
+        "backdropPath": "/qo5H027TuPR3FpTMLD2l9IOLjMy.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2012",
+        "topCast": [
+          "Keegan-Michael Key",
+          "Jordan Peele"
+        ],
+        "streamingProviders": [
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ]
+      },
+      "mine": {
+        "title": "Key & Peele",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-handmaids-tale",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 69478,
+        "searchQuery": "The Handmaid's Tale"
+      },
+      "cached": {
+        "title": "The Handmaid's Tale",
+        "overview": "Set in a dystopian future, a woman is forced to live as a concubine under a fundamentalist theocratic dictatorship.",
+        "posterPath": "/eGUT7j3n3rn5yGihlCgwUnD70HV.jpg",
+        "backdropPath": "/atb20IUkdYcZISq3DJ769nc3h1G.jpg",
+        "genreNames": [
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Elisabeth Moss",
+          "Yvonne Strahovski",
+          "Samira Wiley"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "The Handmaid's Tale",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "resident-alien",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 96580,
+        "searchQuery": "Resident Alien"
+      },
+      "cached": {
+        "title": "Resident Alien",
+        "overview": "Crash-landed alien Harry takes on the identity of a small-town Colorado doctor. Arriving with a secret mission, he starts off living a simple life…but things get a bit rocky when he’s roped into solving a local murder and realizes he needs to assimilate into his new world. As he does, he begins to wrestle with the moral dilemma of his mission and asking the big life questions like: “Are human beings worth saving?” and “Why do they fold their pizza before eating it?”",
+        "posterPath": "/5van3ktOTqWr5lcixh5aR8NlqqW.jpg",
+        "backdropPath": "/aCbOj4wc6vQUUVNKppssj2PYUy0.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Alan Tudyk",
+          "Sara Tomko",
+          "Corey Reynolds",
+          "Alice Wetterlund",
+          "Levi Fiehler"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads",
+          "Peacock Premium",
+          "Peacock Premium Plus",
+          "USA Network",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Resident Alien",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-testaments",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 287527,
+        "searchQuery": "The Testaments"
+      },
+      "cached": {
+        "title": "The Testaments",
+        "overview": "Growing up in Gilead is all they have ever known. As a new generation of young women grapple with the bleak future that awaits them, they will be forced to search for allies, new and old, to help in their fight for freedom.",
+        "posterPath": "/xVsFopLisBoiKdXXecaNTN4pJ9A.jpg",
+        "backdropPath": "/uCndE341njionskk1pK9SbHqwZh.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Ann Dowd",
+          "Chase Infiniti",
+          "Lucy Halliday",
+          "Rowan Blanchard",
+          "Mattea Conforti"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "The Testaments",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "mobland",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 247718,
+        "searchQuery": "MobLand"
+      },
+      "cached": {
+        "title": "MobLand",
+        "overview": "Two mob families clash in a war that threatens to topple empires and lives.",
+        "posterPath": "/abeH7n5pcuQcwYcTxG6DTZvXLP1.jpg",
+        "backdropPath": "/cxejGoxpynd144zaivyEKFxCktm.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2025",
+        "topCast": [
+          "Tom Hardy",
+          "Pierce Brosnan",
+          "Paddy Considine",
+          "Joanne Froggatt",
+          "Lara Pulver"
+        ],
+        "streamingProviders": [
+          "fuboTV",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Spectrum On Demand"
+        ]
+      },
+      "mine": {
+        "title": "MobLand",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "boardwalk-empire",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1621,
+        "searchQuery": "Boardwalk Empire"
+      },
+      "cached": {
+        "title": "Boardwalk Empire",
+        "overview": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
+        "posterPath": "/kL6SqlVPpfAof2nQbh1VxkUuXBQ.jpg",
+        "backdropPath": "/7Yj4QbECkH3JavlZxw4NWReoN7B.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2010",
+        "topCast": [
+          "Steve Buscemi",
+          "Kelly Macdonald",
+          "Michael Shannon",
+          "Shea Whigham",
+          "Stephen Graham"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Boardwalk Empire",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "battlestar-galactica",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1972,
+        "searchQuery": "Battlestar Galactica"
+      },
+      "cached": {
+        "title": "Battlestar Galactica",
+        "overview": "When an old enemy, the Cylons, resurface and obliterate the 12 colonies, the crew of the aged Galactica protect a small civilian fleet - the last of humanity - as they journey toward the fabled 13th colony, Earth.",
+        "posterPath": "/99PJSbcO2LeM10uOGWeFihNp77j.jpg",
+        "backdropPath": "/sEjNaoENrqIZONKNn1iLFB0Us9k.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Action & Adventure",
+          "Drama"
+        ],
+        "firstAirYear": "2004",
+        "topCast": [
+          "Edward James Olmos",
+          "Mary McDonnell",
+          "Jamie Bamber",
+          "Katee Sackhoff",
+          "James Callis"
+        ],
+        "streamingProviders": [
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Battlestar Galactica (2004)",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "outlaws",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 136044,
+        "searchQuery": "The Outlaws"
+      },
+      "cached": {
+        "title": "The Outlaws",
+        "overview": "Seven strangers from different walks of life - people who would never normally interact - are forced to work together to renovate a derelict community centre. They resent the menial physical labour and they resent each other. But when one of their number gets dragged into a dangerous world of organised crime, they unite in ways none of them thought possible.",
+        "posterPath": "/s8vp0S0iz2nPb7TpOpV0rHbm1er.jpg",
+        "backdropPath": "/nQb4zTRULkR1ifcoKGxPvkdgPSz.jpg",
+        "genreNames": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Rhianne Barreto",
+          "Darren Boyd",
+          "Gamba Cole",
+          "Jessica Gunning",
+          "Clare Perkins"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Outlaws",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "true-detective",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 46648,
+        "searchQuery": "True Detective"
+      },
+      "cached": {
+        "title": "True Detective",
+        "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
+        "posterPath": "/zYqVTiHK5ZajYcNzAW7qWte5NWS.jpg",
+        "backdropPath": "/v8YFr8BbU9qsO8PYIulzTeM6Qk.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery"
+        ],
+        "firstAirYear": "2014",
+        "topCast": [
+          "Jodie Foster",
+          "Kali Reis",
+          "Fiona Shaw",
+          "Finn Bennett",
+          "Isabella Star LaBlanc"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "TNT"
+        ]
+      },
+      "mine": {
+        "title": "True Detective",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-white-lotus",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 111803,
+        "searchQuery": "The White Lotus"
+      },
+      "cached": {
+        "title": "The White Lotus",
+        "overview": "Follow the exploits of various guests and employees at an exclusive tropical resort over the span of a week as with each passing day, a darker complexity emerges in these picture-perfect travelers, the hotel’s cheerful employees and the idyllic locale itself.",
+        "posterPath": "/gbSaK9v1CbcYH1ISgbM7XObD2dW.jpg",
+        "backdropPath": "/rCTLaPwuApDx8vLGjYZ9pRl7zRB.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama",
+          "Mystery"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Leslie Bibb",
+          "Carrie Coon",
+          "Walton Goggins",
+          "Sarah Catherine Hook",
+          "Jason Isaacs"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Spectrum On Demand"
+        ]
+      },
+      "mine": {
+        "title": "The White Lotus",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "game-of-thrones",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1399,
+        "searchQuery": "Game of Thrones"
+      },
+      "cached": {
+        "title": "Game of Thrones",
+        "overview": "Seven noble families fight for control of the mythical land of Westeros. Friction between the houses leads to full-scale war. All while a very ancient evil awakens in the farthest north. Amidst the war, a neglected military order of misfits, the Night's Watch, is all that stands between the realms of men and icy horrors beyond.",
+        "posterPath": "/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+        "backdropPath": "/2OMB0ynKlyIenMJWI2Dy9IWT4c.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2011",
+        "topCast": [
+          "Peter Dinklage",
+          "Kit Harington",
+          "Nikolaj Coster-Waldau",
+          "Lena Headey",
+          "Emilia Clarke"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Game of Thrones",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "a-knight-of-the-seven-kingdoms",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 224372,
+        "searchQuery": "A Knight of the Seven Kingdoms"
+      },
+      "cached": {
+        "title": "A Knight of the Seven Kingdoms",
+        "overview": "A century before the events of Game of Thrones, two unlikely heroes wandered Westeros: a young, naive but courageous knight, Ser Duncan the Tall, and his diminutive squire, Egg. Set in an age when the Targaryen line still holds the Iron Throne and the last dragon has not yet passed from living memory, great destinies, powerful foes, and dangerous exploits await these improbable and incomparable friends.",
+        "posterPath": "/k8yARbD9iYn2nRX2HvsopfKDN2r.jpg",
+        "backdropPath": "/7mkUu1F2hVUNgz24xO8HPx0D6mK.jpg",
+        "genreNames": [
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Peter Claffey",
+          "Dexter Sol Ansell"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "A Knight of the Seven Kingdoms",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "house-of-the-dragon",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 94997,
+        "searchQuery": "House of the Dragon"
+      },
+      "cached": {
+        "title": "House of the Dragon",
+        "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+        "posterPath": "/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
+        "backdropPath": "/2xGcSLyTAzConiHAByWqhfLiatT.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Matt Smith",
+          "Emma D'Arcy",
+          "Olivia Cooke",
+          "Steve Toussaint",
+          "Rhys Ifans"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "House of the Dragon",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "frayed",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 93479,
+        "searchQuery": "Frayed"
+      },
+      "cached": {
+        "title": "Frayed",
+        "overview": "Fabulously wealthy London housewife Sammy, is forced to return to the town in Australia she grew up in. But in coming home, Sammy must revisit her past and the events that led her to flee as a teenager years ago.",
+        "posterPath": "/g4cdvm4RGeIs3n5NwIYroFoaum3.jpg",
+        "backdropPath": "/oZ2jpGpr4bVf9YFdSp3j9ZmRfDN.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Sarah Kendall",
+          "Kerry Armstrong",
+          "Ben Mingay",
+          "Frazer Hadfield",
+          "Maggie Ireland-Jones"
+        ],
+        "streamingProviders": []
+      },
+      "mine": {
+        "title": "Frayed",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "this-way-up",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 91740,
+        "searchQuery": "This Way Up"
+      },
+      "cached": {
+        "title": "This Way Up",
+        "overview": "A young woman puts her life back together after suffering from a nervous breakdown.",
+        "posterPath": "/mcj3pxw0Z2xx4vGdKi6apWuaWll.jpg",
+        "backdropPath": "/dHZlmXSIwbMgm6HfFa9GFzHNsM7.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Aisling Bea",
+          "Sharon Horgan",
+          "Tobias Menzies"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "This Way Up",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "game-face",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 88471,
+        "searchQuery": "GameFace"
+      },
+      "cached": {
+        "title": "GameFace",
+        "overview": "Marcella is an aspiring actress recovering from a relationship break up. Despite her optimistic attempts, and with help from her friends, therapist and driving instructor, she is unable to get her life back on track.",
+        "posterPath": "/3MpBUYJG2SBzoqpydK8CQhBkOIu.jpg",
+        "backdropPath": "/ck7rwHLZCQvx0b4fZMbM0YAkwmA.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Roisin Conaty",
+          "Damien Molony",
+          "Karl Theobald",
+          "Dustin Demri-Burns",
+          "Dylan Edwards"
+        ],
+        "streamingProviders": []
+      },
+      "mine": {
+        "title": "Game Face",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "fleabag",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 67070,
+        "searchQuery": "Fleabag"
+      },
+      "cached": {
+        "title": "Fleabag",
+        "overview": "A portrait into the mind of a dry-witted, sexual, angry, porn-watching, grief-riddled woman, trying to make sense of the world. As she hurls herself headlong at modern living, Fleabag is thrown roughly up against the walls of contemporary London, with all its frenetic energy, late nights, and bright lights.",
+        "posterPath": "/27vEYsRKa3eAniwmoccOoluEXQ1.jpg",
+        "backdropPath": "/hXdQ4MWsEOX6qg6VydKrLb3YJ4g.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2016",
+        "topCast": [
+          "Phoebe Waller-Bridge",
+          "Sian Clifford",
+          "Andrew Scott"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Fleabag",
         "status": "watching",
         "rating": null,
         "notes": "",

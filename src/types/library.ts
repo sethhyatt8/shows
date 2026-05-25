@@ -13,6 +13,8 @@ export interface LibraryTvCached {
   genreNames: string[]
   firstAirYear: string | null
   topCast: string[]
+  /** US subscription streaming (TMDB flatrate), e.g. Netflix, Max */
+  streamingProviders: string[]
 }
 
 export interface LibraryTvExternal {

@@ -1,7 +1,10 @@
 import { useEffect, useMemo, useState } from 'react'
 import libraryFile from './data/library.json'
 import { EditPasswordPrompt } from './components/EditPasswordPrompt'
-import { ShowCollection } from './components/ShowCollection'
+import {
+  ShowCollection,
+  type SortMode,
+} from './components/ShowCollection'
 import { ShowDetailModal } from './components/ShowDetailModal'
 import { useReviews } from './hooks/useReviews'
 import { isEditUnlocked, lockEditing } from './lib/appAuth'
@@ -28,6 +31,8 @@ export default function App() {
   const [statusFilter, setStatusFilter] = useState<
     'all' | WatchStatus
   >('all')
+  const [streamingFilter, setStreamingFilter] = useState('all')
+  const [sortMode, setSortMode] = useState<SortMode>('rating')
 
   const [selected, setSelected] = useState<LibraryTvItem | null>(null)
   const [canEdit, setCanEdit] = useState(isEditUnlocked)
@@ -82,6 +87,10 @@ export default function App() {
             reviews={reviews}
             statusFilter={statusFilter}
             onStatusFilter={setStatusFilter}
+            streamingFilter={streamingFilter}
+            onStreamingFilter={setStreamingFilter}
+            sortMode={sortMode}
+            onSortMode={setSortMode}
             onSelect={setSelected}
           />
         )}

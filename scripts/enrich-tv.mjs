@@ -100,11 +100,18 @@ async function enrichItem(item) {
     )
   }
 
-  const [details, credits] = await Promise.all([
+  const [details, credits, watch] = await Promise.all([
     tmdbGet(`/tv/${id}`),
     tmdbGet(`/tv/${id}/credits`),
+    tmdbGet(`/tv/${id}/watch/providers`),
   ])
   await sleep(250)
+
+  const us = watch.results?.US
+  const streamingProviders = (us?.flatrate || [])
+    .map((p) => p.provider_name)
+    .filter(Boolean)
+    .sort((a, b) => a.localeCompare(b))
 
   const topCast = (credits.cast || [])
     .slice(0, 5)
@@ -128,6 +135,7 @@ async function enrichItem(item) {
       genreNames,
       firstAirYear: yearFromDate(details.first_air_date),
       topCast,
+      streamingProviders,
     },
   }
 }
