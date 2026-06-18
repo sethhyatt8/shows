@@ -21,10 +21,10 @@
         "firstAirYear": "2026",
         "topCast": [
           "Matthew Rhys",
-          "Stephen Root",
           "Kate O'Flynn",
           "Kevin Carroll",
-          "Dale Dickey"
+          "Dale Dickey",
+          "Kingston Rumi Southwick"
         ],
         "streamingProviders": [
           "Apple TV",
@@ -50,7 +50,7 @@
         "title": "Margo's Got Money Troubles",
         "overview": "The daughter of a former Hooter's waitress and an ex-pro wrestler, Margo is a recent college dropout and aspiring writer. Faced with a new baby, mounting pile of bills, and dwindling number of ways to pay them, Margo must find a way forward.",
         "posterPath": "/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
-        "backdropPath": "/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
+        "backdropPath": "/yZjaZJSW2Fbm4Hi1Y8p8f4FGCJw.jpg",
         "genreNames": [
           "Drama",
           "Comedy"
@@ -58,10 +58,10 @@
         "firstAirYear": "2026",
         "topCast": [
           "Elle Fanning",
+          "Michelle Pfeiffer",
           "Nick Offerman",
           "Greg Kinnear",
-          "Thaddea Graham",
-          "Michelle Pfeiffer"
+          "Thaddea Graham"
         ],
         "streamingProviders": [
           "Apple TV",
@@ -87,7 +87,7 @@
         "title": "The Boys",
         "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
         "posterPath": "/in1R2dDc421JxsoRWaIIAqVI2KE.jpg",
-        "backdropPath": "/bq28ajZaoMyzEIm6REelqyqtEDZ.jpg",
+        "backdropPath": "/n6vVs6z8obNbExdD3QHTr4Utu1Z.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
           "Action & Adventure"
@@ -138,13 +138,15 @@
           "Simon Helberg"
         ],
         "streamingProviders": [
-          "Acorn TV",
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
           "AMC",
           "AMC Plus Apple TV Channel ",
           "AMC+",
           "AMC+ Amazon Channel",
           "Philo",
-          "Spectrum On Demand"
+          "Spectrum On Demand",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -220,7 +222,8 @@
         "streamingProviders": [
           "HBO Max",
           "HBO Max Amazon Channel",
-          "Spectrum On Demand"
+          "Spectrum On Demand",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -257,7 +260,7 @@
         "streamingProviders": [
           "HBO Max",
           "HBO Max Amazon Channel",
-          "Spectrum On Demand"
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -352,7 +355,7 @@
         "title": "Abbott Elementary",
         "overview": "In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don’t love the school district’s less-than-stellar attitude toward educating children.",
         "posterPath": "/nBe1e3JJEZ6veGrVXNF0fRoLu56.jpg",
-        "backdropPath": "/asDINJT3b7tEa76uWI1rZ5TWdJF.jpg",
+        "backdropPath": "/7UJ2rNqDTTw36b38KN2MpYhCm1r.jpg",
         "genreNames": [
           "Comedy"
         ],
@@ -428,7 +431,7 @@
         "title": "Silo",
         "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
         "posterPath": "/fDMTqUcEh6qJwWZP1SHTfoaqsCy.jpg",
-        "backdropPath": "/4XccmjsOmQZw8S2iW1wvlvmb5v1.jpg",
+        "backdropPath": "/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
           "Drama"
@@ -465,7 +468,7 @@
         "title": "Pluribus",
         "overview": "The most miserable person on Earth must save the world from happiness.",
         "posterPath": "/z7Nga7Q9IGFWs5OEduY2gGFxnX3.jpg",
-        "backdropPath": "/vNCNUxNHHgP0WsA19hxztUsG3yG.jpg",
+        "backdropPath": "/ulm1ex4JFYJByyaPyqTr47MFyEQ.jpg",
         "genreNames": [
           "Drama",
           "Sci-Fi & Fantasy"
@@ -537,8 +540,8 @@
       "cached": {
         "title": "Rick and Morty",
         "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
-        "posterPath": "/WGRQ8FpjkDTzivQJ43t94bOuY0.jpg",
-        "backdropPath": "/Ao5pBFuWY32cVuh6iYjEjZMEscN.jpg",
+        "posterPath": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
+        "backdropPath": "/9In9QgVJx7PlFOAgVHCKKSbo605.jpg",
         "genreNames": [
           "Animation",
           "Comedy",
@@ -703,7 +706,8 @@
           "Paramount Plus Essential",
           "Paramount Plus Premium",
           "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel"
+          "Paramount+ Roku Premium Channel",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -814,7 +818,10 @@
           "Andy Dick",
           "Vicki Lewis"
         ],
-        "streamingProviders": []
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
       },
       "mine": {
         "title": "NewsRadio",
@@ -1238,7 +1245,7 @@
       "cached": {
         "title": "Upper Middle Bogan",
         "overview": "Follow the stories of two families living at opposite ends of the freeway. Bess Denyar is a doctor with a posh mother, Margaret, an architect husband, Danny Bright, and twin 13-year-olds at a private school, Oscar and Edwina. When Bess finds out that she is adopted, she is stunned, but even more so when she meets her birth parents, Wayne and Julie Wheeler. She also discovers that she has three siblings: Amber, Kayne and Brianna. The bogan Wheelers head up a drag racing team in the outer suburbs and are thrilled to discover the daughter they thought they had lost.",
-        "posterPath": "/pM4qvHRDpAiWUAaQ2PlvI3z6qmo.jpg",
+        "posterPath": "/3Ka9zti7FGxU4UR0HavqglH0so3.jpg",
         "backdropPath": "/rxeex8VCXzOuP60pm2PFRaNe7od.jpg",
         "genreNames": [
           "Comedy"
@@ -1293,7 +1300,8 @@
           "Paramount Plus Premium",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel",
-          "Spectrum On Demand"
+          "Spectrum On Demand",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -1657,9 +1665,7 @@
           "Netflix",
           "Netflix Standard with Ads",
           "Peacock Premium",
-          "Peacock Premium Plus",
-          "USA Network",
-          "YouTube TV"
+          "Peacock Premium Plus"
         ]
       },
       "mine": {
@@ -1736,7 +1742,8 @@
           "Paramount Plus Premium",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel",
-          "Spectrum On Demand"
+          "Spectrum On Demand",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -1773,7 +1780,8 @@
         ],
         "streamingProviders": [
           "HBO Max",
-          "HBO Max Amazon Channel"
+          "HBO Max Amazon Channel",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -1889,7 +1897,8 @@
         "streamingProviders": [
           "HBO Max",
           "HBO Max Amazon Channel",
-          "TNT"
+          "TNT",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -1928,7 +1937,8 @@
         "streamingProviders": [
           "HBO Max",
           "HBO Max Amazon Channel",
-          "Spectrum On Demand"
+          "Spectrum On Demand",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -1966,7 +1976,8 @@
         ],
         "streamingProviders": [
           "HBO Max",
-          "HBO Max Amazon Channel"
+          "HBO Max Amazon Channel",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -2001,7 +2012,8 @@
         ],
         "streamingProviders": [
           "HBO Max",
-          "HBO Max Amazon Channel"
+          "HBO Max Amazon Channel",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -2023,7 +2035,7 @@
         "title": "House of the Dragon",
         "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
         "posterPath": "/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
-        "backdropPath": "/2xGcSLyTAzConiHAByWqhfLiatT.jpg",
+        "backdropPath": "/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
           "Drama",
@@ -2039,7 +2051,8 @@
         ],
         "streamingProviders": [
           "HBO Max",
-          "HBO Max Amazon Channel"
+          "HBO Max Amazon Channel",
+          "YouTube TV"
         ]
       },
       "mine": {
@@ -2180,6 +2193,666 @@
       },
       "mine": {
         "title": "Fleabag",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "peacemaker",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 110492,
+        "searchQuery": "Peacemaker"
+      },
+      "cached": {
+        "title": "Peacemaker",
+        "overview": "The continuing story of Peacemaker, a vainglorious superhero/supervillain who believes in peace at any cost — no matter how many people he has to kill. After a miraculous recovery from his duel with Bloodsport, Peacemaker soon discovers that his freedom comes at a price.",
+        "posterPath": "/eYzbGcYnOUlvj2fa76pTgIXogd7.jpg",
+        "backdropPath": "/aJcUU3LMlqMKBi8L3eaxGfAbd4G.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Sci-Fi & Fantasy",
+          "Comedy"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "John Cena",
+          "Danielle Brooks",
+          "Freddie Stroma",
+          "Jennifer Holland",
+          "Steve Agee"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "TNT",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Peacemaker",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "boy-swallows-universe",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 209332,
+        "searchQuery": "Boy Swallows Universe"
+      },
+      "cached": {
+        "title": "Boy Swallows Universe",
+        "overview": "A young boy growing up in the suburbs of 1980s Brisbane faces the harsh realities of life — and the looming dangers that threaten his family.",
+        "posterPath": "/nb0ek7qonE0YkyaB4dsAw5J9NoH.jpg",
+        "backdropPath": "/v0cVF5nO5FvcF5oLyQX5ayYpypu.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime",
+          "Mystery"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Phoebe Tonkin",
+          "Lee Tiger Halley"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Boy Swallows Universe",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "flight-of-the-conchords",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 2742,
+        "searchQuery": "Flight of the Conchords"
+      },
+      "cached": {
+        "title": "Flight of the Conchords",
+        "overview": "The trials and tribulations of a two man, digi-folk band who have moved from New Zealand to New York City in the hope of forging a successful music career. So far they've managed to find a manager (whose \"other\" job is at the New Zealand Consulate), one fan (a married obsessive) and one friend (who owns the local pawn shop) -- but not much else.",
+        "posterPath": "/ynboK8qiOTz0X44r59LpfF8jBP5.jpg",
+        "backdropPath": "/8zIkXZJ2UWy9pzcTMNQrFCeQkcP.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2007",
+        "topCast": [
+          "Bret McKenzie",
+          "Jemaine Clement",
+          "Rhys Darby",
+          "Kristen Schaal"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Flight of the Conchords",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "alice-and-steve",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 318203,
+        "searchQuery": "Alice and Steve"
+      },
+      "cached": {
+        "title": "Alice and Steve",
+        "overview": "Alice is devastated when her best friend Steve starts dating her 26-year-old daughter Izzy. She's going to lose her best friend and her daughter in one fell swoop. Alice tries everything she can to end the relationship. Unfortunately for her, Steve's more than ready for the attack, and what begins as a perfect friendship, devolves into an all-out feud.",
+        "posterPath": "/gPou8wNiTz1uleLKllclrqanXXf.jpg",
+        "backdropPath": "/1mN5cydNUFqd7MHfOwhcHZzLnvT.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Nicola Walker",
+          "Jemaine Clement",
+          "Yali Topol Margalith",
+          "Joel Fry",
+          "Marcia Warren"
+        ],
+        "streamingProviders": [
+          "Disney Plus",
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Alice and Steve",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "what-we-do-in-the-shadows",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 83631,
+        "searchQuery": "What We Do in the Shadows"
+      },
+      "cached": {
+        "title": "What We Do in the Shadows",
+        "overview": "A documentary-style look into the daily (or rather, nightly) lives of a group of vampires in Staten Island who have “lived” together for hundreds and hundreds of years.",
+        "posterPath": "/wa3ZQE9kLnqwN3vQ0NNjg1NPsCa.jpg",
+        "backdropPath": "/mKikck71CvVISUSTLk29fwRbH4y.jpg",
+        "genreNames": [
+          "Comedy",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Kayvan Novak",
+          "Matt Berry",
+          "Natasia Demetriou",
+          "Harvey Guillén",
+          "Mark Proksch"
+        ],
+        "streamingProviders": [
+          "Hulu",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "What We Do in the Shadows",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bad-monkey",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 130853,
+        "searchQuery": "Bad Monkey"
+      },
+      "cached": {
+        "title": "Bad Monkey",
+        "overview": "A detective turned restaurant inspector in Southern Florida is pulled into a world of greed and corruption after a tourist finds a severed arm while fishing. And yes, there's a monkey.",
+        "posterPath": "/lUGG3lxIF3f2N796t4aHmxDhLK5.jpg",
+        "backdropPath": "/yj8g84iczcJVg3zCxVGpfdEMMxg.jpg",
+        "genreNames": [
+          "Comedy",
+          "Crime"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Vince Vaughn",
+          "L. Scott Caldwell",
+          "Rob Delaney",
+          "Meredith Hagner",
+          "Natalie Martinez"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Bad Monkey",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "star-city",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 252107,
+        "searchQuery": "Star City"
+      },
+      "cached": {
+        "title": "Star City",
+        "overview": "Step into a thrilling chapter inspired by For All Mankind. Same alt-history universe. Different perspective: the Soviet Union's. Go behind the Iron Curtain with the cosmonauts, engineers, and intelligence officers who risked it all in the race for the Moon.",
+        "posterPath": "/jjJZyBCDgyYylGdtctuqEYcO7Lc.jpg",
+        "backdropPath": "/asROh8ULhbYpB4C7x1Q3iFtcxsB.jpg",
+        "genreNames": [
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "War & Politics"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Rhys Ifans",
+          "Anna Maxwell Martin",
+          "Agnes O'Casey",
+          "Alice Englert",
+          "Solly McLeod"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Star City",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "maximum-pleasure-guaranteed",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 285404,
+        "searchQuery": "Maximum Pleasure Guaranteed"
+      },
+      "cached": {
+        "title": "Maximum Pleasure Guaranteed",
+        "overview": "A newly divorced mom falls down a dangerous rabbit hole of blackmail, murder, and youth soccer.",
+        "posterPath": "/f9U0oTlvLlqbww2Gm5j8Lhf1r9W.jpg",
+        "backdropPath": "/9mZlvYlGA4jblCvAvOpinrgn6hr.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Tatiana Maslany",
+          "Jake Johnson",
+          "Dolly de Leon",
+          "Jessy Hodges",
+          "Jon Michael Hill"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Maximum Pleasure Guaranteed",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "invincible",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 95557,
+        "searchQuery": "Invincible"
+      },
+      "cached": {
+        "title": "INVINCIBLE",
+        "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father's tutelage.",
+        "posterPath": "/4tblBrslcKSifMVZ3TmtT2ukMor.jpg",
+        "backdropPath": "/9qrroces8C6R9aKr08hACNPVXdZ.jpg",
+        "genreNames": [
+          "Animation",
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Steven Yeun",
+          "Sandra Oh",
+          "J.K. Simmons"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Invincible",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "archer",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 10283,
+        "searchQuery": "Archer"
+      },
+      "cached": {
+        "title": "Archer",
+        "overview": "Smart-mouthed superspy Sterling Archer and his dysfunctional team of secret agents turn dangerous missions into messy misadventures around the globe.",
+        "posterPath": "/vhnrkTGYPqcB63ALcSJm0WoaKHT.jpg",
+        "backdropPath": "/c4dymvMQT45P1j9RnscRyeyyqSg.jpg",
+        "genreNames": [
+          "Comedy",
+          "Action & Adventure",
+          "Animation"
+        ],
+        "firstAirYear": "2009",
+        "topCast": [
+          "H. Jon Benjamin",
+          "Judy Greer",
+          "Amber Nash",
+          "Chris Parnell",
+          "Aisha Tyler"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Archer",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "narcos",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 63351,
+        "searchQuery": "Narcos"
+      },
+      "cached": {
+        "title": "Narcos",
+        "overview": "A gritty chronicle of the war against Colombia's infamously violent and powerful drug cartels.",
+        "posterPath": "/rTmal9fDbwh5F0waol2hq35U4ah.jpg",
+        "backdropPath": "/y9ekzkPFmWSqUU3Kj0wHmYUM8qu.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2015",
+        "topCast": [
+          "Pedro Pascal",
+          "Matias Varela",
+          "Damián Alcázar",
+          "Francisco Denis",
+          "Alberto Ammann"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Narcos",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "narcos-mexico",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 80968,
+        "searchQuery": "Narcos: Mexico"
+      },
+      "cached": {
+        "title": "Narcos: Mexico",
+        "overview": "See the rise of the Guadalajara Cartel as an American DEA agent learns the danger of targeting narcos in 1980s Mexico.",
+        "posterPath": "/aXwMx8OvRFMfI1RmkbJm6Bq1jVg.jpg",
+        "backdropPath": "/64jEzC7YeKEpnn1YwjCGRo9ZvOX.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Scoot McNairy",
+          "José María Yázpik",
+          "Alejandro Edda",
+          "Luis Gerardo Méndez",
+          "Matt Letscher"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Narcos: Mexico",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "queen-of-the-south",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 66676,
+        "searchQuery": "Queen of the South"
+      },
+      "cached": {
+        "title": "Queen of the South",
+        "overview": "Teresa flees Mexico after her drug-runner boyfriend is murdered. Settling in Dallas, she looks to become the country's reigning drug smuggler and to avenge her lover's murder.",
+        "posterPath": "/rzdC5EHkkKJE6OPVdh6gT1pR1c9.jpg",
+        "backdropPath": "/3NVXTxrzxm5x7MBaQlzeLZk9pRD.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2016",
+        "topCast": [
+          "Alice Braga",
+          "Hemky Madera",
+          "Peter Gadiot",
+          "Jamie Hector",
+          "Ryan O'Nan"
+        ],
+        "streamingProviders": []
+      },
+      "mine": {
+        "title": "Queen of the South",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "versailles",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 64353,
+        "searchQuery": "Versailles"
+      },
+      "cached": {
+        "title": "Versailles",
+        "overview": "The story of a young Louis XIV on his journey to become the most powerful monarch in Europe, from his battles with the fronde through his development into the Sun King. Historical and fictional characters guide us in a world of betrayal and political maneuvering, revealing Versailles in all its glory and brutality.",
+        "posterPath": "/fMqCRNpc2FadD0n7vJLRmlS0aEt.jpg",
+        "backdropPath": "/cWe83yD8s7B1OZ71ntIS5fCeqWC.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2015",
+        "topCast": [
+          "George Blagden",
+          "Alexander Vlahos",
+          "Tygh Runyan",
+          "Stuart Bowman",
+          "Elisa Lasowski"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Versailles",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "masters-of-the-air",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 46518,
+        "searchQuery": "Masters of the Air"
+      },
+      "cached": {
+        "title": "Masters of the Air",
+        "overview": "During World War II, airmen risk their lives with the 100th Bomb Group, a brotherhood forged by courage, loss, and triumph.",
+        "posterPath": "/rSAmgcoA74371rplbqM27yVsd3y.jpg",
+        "backdropPath": "/6snBXmgkscLEJQmxx46qEIlqYlB.jpg",
+        "genreNames": [
+          "Drama",
+          "War & Politics"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Austin Butler",
+          "Callum Turner",
+          "Anthony Boyle",
+          "Nate Mann",
+          "Stephen Campbell Moore"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Masters of the Air",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "half-man",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 257994,
+        "searchQuery": "Half Man"
+      },
+      "cached": {
+        "title": "Half Man",
+        "overview": "When Niall's estranged 'brother' Ruben shows up at his wedding, it leads to an explosion of violence that catapults us back through their lives.",
+        "posterPath": "/vjVTRhKLo6n4KxslvsnaKNTguuZ.jpg",
+        "backdropPath": "/loZCtN8s1yjSBD75rbHsRisWfUc.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Jamie Bell",
+          "Richard Gadd",
+          "Neve McIntosh"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Spectrum On Demand",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Half Man",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bodkin",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 241257,
+        "searchQuery": "Bodkin"
+      },
+      "cached": {
+        "title": "Bodkin",
+        "overview": "A ragtag crew of podcasters sets out to investigate mysterious disappearances from decades earlier in a charming Irish town with dark, dreadful secrets.",
+        "posterPath": "/fvpYJkQaeon5kmxioIPHFmgA2v5.jpg",
+        "backdropPath": "/eTqt0lkDNX4dOwgbozhpzOvxPtm.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Siobhán Cullen",
+          "Robyn Cara",
+          "Chris Walley",
+          "David Wilmot",
+          "Will Forte"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Bodkin",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-last-man-on-earth",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 61888,
+        "searchQuery": "The Last Man on Earth"
+      },
+      "cached": {
+        "title": "The Last Man on Earth",
+        "overview": "The year is 2022, and after an unlikely event, only one man is left on earth: Phil Miller, who used to be just an average guy who loved his family and hated his job at the bank. Now, in his RV, Phil searches the country for other survivors.",
+        "posterPath": "/vONS5oceFmM93hsS3q3mvQ1iBC3.jpg",
+        "backdropPath": "/6g6NdCgFxO8qVp0cosVOm4xdjQG.jpg",
+        "genreNames": [
+          "Drama",
+          "Comedy"
+        ],
+        "firstAirYear": "2015",
+        "topCast": [
+          "Will Forte",
+          "Kristen Schaal",
+          "Cleopatra Coleman",
+          "January Jones",
+          "Mel Rodriguez"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "The Last Man on Earth",
         "status": "watching",
         "rating": null,
         "notes": "",
