@@ -11,7 +11,7 @@
       "cached": {
         "title": "Widow's Bay",
         "overview": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
-        "posterPath": "/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+        "posterPath": "/vKq8XEJKxQTHd2Bm5zZMFPUrke7.jpg",
         "backdropPath": "/u6XtMg9Ai9siEbEs0UudPS3EaZY.jpg",
         "genreNames": [
           "Drama",
@@ -50,7 +50,7 @@
         "title": "Margo's Got Money Troubles",
         "overview": "The daughter of a former Hooter's waitress and an ex-pro wrestler, Margo is a recent college dropout and aspiring writer. Faced with a new baby, mounting pile of bills, and dwindling number of ways to pay them, Margo must find a way forward.",
         "posterPath": "/fRR0Ho2c1nFJQiXWg4LNIgRPbg0.jpg",
-        "backdropPath": "/yZjaZJSW2Fbm4Hi1Y8p8f4FGCJw.jpg",
+        "backdropPath": "/r1lGjwTRF0RGYFHzvt3SupArmRy.jpg",
         "genreNames": [
           "Drama",
           "Comedy"
@@ -144,6 +144,7 @@
           "AMC Plus Apple TV Channel ",
           "AMC+",
           "AMC+ Amazon Channel",
+          "AMC+ Roku Premium Channel",
           "Philo",
           "Spectrum On Demand",
           "YouTube TV"
@@ -1592,7 +1593,8 @@
           "Paramount Plus Essential",
           "Paramount Plus Premium",
           "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel"
+          "Paramount+ Roku Premium Channel",
+          "Philo"
         ]
       },
       "mine": {
@@ -1764,7 +1766,7 @@
       "cached": {
         "title": "Boardwalk Empire",
         "overview": "Atlantic City at the dawn of Prohibition is a place where the rules don't apply. And the man who runs things -- legally and otherwise -- is the town's treasurer, Enoch \"Nucky\" Thompson, who is equal parts politician and gangster.",
-        "posterPath": "/kL6SqlVPpfAof2nQbh1VxkUuXBQ.jpg",
+        "posterPath": "/zyHLWVmqS8m7bxABJjcDFMYLdF8.jpg",
         "backdropPath": "/7Yj4QbECkH3JavlZxw4NWReoN7B.jpg",
         "genreNames": [
           "Crime",
@@ -1821,7 +1823,8 @@
           "Paramount Plus Apple TV Channel ",
           "Paramount Plus Essential",
           "Paramount Plus Premium",
-          "Paramount+ Amazon Channel"
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
         ]
       },
       "mine": {
@@ -1880,7 +1883,7 @@
       "cached": {
         "title": "True Detective",
         "overview": "An American anthology police detective series utilizing multiple timelines in which investigations seem to unearth personal and professional secrets of those involved, both within or outside the law.",
-        "posterPath": "/zYqVTiHK5ZajYcNzAW7qWte5NWS.jpg",
+        "posterPath": "/dC7jkj2g1aU8sxKqM6D4g44xA6w.jpg",
         "backdropPath": "/v8YFr8BbU9qsO8PYIulzTeM6Qk.jpg",
         "genreNames": [
           "Drama",
@@ -2052,6 +2055,7 @@
         "streamingProviders": [
           "HBO Max",
           "HBO Max Amazon Channel",
+          "Spectrum On Demand",
           "YouTube TV"
         ]
       },
@@ -2431,7 +2435,7 @@
       "cached": {
         "title": "Star City",
         "overview": "Step into a thrilling chapter inspired by For All Mankind. Same alt-history universe. Different perspective: the Soviet Union's. Go behind the Iron Curtain with the cosmonauts, engineers, and intelligence officers who risked it all in the race for the Moon.",
-        "posterPath": "/jjJZyBCDgyYylGdtctuqEYcO7Lc.jpg",
+        "posterPath": "/aOyhj8ERPpijIyrwJoTd4ZEhqJR.jpg",
         "backdropPath": "/asROh8ULhbYpB4C7x1Q3iFtcxsB.jpg",
         "genreNames": [
           "Drama",
@@ -2853,6 +2857,1234 @@
       },
       "mine": {
         "title": "The Last Man on Earth",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "3-body-problem",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 108545,
+        "searchQuery": "3 Body Problem"
+      },
+      "cached": {
+        "title": "3 Body Problem",
+        "overview": "Across continents and decades, five brilliant friends make earth-shattering discoveries as the laws of science unravel and an existential threat emerges.",
+        "posterPath": "/ykZ7hlShkdRQaL2aiieXdEMmrLb.jpg",
+        "backdropPath": "/ciizJ9Okzt9tBBGK7Q3T14LFT2j.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Mystery",
+          "Drama"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Jovan Adepo",
+          "Rosalind Chao",
+          "Liam Cunningham",
+          "Eiza González",
+          "Jess Hong"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "3 Body Problem",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-expanse",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 63639,
+        "searchQuery": "The Expanse"
+      },
+      "cached": {
+        "title": "The Expanse",
+        "overview": "A thriller set two hundred years in the future following the case of a missing young woman who brings a hardened detective and a rogue ship's captain together in a race across the solar system to expose the greatest conspiracy in human history.",
+        "posterPath": "/5vQlVWkIMPhZ88OWchJsgwGEK9.jpg",
+        "backdropPath": "/uUwnClwdMA12bpHgeKgkQrbu5Oe.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2015",
+        "topCast": [
+          "Steven Strait",
+          "Dominique Tipper",
+          "Wes Chatham",
+          "Shohreh Aghdashloo",
+          "Frankie Adams"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "The Expanse",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "patriot",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 65495,
+        "searchQuery": "Patriot"
+      },
+      "cached": {
+        "title": "Atlanta",
+        "overview": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
+        "posterPath": "/8HZyGMnPLVVb00rmrh6A2SbK9NX.jpg",
+        "backdropPath": "/vN84JlTvOZvZzxi0D2SJQNFvtjS.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2016",
+        "topCast": [
+          "Donald Glover",
+          "Brian Tyree Henry",
+          "LaKeith Stanfield",
+          "Zazie Beetz"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Patriot",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "katla",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 104157,
+        "searchQuery": "Katla"
+      },
+      "cached": {
+        "title": "Katla",
+        "overview": "A year after a subglacial volcano erupts, mysterious elements from prehistoric times emerge from the melting ice, bringing unforeseen consequences.",
+        "posterPath": "/1g1eT3Kw8C57AnQdZIcLyRU4xkw.jpg",
+        "backdropPath": "/wPJgjOfsFUny1WBo53Q9xtIMSs.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Guðrún Ýr Eyfjörð",
+          "Íris Tanja Í. Flygenring",
+          "Ingvar E. Sigurðsson",
+          "Aliette Opheim",
+          "Þorsteinn Bachmann"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Katla",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "dark",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 70523,
+        "searchQuery": "Dark"
+      },
+      "cached": {
+        "title": "Dark",
+        "overview": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.",
+        "posterPath": "/1DLjjvSWMYo17B7wuz6YikB96hH.jpg",
+        "backdropPath": "/3jDXL4Xvj3AzDOF6UH1xeyHW8MH.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "Mystery"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Louis Hofmann"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Dark",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "1923",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 157744,
+        "searchQuery": "1923"
+      },
+      "cached": {
+        "title": "1923",
+        "overview": "Follow a new generation of the Dutton family during the early twentieth century when pandemics, historic drought, the end of Prohibition and the Great Depression all plague the mountain west, and the Duttons who call it home.",
+        "posterPath": "/zgZRJZvZn5cpsWAB0zMUdad3iZd.jpg",
+        "backdropPath": "/vIioWssbxRtEkIzgj8r0pCWYkYM.jpg",
+        "genreNames": [
+          "Drama",
+          "Western"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Helen Mirren",
+          "Harrison Ford",
+          "Brandon Sklenar",
+          "Julia Schlaepfer",
+          "Jerome Flynn"
+        ],
+        "streamingProviders": [
+          "fuboTV",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Philo",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "1923",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "1883",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 118357,
+        "searchQuery": "1883"
+      },
+      "cached": {
+        "title": "1883",
+        "overview": "Follow the Dutton family as they embark on a journey west through the Great Plains toward the last bastion of untamed America. A stark retelling of Western expansion, and an intense study of one family fleeing poverty to seek a better future in America’s promised land — Montana.",
+        "posterPath": "/waLbm384SQDwLTCn6ttPqQS5kfV.jpg",
+        "backdropPath": "/uQUHCqxHsG9blvtCoL7vluMG9Jp.jpg",
+        "genreNames": [
+          "Drama",
+          "Western"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Sam Elliott",
+          "Tim McGraw",
+          "Faith Hill",
+          "Isabel May",
+          "LaMonica Garrett"
+        ],
+        "streamingProviders": [
+          "fuboTV",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Philo",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "1883",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "frontier",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 67744,
+        "searchQuery": "Frontier"
+      },
+      "cached": {
+        "title": "MINDHUNTER",
+        "overview": "An agent in the FBI's Elite Serial Crime Unit develops profiling techniques as he pursues notorious serial killers and rapists.",
+        "posterPath": "/fbKE87mojpIETWepSbD5Qt741fp.jpg",
+        "backdropPath": "/lpDVJuIro21gtMj9iXMFKHuroZN.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Jonathan Groff",
+          "Holt McCallany",
+          "Anna Torv",
+          "Stacey Roca"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Frontier",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "black-sails",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 47665,
+        "searchQuery": "Black Sails"
+      },
+      "cached": {
+        "title": "Black Sails",
+        "overview": "The pirate adventures of Captain Flint and his men twenty years prior to Robert Louis Stevenson’s classic “Treasure Island.” Flint, the most brilliant and most feared pirate captain of his day, takes on a fast-talking young addition to his crew who goes by the name John Silver. Threatened with extinction on all sides, they fight for the survival of New Providence Island, the most notorious criminal haven of its day – a debauched paradise teeming with pirates, prostitutes, thieves and fortune seekers, a place defined by both its enlightened ideals and its stunning brutality.",
+        "posterPath": "/mZcSwrDdw6cdOVgXm496DgwrQcQ.jpg",
+        "backdropPath": "/A7lo83g09i3cDmLRKtDiiYN8w0z.jpg",
+        "genreNames": [
+          "Drama",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2014",
+        "topCast": [
+          "Toby Stephens",
+          "Luke Arnold",
+          "Hannah New",
+          "Jessica Parker Kennedy",
+          "Toby Schmitz"
+        ],
+        "streamingProviders": [
+          "MovieSphere+ Amazon Channel",
+          "Philo",
+          "Spectrum On Demand",
+          "Starz",
+          "Starz Amazon Channel",
+          "Starz Apple TV Channel",
+          "Starz Roku Premium Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Black Sails",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "californication",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1215,
+        "searchQuery": "Californication"
+      },
+      "cached": {
+        "title": "Californication",
+        "overview": "A self-loathing, alcoholic writer attempts to repair his damaged relationships with his daughter and her mother while combating sex addiction, a budding drug problem, and the seeming inability to avoid making bad decisions.",
+        "posterPath": "/jPqOY8cq9KXQN4bD7zJGHCNvcb4.jpg",
+        "backdropPath": "/9o9SS26mUY4cp4iSFk7iwBeAQuP.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2007",
+        "topCast": [
+          "David Duchovny",
+          "Natascha McElhone",
+          "Evan Handler",
+          "Pamela Adlon"
+        ],
+        "streamingProviders": [
+          "fuboTV",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Spectrum On Demand",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Californication",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "weeds",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 186,
+        "searchQuery": "Weeds"
+      },
+      "cached": {
+        "title": "Weeds",
+        "overview": "After the unexpected death of her husband, a suburban mom resorts to selling weed to support her family.",
+        "posterPath": "/gKUsBTa5b0GY7U4iWBseeBalfjO.jpg",
+        "backdropPath": "/6k6vAUa0Fm73HB0QBOJbFGTgPq5.jpg",
+        "genreNames": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2005",
+        "topCast": [
+          "Mary-Louise Parker",
+          "Justin Kirk",
+          "Hunter Parrish",
+          "Alexander Gould",
+          "Kevin Nealon"
+        ],
+        "streamingProviders": [
+          "MovieSphere+ Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Weeds",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "entourage",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1940,
+        "searchQuery": "Entourage"
+      },
+      "cached": {
+        "title": "Entourage",
+        "overview": "Film star Vince Chase navigates the vapid terrain of Los Angeles with a close circle of friends and his trusty agent.",
+        "posterPath": "/kLKP8zrArBtBboGz3qJOuMGC7rL.jpg",
+        "backdropPath": "/22uQSlECwD3tcdqiFwo3K3qlCtY.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2004",
+        "topCast": [
+          "Kevin Connolly",
+          "Adrian Grenier",
+          "Kevin Dillon",
+          "Jerry Ferrara",
+          "Jeremy Piven"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Entourage",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "better-call-saul",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 60059,
+        "searchQuery": "Better Call Saul"
+      },
+      "cached": {
+        "title": "Better Call Saul",
+        "overview": "Six years before Saul Goodman meets Walter White. We meet him when the man who will become Saul Goodman is known as Jimmy McGill, a small-time lawyer searching for his destiny, and, more immediately, hustling to make ends meet. Working alongside, and, often, against Jimmy, is “fixer” Mike Ehrmantraut. The series tracks Jimmy’s transformation into Saul Goodman, the man who puts “criminal” in “criminal lawyer\".",
+        "posterPath": "/zjg4jpK1Wp2kiRvtt5ND0kznako.jpg",
+        "backdropPath": "/og2jKploGHYnCz68vV1nRSEE0xV.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2015",
+        "topCast": [
+          "Bob Odenkirk",
+          "Jonathan Banks",
+          "Rhea Seehorn",
+          "Tony Dalton",
+          "Giancarlo Esposito"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Better Call Saul",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "breaking-bad",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1396,
+        "searchQuery": "Breaking Bad"
+      },
+      "cached": {
+        "title": "Breaking Bad",
+        "overview": "Walter White, a New Mexico chemistry teacher, is diagnosed with Stage III cancer and given a prognosis of only two years left to live. He becomes filled with a sense of fearlessness and an unrelenting desire to secure his family's financial future at any cost as he enters the dangerous world of drugs and crime.",
+        "posterPath": "/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
+        "backdropPath": "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime"
+        ],
+        "firstAirYear": "2008",
+        "topCast": [
+          "Bryan Cranston",
+          "Aaron Paul",
+          "Anna Gunn",
+          "RJ Mitte",
+          "Dean Norris"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Breaking Bad",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "sons-of-anarchy",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1409,
+        "searchQuery": "Sons of Anarchy"
+      },
+      "cached": {
+        "title": "Sons of Anarchy",
+        "overview": "The Sons of Anarchy (SOA) are an outlaw motorcycle club with many charters in the United States and overseas. The show focused on the original and founding charter, Sons of Anarchy Motorcycle Club, Redwood Original, often referred to by the acronym SAMCRO, Sam Crow, or simply Redwood Charter. The charter operates both legal and illegal businesses in the small town of Charming, California. They combine gun-running and a garage, and involvement in porn film industry. Clay, the charter president, likes it old school and violent; while Jax, his stepson and the club's VP, has thoughts about changing the way things are done. Their conflict has effects on both the club and their personal relationship, especially when Jax goes on a personal quest to cleanse the SAMCRO name and image.",
+        "posterPath": "/kiy8BHtIHAslh81rvFcZ4wbNGdY.jpg",
+        "backdropPath": "/mcgZDwhMlrFsfpbvCeg5RY5mhiu.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2008",
+        "topCast": [
+          "Charlie Hunnam",
+          "Katey Sagal",
+          "Tommy Flanagan",
+          "Mark Boone Junior",
+          "Kim Coates"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Sons of Anarchy",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "babylon-berlin",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 66980,
+        "searchQuery": "Babylon Berlin"
+      },
+      "cached": {
+        "title": "Babylon Berlin",
+        "overview": "Beneath the decadence of 1929 Berlin, lies an underworld city of sin. Police investigator Gereon Rath has been transferred from Cologne to the epicenter of political and social changes in the Golden Twenties.",
+        "posterPath": "/jYShWyYllx9DhOS6d92mN2yVsbA.jpg",
+        "backdropPath": "/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime",
+          "Mystery"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Volker Bruch",
+          "Liv Lisa Fries",
+          "Lars Eidinger",
+          "Benno Fürmann",
+          "Ronald Zehrfeld"
+        ],
+        "streamingProviders": [
+          "Mhz Choice",
+          "MZ Choice Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Babylon Berlin",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "fargo",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 60622,
+        "searchQuery": "Fargo"
+      },
+      "cached": {
+        "title": "Fargo",
+        "overview": "A close-knit anthology series dealing with stories involving malice, violence and murder based in and around Minnesota.",
+        "posterPath": "/a3VW6khsyUVKrG0GBCWFG3NzWPX.jpg",
+        "backdropPath": "/4jrSbRpLqpvYJtLKncaxZVC47EW.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2014",
+        "topCast": [
+          "Juno Temple",
+          "Jennifer Jason Leigh",
+          "David Rysdahl",
+          "Joe Keery",
+          "Lamorne Morris"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Fargo",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-big-bang-theory",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1418,
+        "searchQuery": "The Big Bang Theory"
+      },
+      "cached": {
+        "title": "The Big Bang Theory",
+        "overview": "Physicists Leonard and Sheldon find their nerd-centric social circle with pals Howard and Raj expanding when aspiring actress Penny moves in next door.",
+        "posterPath": "/an3uTx1P0XgHPylgfPV6W7yxKAo.jpg",
+        "backdropPath": "/rwYvhVv0vwbulMwxOfEsuAr1JrT.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2007",
+        "topCast": [
+          "Johnny Galecki",
+          "Jim Parsons",
+          "Kaley Cuoco",
+          "Simon Helberg",
+          "Kunal Nayyar"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "TBS",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "The Big Bang Theory",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-mandalorian",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 82856,
+        "searchQuery": "The Mandalorian"
+      },
+      "cached": {
+        "title": "The Mandalorian",
+        "overview": "After the fall of the Galactic Empire, lawlessness has spread throughout the galaxy. A lone gunfighter makes his way through the outer reaches, earning his keep as a bounty hunter.",
+        "posterPath": "/sWgBv7LV2PRoQgkxwlibdGXKz1S.jpg",
+        "backdropPath": "/9zcbqSxdsRMZWHYtyCd1nXPr2xq.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Pedro Pascal",
+          "Katee Sackhoff"
+        ],
+        "streamingProviders": [
+          "Disney Plus"
+        ]
+      },
+      "mine": {
+        "title": "The Mandalorian",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "wandavision",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 85271,
+        "searchQuery": "WandaVision"
+      },
+      "cached": {
+        "title": "WandaVision",
+        "overview": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.",
+        "posterPath": "/frobUz2X5Pc8OiVZU8Oo5K3NKMM.jpg",
+        "backdropPath": "/lOr9NKxh4vMweufMOUDJjJhCRHW.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Mystery",
+          "Drama"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Elizabeth Olsen",
+          "Paul Bettany",
+          "Kathryn Hahn",
+          "Teyonah Parris",
+          "Randall Park"
+        ],
+        "streamingProviders": [
+          "Disney Plus"
+        ]
+      },
+      "mine": {
+        "title": "WandaVision",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "obi-wan-kenobi",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 92830,
+        "searchQuery": "Obi-Wan Kenobi"
+      },
+      "cached": {
+        "title": "Obi-Wan Kenobi",
+        "overview": "During the reign of the Galactic Empire, former Jedi Master, Obi-Wan Kenobi, embarks on a crucial mission to confront allies turned enemies and face the wrath of the Empire.",
+        "posterPath": "/4Lok3HBSfbQxibQZBygoVCwKKrZ.jpg",
+        "backdropPath": "/p3Jmm6d1ShUrJEuU3DYD2K19c66.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Ewan McGregor",
+          "Vivien Lyra Blair",
+          "Moses Ingram"
+        ],
+        "streamingProviders": [
+          "Disney Plus"
+        ]
+      },
+      "mine": {
+        "title": "Obi-Wan Kenobi",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "andor",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 83867,
+        "searchQuery": "Andor"
+      },
+      "cached": {
+        "title": "Andor",
+        "overview": "In an era filled with danger, deception and intrigue, Cassian Andor will discover the difference he can make in the struggle against the tyrannical Galactic Empire. He embarks on a path that is destined to turn him into a rebel hero.",
+        "posterPath": "/khZqmwHQicTYoS7Flreb9EddFZC.jpg",
+        "backdropPath": "/quCeAmVQHfsdcYkicbxZWVauCVb.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Action & Adventure",
+          "Drama"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Diego Luna"
+        ],
+        "streamingProviders": [
+          "Disney Plus"
+        ]
+      },
+      "mine": {
+        "title": "Andor",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "after-the-flood",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 241097,
+        "searchQuery": "After the Flood"
+      },
+      "cached": {
+        "title": "After the Flood",
+        "overview": "Joanna finds an unidentified man dead in a lift in a underground car park after a devastating flood, police assumes that he became trapped as the waters rose, but she is obsessed with discovering what happened to him.",
+        "posterPath": "/a5W5Z9HrXgtmxlKvmiU0bhqvuwf.jpg",
+        "backdropPath": "/u6qa4nE0CWRwTRoZXDUv6w1cIHR.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime",
+          "Mystery"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Sophie Rundle",
+          "Nicholas Gleaves",
+          "Matt Stokoe",
+          "Lorraine Ashbourne",
+          "Philip Glenister"
+        ],
+        "streamingProviders": [
+          "BritBox",
+          "BritBox Amazon Channel",
+          "Britbox Apple TV Channel "
+        ]
+      },
+      "mine": {
+        "title": "After the Flood",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "shetland",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 46923,
+        "searchQuery": "Shetland"
+      },
+      "cached": {
+        "title": "Shetland",
+        "overview": "Created from the novels by award winning crime writer Ann Cleeves, Shetland follows DI Jimmy Perez and his team as they investigate crime within the close knit island community. In this isolated and sometimes inhospitable environment, the team have to rely on a uniquely resourceful style of policing.",
+        "posterPath": "/rKnxmir8m5I3RdSTdZr3jaQaCZi.jpg",
+        "backdropPath": "/AdlDrgoNCDu3naYjZMwmiklBHnV.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "firstAirYear": "2013",
+        "topCast": [
+          "Ashley Jensen",
+          "Alison O'Donnell",
+          "Steven Robertson",
+          "Lewis Howden"
+        ],
+        "streamingProviders": [
+          "BritBox",
+          "BritBox Amazon Channel",
+          "Britbox Apple TV Channel "
+        ]
+      },
+      "mine": {
+        "title": "Shetland",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "task",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 228305,
+        "searchQuery": "Task"
+      },
+      "cached": {
+        "title": "Task",
+        "overview": "In the working-class suburbs of Philadelphia, an FBI agent heads a task force assembled to put an end to a string of violent robberies led by an unsuspecting family man.",
+        "posterPath": "/9JdL1aQdAQiyYYQ2xCqbHaEcZt8.jpg",
+        "backdropPath": "/hEE8TV5jLQZQnpPN4QmYZ1lCJNq.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2025",
+        "topCast": [
+          "Mark Ruffalo",
+          "Tom Pelphrey",
+          "Emilia Jones",
+          "Fabien Frankel",
+          "Thuso Mbedu"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "Spectrum On Demand",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Task",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "broadchurch",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1427,
+        "searchQuery": "Broadchurch"
+      },
+      "cached": {
+        "title": "Broadchurch",
+        "overview": "The murder of a young boy in a small coastal town brings a media frenzy, which threatens to tear the community apart.",
+        "posterPath": "/2NhBFUTg5KVBmGwafxtLwVdsqrr.jpg",
+        "backdropPath": "/66ieYewiusGZsUAbJGuefdo1GpS.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "firstAirYear": "2013",
+        "topCast": [
+          "David Tennant",
+          "Olivia Colman",
+          "Julie Hesmondhalgh",
+          "Mark Bazeley",
+          "Lenny Henry"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads",
+          "PBS",
+          "PBS Masterpiece Amazon Channel",
+          "Peacock Premium",
+          "Peacock Premium Plus",
+          "Thirteen",
+          "WETA+"
+        ]
+      },
+      "mine": {
+        "title": "Broadchurch",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "mare-of-easttown",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 115004,
+        "searchQuery": "Mare of Easttown"
+      },
+      "cached": {
+        "title": "Mare of Easttown",
+        "overview": "A detective in a small Pennsylvania town investigates a local murder while trying to keep her life from falling apart.",
+        "posterPath": "/78aK4Msbr22A5PGa6PZV0pAvdwf.jpg",
+        "backdropPath": "/7X1IGIl1JMJ9YFzJymCVoqZbvTR.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime",
+          "Mystery"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Kate Winslet",
+          "Jean Smart",
+          "Julianne Nicholson",
+          "Angourie Rice",
+          "Evan Peters"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Mare of Easttown",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "killing-eve",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 72750,
+        "searchQuery": "Killing Eve"
+      },
+      "cached": {
+        "title": "Killing Eve",
+        "overview": "A security consultant hunts for a ruthless assassin. Equally obsessed with each other, they go head to head in an epic game of cat-and-mouse.",
+        "posterPath": "/4wKhTVw8aGq5AZMa0Q1spERdi7n.jpg",
+        "backdropPath": "/2eR0H27Us1tvbjd95oW7WhiKioC.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Sandra Oh",
+          "Jodie Comer",
+          "Fiona Shaw",
+          "Kim Bodnia",
+          "Camille Cottin"
+        ],
+        "streamingProviders": [
+          "AMC+ Amazon Channel",
+          "BritBox",
+          "BritBox Amazon Channel",
+          "Britbox Apple TV Channel ",
+          "fuboTV",
+          "Netflix",
+          "Netflix Standard with Ads",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Spectrum On Demand",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Killing Eve",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-night-manager",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 61859,
+        "searchQuery": "The Night Manager"
+      },
+      "cached": {
+        "title": "The Night Manager",
+        "overview": "Former British soldier Jonathan Pine navigates the shadowy recesses of Whitehall and Washington where an unholy alliance operates between the intelligence community and the secret arms trade. To infiltrate the inner circle of lethal arms dealer Richard Onslow Roper, Pine must himself become a criminal.",
+        "posterPath": "/1MccRnw41qQjREuZkovqP2UX1i3.jpg",
+        "backdropPath": "/2vAOdruqvx9GojXxKi3xVsZZvKU.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery",
+          "Crime"
+        ],
+        "firstAirYear": "2016",
+        "topCast": [
+          "Tom Hiddleston",
+          "Hugh Laurie",
+          "Diego Calva",
+          "Camila Morrone",
+          "Paul Chahidi"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "The Night Manager",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "slow-horses",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 95480,
+        "searchQuery": "Slow Horses"
+      },
+      "cached": {
+        "title": "Slow Horses",
+        "overview": "Follow a dysfunctional team of MI5 agents—and their obnoxious boss, the notorious Jackson Lamb—as they navigate the espionage world's smoke and mirrors to defend England from sinister forces.",
+        "posterPath": "/5RuZZIouptatjV96BdPmKmRsnGg.jpg",
+        "backdropPath": "/bDfboQUb45Cv9MYyVBDZw8M8xSM.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama",
+          "Comedy"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Gary Oldman",
+          "Jack Lowden",
+          "Kristin Scott Thomas",
+          "Saskia Reeves",
+          "Christopher Chung"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Slow Horses",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-killing",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 34415,
+        "searchQuery": "The Killing"
+      },
+      "cached": {
+        "title": "The Killing",
+        "overview": "The Killing is an American crime drama television series based upon the Danish television series Forbrydelsen. Set in Seattle, Washington, the series follows the various murder investigations by homicide detectives Sarah Linden and Stephen Holder.",
+        "posterPath": "/3yiwAUNGn1rsPSVmFgVwPVJFtYf.jpg",
+        "backdropPath": "/LjXBJaNaBGgAsNHDYfFTwGOUWb.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime",
+          "Mystery"
+        ],
+        "firstAirYear": "2011",
+        "topCast": [
+          "Mireille Enos",
+          "Joel Kinnaman",
+          "Gregg Henry",
+          "Joan Allen",
+          "Sterling Beaumon"
+        ],
+        "streamingProviders": [
+          "Acorn TV",
+          "Acorn TV Apple TV",
+          "AcornTV Amazon Channel",
+          "AMC Plus Apple TV Channel ",
+          "AMC+",
+          "AMC+ Amazon Channel",
+          "Hulu",
+          "Philo",
+          "Spectrum On Demand",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "The Killing",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "hanna",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 54155,
+        "searchQuery": "Hanna"
+      },
+      "cached": {
+        "title": "Hanna",
+        "overview": "Follow the journey of an extraordinary young girl as she evades the relentless pursuit of an off-book CIA agent and tries to unearth the truth behind who she is.",
+        "posterPath": "/iYUtjx1EN4SVTgxd2TB4cZTGSQb.jpg",
+        "backdropPath": "/qLUtXJAylnWFwD8gQxKxbyctpYd.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Drama"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Esmé Creed-Miles",
+          "Mireille Enos",
+          "Dermot Mulroney",
+          "Ray Liotta"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Hanna",
         "status": "watching",
         "rating": null,
         "notes": "",
