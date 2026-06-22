@@ -48,7 +48,8 @@ export default function App() {
     }
   }, [])
 
-  const { reviews, getReview, saveReview, ready } = useReviews(true)
+  const { reviews, getReview, saveReview, ready, error: reviewsError } =
+    useReviews(true)
 
   function requestEdit() {
     if (canEdit) return
@@ -79,6 +80,12 @@ export default function App() {
       </header>
 
       <main className="app__main">
+        {reviewsError ? (
+          <p className="app__cloud-error" role="alert">
+            Could not load ratings from the cloud. Visitors may not see your
+            latest scores until this is fixed. ({reviewsError})
+          </p>
+        ) : null}
         {!ready ? (
           <p className="collection__empty">Loading…</p>
         ) : (

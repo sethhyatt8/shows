@@ -116,6 +116,16 @@
   padding-inline: 0.25rem;
 }
 
+.app__cloud-error {
+  margin: 0 0 0.75rem;
+  padding: 0.55rem 0.7rem;
+  font-size: 0.82rem;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  background: #fef2f2;
+}
+
 .app__footer {
   max-width: 100%;
   margin: 0 auto;

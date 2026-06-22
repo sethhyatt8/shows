@@ -61,12 +61,15 @@ async function fetchReviewsFromCloud(): Promise<{
 
 function cloudSaveHint(message: string): string {
   if (message.includes('does not exist') || message.includes('show_reviews')) {
-    return 'Saved on this device only. The cloud table still needs to be created in Supabase (see supabase/show-reviews.sql).'
+    return 'Could not sync to the cloud. Create the show_reviews table in Supabase (see supabase/show-reviews.sql).'
   }
   if (message.includes('status') && message.includes('column')) {
-    return 'Saved on this device only. Add the status column in Supabase (re-run supabase/show-reviews.sql).'
+    return 'Could not sync to the cloud. Add the status column in Supabase (re-run supabase/show-reviews.sql).'
   }
-  return `Saved on this device only. Cloud error: ${message}`
+  if (message.includes('show_reviews_status_check')) {
+    return 'Could not sync to the cloud. The database does not allow the Archived status yet — run supabase/add-archived-status.sql in the Supabase SQL Editor, then save again.'
+  }
+  return `Could not sync to the cloud: ${message}`
 }
 
 export function useReviews(enabled: boolean) {
@@ -139,10 +142,6 @@ export function useReviews(enabled: boolean) {
       const existing = reviews[showId] ?? defaultEntry(fallbackStatus)
       const entry = normalizeEntry(patch, existing)
 
-      const next = { ...reviews, [showId]: entry }
-      setReviews(next)
-      writeLocalEntries(next)
-
       const { error: saveError } = await supabase.from('show_reviews').upsert({
         show_id: showId,
         rating: entry.rating,
@@ -154,6 +153,10 @@ export function useReviews(enabled: boolean) {
       if (saveError) {
         throw new Error(cloudSaveHint(saveError.message))
       }
+
+      const next = { ...reviews, [showId]: entry }
+      setReviews(next)
+      writeLocalEntries(next)
 
       return entry
     },

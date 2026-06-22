@@ -41,14 +41,12 @@ export function ShowDetailModal({
   const [status, setStatus] = useState<WatchStatus>(review.status)
   const [saving, setSaving] = useState(false)
   const [saveError, setSaveError] = useState<string | null>(null)
-  const [saveNotice, setSaveNotice] = useState<string | null>(null)
 
   useEffect(() => {
     setRatingInput(review.rating == null ? '' : String(review.rating))
     setReviewText(review.review)
     setStatus(review.status)
     setSaveError(null)
-    setSaveNotice(null)
   }, [review, item.id])
 
   useEffect(() => {
@@ -67,7 +65,6 @@ export function ShowDetailModal({
     }
     setSaving(true)
     setSaveError(null)
-    setSaveNotice(null)
     try {
       const trimmed = ratingInput.trim()
       const rating =
@@ -80,11 +77,7 @@ export function ShowDetailModal({
       onClose()
     } catch (err) {
       const msg = err instanceof Error ? err.message : 'Could not save'
-      if (msg.includes('Saved on this device only')) {
-        setSaveNotice(msg)
-      } else {
-        setSaveError(msg)
-      }
+      setSaveError(msg)
     } finally {
       setSaving(false)
     }
@@ -197,11 +190,6 @@ export function ShowDetailModal({
                 {saveError ? (
                   <p className="modal__error" role="alert">
                     {saveError}
-                  </p>
-                ) : null}
-                {saveNotice ? (
-                  <p className="modal__notice" role="status">
-                    {saveNotice}
                   </p>
                 ) : null}
 
