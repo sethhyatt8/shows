@@ -15,8 +15,8 @@
         "backdropPath": "/u6XtMg9Ai9siEbEs0UudPS3EaZY.jpg",
         "genreNames": [
           "Drama",
-          "Mystery",
-          "Comedy"
+          "Comedy",
+          "Mystery"
         ],
         "firstAirYear": "2026",
         "topCast": [
@@ -878,7 +878,7 @@
         "title": "Arrested Development",
         "overview": "The story of a wealthy family that lost everything, and the one son who had no choice but to keep them all together.",
         "posterPath": "/p4r4RD7RsNcJVoz0H6z3dBoTBtW.jpg",
-        "backdropPath": "/8qn0u64JXSgnGKe2KkKqrfH7V84.jpg",
+        "backdropPath": "/qCXY93t7QnKp6aWT1WKaQo0Qt5r.jpg",
         "genreNames": [
           "Comedy"
         ],
@@ -2943,27 +2943,29 @@
       "id": "patriot",
       "kind": "tv",
       "external": {
-        "tmdbId": 65495,
+        "tmdbId": 64396,
         "searchQuery": "Patriot"
       },
       "cached": {
-        "title": "Atlanta",
-        "overview": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
-        "posterPath": "/8HZyGMnPLVVb00rmrh6A2SbK9NX.jpg",
-        "backdropPath": "/vN84JlTvOZvZzxi0D2SJQNFvtjS.jpg",
+        "title": "Patriot",
+        "overview": "To prevent Iran from going nuclear, intelligence officer John Tavner must forgo all safety nets and assume a perilous \"non-official cover\" -- that of a mid-level employee at a Midwestern industrial piping firm.",
+        "posterPath": "/xq3xeWFfjb8UeNy1y9JMUhL6Ptq.jpg",
+        "backdropPath": "/4GTyMbiZCdMAlAW446IEQg1mGCU.jpg",
         "genreNames": [
           "Comedy",
           "Drama"
         ],
-        "firstAirYear": "2016",
+        "firstAirYear": "2015",
         "topCast": [
-          "Donald Glover",
-          "Brian Tyree Henry",
-          "LaKeith Stanfield",
-          "Zazie Beetz"
+          "Michael Dorman",
+          "Terry O'Quinn",
+          "Kurtwood Smith",
+          "Michael Chernus",
+          "Kathleen Munroe"
         ],
         "streamingProviders": [
-          "Hulu"
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
         ]
       },
       "mine": {
@@ -4085,6 +4087,1238 @@
       },
       "mine": {
         "title": "Hanna",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "30-rock",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 4608,
+        "searchQuery": "30 Rock"
+      },
+      "cached": {
+        "title": "30 Rock",
+        "overview": "Liz Lemon, the head writer for a late-night TV variety show in New York, tries to juggle all the egos around her while chasing her own dream.",
+        "posterPath": "/eYYQWACx7ttUzRwTNYuo6zveqpE.jpg",
+        "backdropPath": "/cGQmSoB0e0bpuNJky5xj6U61erq.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2006",
+        "topCast": [
+          "Tina Fey",
+          "Alec Baldwin",
+          "Tracy Morgan",
+          "Jane Krakowski",
+          "Jack McBrayer"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Hulu",
+          "Peacock Premium",
+          "Peacock Premium Plus"
+        ]
+      },
+      "mine": {
+        "title": "30 Rock",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "afterlife",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 79410,
+        "searchQuery": "After Life"
+      },
+      "cached": {
+        "title": "After Life",
+        "overview": "Tony had a perfect life. But after his wife Lisa suddenly dies, Tony changes. After contemplating taking his own life, he decides instead to live long enough to punish the world by saying and doing whatever he likes from now on.",
+        "posterPath": "/6eJf4h9XcvqK64vbx27EFlLVURm.jpg",
+        "backdropPath": "/AeVleqwWBMkiliVw6lFZICTTMiO.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Ricky Gervais",
+          "Tom Basden",
+          "Kerry Godliman",
+          "David Bradley",
+          "Joe Wilkinson"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "After Life",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "ahsoka",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 114461,
+        "searchQuery": "Ahsoka"
+      },
+      "cached": {
+        "title": "Ahsoka",
+        "overview": "Former Jedi Knight Ahsoka Tano investigates an emerging threat to a vulnerable galaxy.",
+        "posterPath": "/eiJeWeCAEZAmRppnXHiTWDcCd3Q.jpg",
+        "backdropPath": "/loDy1LWCkPjECjVTRmyKtOoUpNN.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Action & Adventure",
+          "Drama"
+        ],
+        "firstAirYear": "2023",
+        "topCast": [
+          "Rosario Dawson",
+          "Natasha Liu Bordizzo",
+          "Ray Stevenson",
+          "Ivanna Sakhno",
+          "Mary Elizabeth Winstead"
+        ],
+        "streamingProviders": [
+          "Disney Plus"
+        ]
+      },
+      "mine": {
+        "title": "Ahsoka",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "altered-carbon",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 68421,
+        "searchQuery": "Altered Carbon"
+      },
+      "cached": {
+        "title": "Altered Carbon",
+        "overview": "After 250 years on ice, a prisoner returns to life in a new body with one chance to win his freedom: by solving a mind-bending murder.",
+        "posterPath": "/AisK4uFsnwwmMkSynFpNl0VeGR.jpg",
+        "backdropPath": "/A6I3M4MIA2Pi2gS6vGdg2eVlVXT.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Anthony Mackie",
+          "Renée Elise Goldsberry",
+          "Chris Conner",
+          "Lela Loren",
+          "Simone Missick"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Altered Carbon",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "all-the-light-we-cannot-see",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 155421,
+        "searchQuery": "All the Light We Cannot See"
+      },
+      "cached": {
+        "title": "All the Light We Cannot See",
+        "overview": "A blind French girl and a young German soldier's paths collide during WWII.",
+        "posterPath": "/5vctOvdEXakZWTJrP8bgPEoCbqS.jpg",
+        "backdropPath": "/zJ4MVqFge0XnrDnpjo6l6Mz7lmz.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2023",
+        "topCast": [
+          "Aria Mia Loberti",
+          "Louis Hofmann",
+          "Lars Eidinger",
+          "Hugh Laurie",
+          "Mark Ruffalo"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "All the Light We Cannot See",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "american-primeval",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 215866,
+        "searchQuery": "American Primeval"
+      },
+      "cached": {
+        "title": "American Primeval",
+        "overview": "A mother and son fleeing from their past form a found family while confronting a harsh landscape of freedom and cruelty in the American West.",
+        "posterPath": "/ff0s9OHGNSZL6cVteIb7LNvTnJD.jpg",
+        "backdropPath": "/1FxG2lmDYsCM1svJf7H79HNNwu2.jpg",
+        "genreNames": [
+          "Western",
+          "Drama",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2025",
+        "topCast": [
+          "Taylor Kitsch",
+          "Betty Gilpin",
+          "Dane DeHaan",
+          "Saura Lightfoot-Leon",
+          "Derek Hinkey"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "American Primeval",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "angel",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 2426,
+        "searchQuery": "Angel"
+      },
+      "cached": {
+        "title": "Angel",
+        "overview": "The vampire Angel, cursed with a soul, moves to Los Angeles and aids people with supernatural-related problems while questing for his own redemption. A spin-off from Buffy the Vampire Slayer.",
+        "posterPath": "/7dRU3wdMJba3PedicxEYSks0oJx.jpg",
+        "backdropPath": "/38g8BjnbRpxdTER5guYi6ANWsjk.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama"
+        ],
+        "firstAirYear": "1999",
+        "topCast": [
+          "David Boreanaz",
+          "Amy Acker",
+          "Alexis Denisof",
+          "J. August Richards",
+          "James Marsters"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Angel",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "archive-81",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 112314,
+        "searchQuery": "Archive 81"
+      },
+      "cached": {
+        "title": "Archive 81",
+        "overview": "An archivist takes a job restoring damaged videotapes and gets pulled into the vortex of a mystery involving the missing director and a demonic cult.",
+        "posterPath": "/l1jeSEm6a88GFcLzlHQr60D0dOi.jpg",
+        "backdropPath": "/7TYMho2TM6ZcqSv6YaEjlNIyhXn.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Mamoudou Athie",
+          "Dina Shihabi",
+          "Evan Jonigkeit",
+          "Martin Donovan",
+          "Matt McGorry"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Archive 81",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "inside-amy-schumer",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 47562,
+        "searchQuery": "Inside Amy Schumer"
+      },
+      "cached": {
+        "title": "Inside Amy Schumer",
+        "overview": "Take a journey into the provocative and hilariously wicked mind of Amy Schumer as she explores topics revolving around sex, relationships, and the general clusterf*ck that is life. Through a series of scripted vignettes, stand-up comedy, and man-on-the street candid interviews, Schumer tackles various themes such as \"Denial,\" \"Getting Your Way,\" and \"Threesomes.\"",
+        "posterPath": "/f2CwT3O7WD03hJrZNNE4BtWt9sd.jpg",
+        "backdropPath": "/qjGXz109aeJvO34FAhCR2XTRmtm.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2013",
+        "topCast": [
+          "Amy Schumer"
+        ],
+        "streamingProviders": []
+      },
+      "mine": {
+        "title": "Inside Amy Schumer",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "atypical",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 71578,
+        "searchQuery": "Atypical"
+      },
+      "cached": {
+        "title": "Atypical",
+        "overview": "Sam, an 18-year-old on the autism spectrum, takes a funny, yet painful, journey of self-discovery for love and independence and upends his family.",
+        "posterPath": "/kNif3eZAjQ7qU3Ol9E7zo0kjPMo.jpg",
+        "backdropPath": "/1VSwy48zZE5EchorC3ra1entcj6.jpg",
+        "genreNames": [
+          "Drama",
+          "Comedy"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Keir Gilchrist",
+          "Jennifer Jason Leigh",
+          "Jack Haven",
+          "Michael Rapaport"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Atypical",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "atlanta",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 65495,
+        "searchQuery": "Atlanta"
+      },
+      "cached": {
+        "title": "Atlanta",
+        "overview": "Two cousins work through the Atlanta music scene in order to better their lives and the lives of their families.",
+        "posterPath": "/8HZyGMnPLVVb00rmrh6A2SbK9NX.jpg",
+        "backdropPath": "/vN84JlTvOZvZzxi0D2SJQNFvtjS.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2016",
+        "topCast": [
+          "Donald Glover",
+          "Brian Tyree Henry",
+          "LaKeith Stanfield",
+          "Zazie Beetz"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Atlanta",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bad-sisters",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 199318,
+        "searchQuery": "Bad Sisters"
+      },
+      "cached": {
+        "title": "Bad Sisters",
+        "overview": "The tight-knit Garvey sisters have always looked out for one another. But when the toxic brother-in-law they all wanted dead actually dies, it turns their lives upside down and tests their bond like nothing before.",
+        "posterPath": "/z63D1Y8udrrFOhLFCT9YElcTr0w.jpg",
+        "backdropPath": "/aAVRi7XqkJZE6uUEn2Enbhj8rPx.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Sharon Horgan",
+          "Eva Birthistle",
+          "Sarah Greene",
+          "Eve Hewson",
+          "Owen McDonnell"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Bad Sisters",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "band-of-brothers",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 4613,
+        "searchQuery": "Band of Brothers"
+      },
+      "cached": {
+        "title": "Band of Brothers",
+        "overview": "Drawn from interviews with survivors of Easy Company, as well as their journals and letters, Band of Brothers chronicles the experiences of these men from paratrooper training in Georgia through the end of the war. As an elite rifle company parachuting into Normandy early on D-Day morning, participants in the Battle of the Bulge, and witness to the horrors of war, the men of Easy knew extraordinary bravery and extraordinary fear - and became the stuff of legend. Based on Stephen E. Ambrose's acclaimed book of the same name.",
+        "posterPath": "/pGzV187ogXzgJrvPRy2YPi29ofH.jpg",
+        "backdropPath": "/2yDV0xLyqW88dn5qE7YCRnoYmfy.jpg",
+        "genreNames": [
+          "Drama",
+          "War & Politics"
+        ],
+        "firstAirYear": "2001",
+        "topCast": [
+          "Michael Cudlitz",
+          "Rick Gomez",
+          "Scott Grimes",
+          "Damian Lewis",
+          "Ron Livingston"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Band of Brothers",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "barbarians",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 93785,
+        "searchQuery": "Barbarians"
+      },
+      "cached": {
+        "title": "Barbarians",
+        "overview": "Three people's fates are interwoven in the Battle of the Teutoburg Forest in 9 A.D., during which Germanic warriors halt the spread of the Roman Empire.",
+        "posterPath": "/r3cUaeLUGT8c0YIR8qCDDH2iJSU.jpg",
+        "backdropPath": "/iU955nBcsc5Zr5e31eWU2xKVqHk.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Drama"
+        ],
+        "firstAirYear": "2020",
+        "topCast": [
+          "Laurence Rupp",
+          "Jeanne Goursaud",
+          "David Schütter",
+          "Gaetano Aronica",
+          "Bernhard Schütz"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Barbarians",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "barry",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 73107,
+        "searchQuery": "Barry"
+      },
+      "cached": {
+        "title": "Barry",
+        "overview": "A hit man from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.",
+        "posterPath": "/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
+        "backdropPath": "/nfjqhuGFUWqJD14B4fxlSiZWfeR.jpg",
+        "genreNames": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Bill Hader",
+          "Sarah Goldberg",
+          "Anthony Carrigan",
+          "Henry Winkler",
+          "Stephen Root"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Barry",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "beef",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 154385,
+        "searchQuery": "Beef"
+      },
+      "cached": {
+        "title": "BEEF",
+        "overview": "A road rage incident between two strangers — a failing contractor and an unfulfilled entrepreneur — sparks a feud that brings out their darkest impulses.",
+        "posterPath": "/25ih0Xq2zWbxhhKxwhvswKYQyEr.jpg",
+        "backdropPath": "/2VHbof9yaNhovEnaancBkXEULCT.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2023",
+        "topCast": [
+          "Oscar Isaac",
+          "Carey Mulligan",
+          "Cailee Spaeny",
+          "Charles Melton",
+          "Youn Yuh-jung"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Beef",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "better-than-us",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 84380,
+        "searchQuery": "Better Than Us"
+      },
+      "cached": {
+        "title": "Better Than Us",
+        "overview": "Moscow in a not so distant future where human beings share their daily lives with robots. Georgy, a forensic who has a robot assistant, suddenly finds himself caught up in the first murder committed by a new kind of experimental humanoid.",
+        "posterPath": "/dUigUEoz7IlImY4uJLtqnLRYEU3.jpg",
+        "backdropPath": "/oWnSXChfNMZbAdNyxorSTZb8qsI.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Paulina Andreeva",
+          "Kirill Käro",
+          "Olga Lomonosova",
+          "Vitaliya Kornienko",
+          "Eldar Kalimulin"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Better Than Us",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "big-little-lies",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 66292,
+        "searchQuery": "Big Little Lies"
+      },
+      "cached": {
+        "title": "Big Little Lies",
+        "overview": "The tale of three mothers of first graders whose apparently perfect lives unravel to the point of murder.",
+        "posterPath": "/b4HNJOc2N6SGyEhf2RagdpAKBK6.jpg",
+        "backdropPath": "/8Wo2Pqjxn7Xmd7p2dxRMIJtyMV7.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Nicole Kidman",
+          "Reese Witherspoon",
+          "Shailene Woodley",
+          "Laura Dern",
+          "Alexander Skarsgård"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Big Little Lies",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "big-love",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 4392,
+        "searchQuery": "Big Love"
+      },
+      "cached": {
+        "title": "Big Love",
+        "overview": "The story of Bill Henrickson and his life in suburban Salt Lake City, balancing the needs of his three wives -- Barb, Nicki and Margene-- their seven kids, three new houses and the opening of his newest hardware store. When disturbing news arrives about Bill's father, he is forced to reconnect with his polygamist parents who live on a fundamentalist compound in rural Utah.",
+        "posterPath": "/38aaxDXz4qim9M85VTzpUecKlq9.jpg",
+        "backdropPath": "/tmkOxFigy2CS0ZCUTAC6nDidflT.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2006",
+        "topCast": [
+          "Bill Paxton",
+          "Jeanne Tripplehorn",
+          "Chloë Sevigny",
+          "Ginnifer Goodwin",
+          "Grace Zabriskie"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Big Love",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "black-doves",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 225385,
+        "searchQuery": "Black Doves"
+      },
+      "cached": {
+        "title": "Black Doves",
+        "overview": "When a spy posing as a politician's wife learns her lover has been murdered, an old assassin friend joins her on a quest for truth — and vengeance.",
+        "posterPath": "/uoXtkm2P4HPPL8T3IBJ02G3hCC4.jpg",
+        "backdropPath": "/hP5pMJfxbY9p72LgEY6j9qGidtE.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Mystery",
+          "Crime"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Keira Knightley",
+          "Ben Whishaw",
+          "Sarah Lancashire"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Black Doves",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "black-bird",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 155537,
+        "searchQuery": "Black Bird"
+      },
+      "cached": {
+        "title": "Black Bird",
+        "overview": "As Jimmy Keene begins a 10-year prison sentence, he gets an incredible offer: If he can elicit a confession from suspected killer Larry Hall, Jimmy will be freed. Completing this mission becomes the challenge of a lifetime.",
+        "posterPath": "/qu312pwM61NPTr7nexvovCClDNP.jpg",
+        "backdropPath": "/o2C222QdW4dmoyd2dgPlnCcI3cW.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Taron Egerton",
+          "Paul Walter Hauser",
+          "Sepideh Moafi",
+          "Greg Kinnear",
+          "Ray Liotta"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Black Bird",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "blockbuster",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 201874,
+        "searchQuery": "Blockbuster"
+      },
+      "cached": {
+        "title": "Blockbuster",
+        "overview": "In this feel-good workplace comedy, the staff at the last surviving Blockbuster video store tries to keep the business afloat.",
+        "posterPath": "/1seIJ8wIKo3KXp7hnwS5wj69U8M.jpg",
+        "backdropPath": "/kkasrgvyhb0sW45FUKb4poWBrfr.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Randall Park",
+          "Melissa Fumero",
+          "Olga Merediz",
+          "Tyler Alvarez",
+          "Madeleine Arthur"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Blockbuster",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bloodline",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 61986,
+        "searchQuery": "Bloodline"
+      },
+      "cached": {
+        "title": "Bloodline",
+        "overview": "A dramatic thriller that explores the demons lurking beneath the surface of a contemporary American family. The Rayburns are hard-working pillars of their Florida Keys community. But when the black sheep son comes home for the 45th anniversary of his parents' hotel, he threatens to expose the Rayburns' dark secrets and shameful past, pushing his siblings to the limits of family loyalty.",
+        "posterPath": "/uEaqgEjAShqrziUia4XBzvXXGXP.jpg",
+        "backdropPath": "/78s4wDyITtvjMRHHn2Rk7IPCtcg.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2015",
+        "topCast": [
+          "Kyle Chandler",
+          "Linda Cardellini",
+          "Norbert Leo Butz",
+          "Jamie McShane",
+          "Sissy Spacek"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Bloodline",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bobs-burgers",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 32726,
+        "searchQuery": "Bob's Burgers"
+      },
+      "cached": {
+        "title": "Bob's Burgers",
+        "overview": "Bob's Burgers follows a third-generation restaurateur, Bob, as he runs Bob's Burgers with the help of his wife and their three kids. Bob and his quirky family have big ideas about burgers, but fall short on service and sophistication. Despite the greasy counters, lousy location and a dearth of customers, Bob and his family are determined to make Bob's Burgers \"grand re-re-re-opening\" a success.",
+        "posterPath": "/iIHsQe3Qjs3NH62HdamyQEPeqTR.jpg",
+        "backdropPath": "/rUABoTPO0OLq2wlHiFWezxpV6fo.jpg",
+        "genreNames": [
+          "Animation",
+          "Comedy"
+        ],
+        "firstAirYear": "2011",
+        "topCast": [
+          "H. Jon Benjamin",
+          "John Roberts",
+          "Kristen Schaal",
+          "Eugene Mirman",
+          "Dan Mintz"
+        ],
+        "streamingProviders": [
+          "Adult Swim",
+          "FOX One Amazon Channel",
+          "fuboTV",
+          "Hulu",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Bob's Burgers",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bodies",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 233629,
+        "searchQuery": "Bodies"
+      },
+      "cached": {
+        "title": "Bodies",
+        "overview": "One victim, found dead on a London street. Four detectives, in four different time periods, must solve the mystery to protect Britain's future.",
+        "posterPath": "/qWX71nLvoLsBNPEjddZMC75lq6I.jpg",
+        "backdropPath": "/zdE0HzIFadTkGliGyh8DbMuZ3IH.jpg",
+        "genreNames": [
+          "Crime",
+          "Mystery",
+          "Sci-Fi & Fantasy",
+          "Drama"
+        ],
+        "firstAirYear": "2023",
+        "topCast": [
+          "Jacob Fortune-Lloyd",
+          "Shira Haas",
+          "Amaka Okafor",
+          "Kyle Soller",
+          "Greta Scacchi"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Bodies",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bodyguard",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 80307,
+        "searchQuery": "Bodyguard"
+      },
+      "cached": {
+        "title": "Bodyguard",
+        "overview": "A troubled war veteran is assigned to protect a controversial politician who may be the target of a terror plot.",
+        "posterPath": "/5DUJTrHTRLHLCKWriPhdusQogAv.jpg",
+        "backdropPath": "/tvYf5SOIgAumuVoYn2eYKlotAbf.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama",
+          "War & Politics",
+          "Mystery"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Richard Madden",
+          "Keeley Hawes",
+          "Sophie Rundle",
+          "Gina McKee",
+          "Pippa Haywood"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Bodyguard",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-book-of-boba-fett",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 115036,
+        "searchQuery": "The Book of Boba Fett"
+      },
+      "cached": {
+        "title": "The Book of Boba Fett",
+        "overview": "Legendary bounty hunter Boba Fett and mercenary Fennec Shand must navigate the galaxy’s underworld when they return to the sands of Tatooine to stake their claim on the territory once ruled by Jabba the Hutt and his crime syndicate.",
+        "posterPath": "/gNbdjDi1HamTCrfvM9JeA94bNi2.jpg",
+        "backdropPath": "/oMWnpUUCeIqvTdP3IYZ0JnPdrmU.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Temuera Morrison",
+          "Ming-Na Wen"
+        ],
+        "streamingProviders": [
+          "Disney Plus"
+        ]
+      },
+      "mine": {
+        "title": "The Book of Boba Fett",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-boondocks",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 2604,
+        "searchQuery": "The Boondocks"
+      },
+      "cached": {
+        "title": "The Boondocks",
+        "overview": "When Robert “Granddad” Freeman becomes legal guardian to his two grandsons, he moves from the tough south side of Chicago to the upscale neighborhood of Woodcrest (a.k.a. \"The Boondocks\") so he can enjoy his golden years in safety and comfort. But with Huey, a 10-year-old leftist revolutionary, and his eight-year-old misfit brother, Riley, suburbia is about to be shaken up.",
+        "posterPath": "/vAvT2RXjOpgH0COriRm9riPqA0m.jpg",
+        "backdropPath": "/plF7qKlXww8zwoNnXsSP6ifQpUt.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Comedy",
+          "Animation"
+        ],
+        "firstAirYear": "2005",
+        "topCast": [
+          "Regina King",
+          "John Witherspoon",
+          "Cedric Yarbrough",
+          "Jill Talley",
+          "Gary Anthony Williams"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "The Boondocks",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "bored-to-death",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 31078,
+        "searchQuery": "Bored to Death"
+      },
+      "cached": {
+        "title": "Bored to Death",
+        "overview": "Jonathan Ames, a young Brooklyn writer, is feeling lost. He's just gone through a painful break-up, thanks in part to his drinking, can't write his second novel, and carouses too much with his magazine editor. Rather than face reality, Jonathan turns instead to his fantasies — moonlighting as a private detective — because he wants to be a hero and a man of action.",
+        "posterPath": "/eCHirPRvImk6wTLJMKI8vVNVcOT.jpg",
+        "backdropPath": "/mtv5piXIGnkKDBLPHhU0Zeh5r1U.jpg",
+        "genreNames": [
+          "Comedy",
+          "Crime",
+          "Mystery",
+          "Drama"
+        ],
+        "firstAirYear": "2009",
+        "topCast": [
+          "Jason Schwartzman",
+          "Zach Galifianakis",
+          "Ted Danson",
+          "Heather Burns"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Bored to Death",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "borgen",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 42445,
+        "searchQuery": "Borgen"
+      },
+      "cached": {
+        "title": "Borgen",
+        "overview": "40-year old political leader Birgitte Nyborg secures her party a landslide victory through her idealism and huge effort, then faces the biggest challenge of her life: how most effectively to use the newly won seats, and how far she is willing to go in order to gain as much influence as possible.",
+        "posterPath": "/3wB4R3Ac3lKSQWKpoU0zeRY8XqL.jpg",
+        "backdropPath": "/ooFxDrNQl5cwnQOuQCuMDRCJrbF.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2010",
+        "topCast": [
+          "Sidse Babett Knudsen",
+          "Birgitte Hjort Sørensen",
+          "Mikael Birkkjær",
+          "Lars Knutzon",
+          "Søren Malling"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Borgen",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "britannia",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 70484,
+        "searchQuery": "Britannia"
+      },
+      "cached": {
+        "title": "Britannia",
+        "overview": "An epic drama set in 43AD as the Roman Imperial Army – determined and terrified in equal measure - returns to crush the Celtic heart of Britannia - a mysterious land ruled by warrior women and powerful druids who can channel the powerful forces of the underworld. Or so they say.",
+        "posterPath": "/fjdXymXAas9NSehc6GCOHQcEM05.jpg",
+        "backdropPath": "/9I27ONgKUNlboFFT35el1MZYKnN.jpg",
+        "genreNames": [
+          "Drama",
+          "Sci-Fi & Fantasy",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Kelly Reilly",
+          "David Morrissey",
+          "Nikolaj Lie Kaas",
+          "Zoë Wanamaker",
+          "Stanley Weber"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "fuboTV",
+          "MGM Plus",
+          "MGM Plus Roku Premium Channel",
+          "MGM+ Amazon Channel",
+          "Philo",
+          "Spectrum On Demand",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Britannia",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "broad-city",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 60839,
+        "searchQuery": "Broad City"
+      },
+      "cached": {
+        "title": "Broad City",
+        "overview": "Broad City follows two women throughout their daily lives in New York City, making the smallest and mundane events hysterical and disturbing to watch all at the same time.",
+        "posterPath": "/fRu9zQFdWHjEVyHwnIYqm0LRoKA.jpg",
+        "backdropPath": "/r0Fx0BJn71eJLYGvojcgHRec2Lx.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2014",
+        "topCast": [
+          "Abbi Jacobson",
+          "Ilana Glazer"
+        ],
+        "streamingProviders": [
+          "Hulu",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ]
+      },
+      "mine": {
+        "title": "Broad City",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "workaholics",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 36994,
+        "searchQuery": "Workaholics"
+      },
+      "cached": {
+        "title": "Workaholics",
+        "overview": "The misadventures of three recent college dropouts, roommates, and co-workers at a telemarketing company and their drug dealer.",
+        "posterPath": "/kXg4tFUHN7h7bNdBTeLIIKqw9UJ.jpg",
+        "backdropPath": "/zDSvUcCR2nkrGhLUTIgqQ18P27U.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2011",
+        "topCast": [
+          "Adam Devine",
+          "Blake Anderson",
+          "Anders Holm"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "fuboTV",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Philo",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Workaholics",
         "status": "watching",
         "rating": null,
         "notes": "",
