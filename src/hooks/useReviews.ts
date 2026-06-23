@@ -26,6 +26,8 @@ function rowToEntry(row: ReviewRow): ShowReview {
     review: row.review ?? '',
     status:
       status === 'watching' ||
+      status === 'current' ||
+      status === 'new-season-soon' ||
       status === 'completed' ||
       status === 'dropped' ||
       status === 'queued' ||
@@ -67,7 +69,7 @@ function cloudSaveHint(message: string): string {
     return 'Could not sync to the cloud. Add the status column in Supabase (re-run supabase/show-reviews.sql).'
   }
   if (message.includes('show_reviews_status_check')) {
-    return 'Could not sync to the cloud. The database does not allow the Archived status yet — run supabase/add-archived-status.sql in the Supabase SQL Editor, then save again.'
+    return 'Could not sync to the cloud. Run supabase/add-watch-statuses.sql in the Supabase SQL Editor, then save again.'
   }
   return `Could not sync to the cloud: ${message}`
 }

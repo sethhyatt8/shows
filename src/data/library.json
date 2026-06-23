@@ -1593,8 +1593,7 @@
           "Paramount Plus Essential",
           "Paramount Plus Premium",
           "Paramount+ Amazon Channel",
-          "Paramount+ Roku Premium Channel",
-          "Philo"
+          "Paramount+ Roku Premium Channel"
         ]
       },
       "mine": {
@@ -5319,6 +5318,270 @@
       },
       "mine": {
         "title": "Workaholics",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "dune-prophecy",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 90228,
+        "searchQuery": "Dune: Prophecy"
+      },
+      "cached": {
+        "title": "Dune: Prophecy",
+        "overview": "Ten thousand years before the ascension of Paul Atreides, sisters Valya and Tula Harkonnen establish the fabled sect and female order that would become known as the Bene Gesserit to control the future of humankind.",
+        "posterPath": "/oWVohNsxkxA3u92EzRo8fTuXIS0.jpg",
+        "backdropPath": "/lBoHzOgft2QfpjkVVvZCqeM4ttT.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Emily Watson",
+          "Olivia Williams",
+          "Travis Fimmel",
+          "Jodhi May",
+          "Sarah-Sofie Boussnina"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Dune: Prophecy",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-witcher",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 71912,
+        "searchQuery": "The Witcher"
+      },
+      "cached": {
+        "title": "The Witcher",
+        "overview": "Geralt of Rivia, a mutated monster-hunter for hire, journeys toward his destiny in a turbulent world where people often prove more wicked than beasts.",
+        "posterPath": "/AoGsDM02UVt0npBA8OvpDcZbaMi.jpg",
+        "backdropPath": "/foGkPxpw9h8zln81j63mix5B7m8.jpg",
+        "genreNames": [
+          "Drama",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Liam Hemsworth",
+          "Anya Chalotra",
+          "Freya Allan",
+          "Joey Batey",
+          "Eamon Farren"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "The Witcher",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-pacific",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 16997,
+        "searchQuery": "The Pacific"
+      },
+      "cached": {
+        "title": "The Pacific",
+        "overview": "Track the intertwined real-life stories of three U.S. Marines – Robert Leckie, John Basilone, and Eugene Sledge – across the vast canvas of the Pacific Theater during World War II. A companion piece to the 2001 miniseries Band of Brothers.",
+        "posterPath": "/x9Y1IMFdY8Ma222KcQadFEau0EB.jpg",
+        "backdropPath": "/nWfpVLgioDXQsAbfL6UJxYz6d3d.jpg",
+        "genreNames": [
+          "Drama",
+          "Action & Adventure",
+          "War & Politics"
+        ],
+        "firstAirYear": "2010",
+        "topCast": [
+          "James Badge Dale",
+          "Jon Seda",
+          "Joseph Mazzello",
+          "Ashton Holmes",
+          "Jacob Pitts"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "The Pacific",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "alice-in-borderland",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 110316,
+        "searchQuery": "Alice in Borderland"
+      },
+      "cached": {
+        "title": "Alice in Borderland",
+        "overview": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.",
+        "posterPath": "/Ac8ruycRXzgcsndTZFK6ouGA0FA.jpg",
+        "backdropPath": "/QZaPkNUvhdcKONuO2fXuqtcQRo.jpg",
+        "genreNames": [
+          "Mystery",
+          "Drama",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2020",
+        "topCast": [
+          "Kento Yamazaki",
+          "Tao Tsuchiya"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Alice in Borderland",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "squid-game",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 93405,
+        "searchQuery": "Squid Game"
+      },
+      "cached": {
+        "title": "Squid Game",
+        "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits — with deadly high stakes.",
+        "posterPath": "/1QdXdRYfktUSONkl1oD5gc6Be0s.jpg",
+        "backdropPath": "/2meX1nMdScFOoV4370rqHWKmXhY.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Mystery",
+          "Drama"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Lee Jung-jae",
+          "Yim Si-wan",
+          "Wi Ha-jun",
+          "Jo Yu-ri",
+          "Lee Byung-hun"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Squid Game",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "stranger-things",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 66732,
+        "searchQuery": "Stranger Things"
+      },
+      "cached": {
+        "title": "Stranger Things",
+        "overview": "When a young boy vanishes, a small town uncovers a mystery involving secret experiments, terrifying supernatural forces, and one strange little girl.",
+        "posterPath": "/uOOtwVbSr4QDjAGIifLDwpb2Pdl.jpg",
+        "backdropPath": "/56v2KjBlU4XaOv9rVYEQypROD7P.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2016",
+        "topCast": [
+          "Winona Ryder",
+          "David Harbour",
+          "Millie Bobby Brown",
+          "Finn Wolfhard",
+          "Gaten Matarazzo"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Stranger Things",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "fallout",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 106379,
+        "searchQuery": "Fallout"
+      },
+      "cached": {
+        "title": "Fallout",
+        "overview": "The story of haves and have-nots in a world in which there's almost nothing left to have. 200 years after the apocalypse, the gentle denizens of luxury fallout shelters are forced to return to the irradiated hellscape their ancestors left behind — and are shocked to discover an incredibly complex, gleefully weird, and highly violent universe waiting for them.",
+        "posterPath": "/c15BtJxCXMrISLVmysdsnZUPQft.jpg",
+        "backdropPath": "/coaPCIqQBPUZsOnJcWZxhaORcDT.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Sci-Fi & Fantasy",
+          "Drama"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Ella Purnell",
+          "Aaron Moten",
+          "Moisés Arias",
+          "Frances Turner",
+          "Kyle MacLachlan"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Fallout",
         "status": "watching",
         "rating": null,
         "notes": "",

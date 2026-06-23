@@ -1,4 +1,4 @@
--- Run once in Supabase SQL Editor if you already created show_reviews earlier.
+-- Run once in Supabase SQL Editor if show_reviews already exists.
 
 alter table public.show_reviews drop constraint if exists show_reviews_status_check;
 

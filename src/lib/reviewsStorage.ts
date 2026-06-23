@@ -5,6 +5,8 @@ const LOCAL_KEY = 'shows-entries-v1'
 
 const VALID_STATUS = new Set<WatchStatus>([
   'watching',
+  'current',
+  'new-season-soon',
   'completed',
   'dropped',
   'queued',

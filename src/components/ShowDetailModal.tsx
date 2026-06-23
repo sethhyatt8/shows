@@ -3,14 +3,7 @@ import type { LibraryTvItem, WatchStatus } from '../types/library'
 import type { ShowReview } from '../types/reviews'
 import { displayTitle, posterUrl } from '../lib/display'
 import { streamingProviders } from '../lib/streaming'
-
-const STATUS_OPTIONS: { value: WatchStatus; label: string }[] = [
-  { value: 'watching', label: 'Watching' },
-  { value: 'completed', label: 'Completed' },
-  { value: 'queued', label: 'Queued' },
-  { value: 'dropped', label: 'Dropped' },
-  { value: 'archived', label: 'Archived' },
-]
+import { WATCH_STATUS_OPTIONS, watchStatusLabel } from '../lib/statuses'
 
 type Props = {
   item: LibraryTvItem
@@ -88,8 +81,7 @@ export function ShowDetailModal({
     review.review.trim().length > 0 ||
     review.status !== 'watching'
 
-  const statusLabel =
-    STATUS_OPTIONS.find((o) => o.value === review.status)?.label ?? review.status
+  const statusLabel = watchStatusLabel(review.status)
 
   return (
     <div className="modal" role="presentation" onClick={onClose}>
@@ -151,7 +143,7 @@ export function ShowDetailModal({
                   disabled={saving}
                   onChange={(e) => setStatus(e.target.value as WatchStatus)}
                 >
-                  {STATUS_OPTIONS.map(({ value, label }) => (
+                  {WATCH_STATUS_OPTIONS.map(({ value, label }) => (
                     <option key={value} value={value}>
                       {label}
                     </option>

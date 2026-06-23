@@ -10,7 +10,15 @@ create table if not exists public.show_reviews (
     rating is null or (rating >= 0 and rating <= 100)
   ),
   constraint show_reviews_status_check check (
-    status in ('watching', 'completed', 'dropped', 'queued', 'archived')
+    status in (
+      'watching',
+      'current',
+      'new-season-soon',
+      'completed',
+      'dropped',
+      'queued',
+      'archived'
+    )
   )
 );
 

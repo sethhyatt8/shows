@@ -129,6 +129,13 @@ const NEW_SHOWS = [
   ['britannia', 'Britannia'],
   ['broad-city', 'Broad City'],
   ['workaholics', 'Workaholics'],
+  ['dune-prophecy', 'Dune: Prophecy'],
+  ['the-witcher', 'The Witcher'],
+  ['the-pacific', 'The Pacific'],
+  ['alice-in-borderland', 'Alice in Borderland'],
+  ['squid-game', 'Squid Game'],
+  ['stranger-things', 'Stranger Things'],
+  ['fallout', 'Fallout'],
 ]
 
 const emptyCached = {

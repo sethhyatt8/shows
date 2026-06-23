@@ -1,5 +1,7 @@
 export type WatchStatus =
   | 'watching'
+  | 'current'
+  | 'new-season-soon'
   | 'completed'
   | 'dropped'
   | 'queued'
