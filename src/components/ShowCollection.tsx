@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import type { LibraryTvItem, WatchStatus } from '../types/library'
 import type { ReviewsMap } from '../types/reviews'
 import {
@@ -7,10 +7,13 @@ import {
   primaryStreamingProvider,
 } from '../lib/streaming'
 import { displayTitle } from '../lib/display'
-import { WATCH_STATUS_OPTIONS } from '../lib/statuses'
+import {
+  FILTER_STATUS_OPTIONS,
+  matchesStatusFilter,
+  type StatusFilter,
+} from '../lib/statuses'
 import { ShowCard } from './ShowCard'
 
-type StatusFilter = 'all' | WatchStatus
 export type SortMode = 'rating' | 'streaming'
 
 type Props = {
@@ -91,6 +94,10 @@ export function ShowCollection({
     [items],
   )
 
+  useEffect(() => {
+    if (statusFilter === 'current') onStatusFilter('all')
+  }, [statusFilter, onStatusFilter])
+
   const currentItems = useMemo(() => {
     const list = items.filter((i) => showStatus(i, reviews) === 'current')
     return sortItems(list, reviews, 'rating')
@@ -98,9 +105,8 @@ export function ShowCollection({
 
   const sorted = useMemo(() => {
     const list = items.filter((i) => {
-      if (statusFilter !== 'all' && showStatus(i, reviews) !== statusFilter) {
-        return false
-      }
+      const status = showStatus(i, reviews)
+      if (!matchesStatusFilter(status, statusFilter)) return false
       if (!matchesStreamingFilter(i, streamingFilter)) return false
       return true
     })
@@ -115,7 +121,7 @@ export function ShowCollection({
           <div className="collection__grid collection__grid--current">
             {currentItems.map((item) => (
               <ShowCard
-                key={item.id}
+                key={`current-${item.id}`}
                 item={item}
                 review={reviewFor(item, reviews)}
                 onSelect={onSelect}
@@ -144,17 +150,15 @@ export function ShowCollection({
           <select
             id="status-filter"
             className="collection__select"
-            value={statusFilter}
+            value={statusFilter === 'current' ? 'all' : statusFilter}
             onChange={(e) => onStatusFilter(e.target.value as StatusFilter)}
           >
             <option value="all">All</option>
-            {WATCH_STATUS_OPTIONS.filter(({ value }) => value !== 'current').map(
-              ({ value, label }) => (
-                <option key={value} value={value}>
-                  {label}
-                </option>
-              ),
-            )}
+            {FILTER_STATUS_OPTIONS.map(({ value, label }) => (
+              <option key={value} value={value}>
+                {label}
+              </option>
+            ))}
           </select>
         </label>
 
@@ -184,7 +188,7 @@ export function ShowCollection({
         <div className="collection__grid">
           {sorted.map((item) => (
             <ShowCard
-              key={item.id}
+              key={`main-${item.id}`}
               item={item}
               review={reviewFor(item, reviews)}
               onSelect={onSelect}

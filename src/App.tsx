@@ -8,11 +8,11 @@ import {
 import { ShowDetailModal } from './components/ShowDetailModal'
 import { useReviews } from './hooks/useReviews'
 import { isEditUnlocked, lockEditing } from './lib/appAuth'
+import type { StatusFilter } from './lib/statuses'
 import type {
   LibraryFile,
   LibraryItem,
   LibraryTvItem,
-  WatchStatus,
 } from './types/library'
 import './App.css'
 
@@ -28,9 +28,7 @@ export default function App() {
     [],
   )
 
-  const [statusFilter, setStatusFilter] = useState<
-    'all' | WatchStatus
-  >('all')
+  const [statusFilter, setStatusFilter] = useState<StatusFilter>('all')
   const [streamingFilter, setStreamingFilter] = useState('all')
   const [sortMode, setSortMode] = useState<SortMode>('rating')
 
