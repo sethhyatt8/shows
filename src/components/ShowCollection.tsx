@@ -92,17 +92,12 @@ export function ShowCollection({
   )
 
   const currentItems = useMemo(() => {
-    const list = items.filter(
-      (i) =>
-        showStatus(i, reviews) === 'current' &&
-        matchesStreamingFilter(i, streamingFilter),
-    )
-    return sortItems(list, reviews, sortMode)
-  }, [items, reviews, streamingFilter, sortMode])
+    const list = items.filter((i) => showStatus(i, reviews) === 'current')
+    return sortItems(list, reviews, 'rating')
+  }, [items, reviews])
 
   const sorted = useMemo(() => {
     const list = items.filter((i) => {
-      if (showStatus(i, reviews) === 'current') return false
       if (statusFilter !== 'all' && showStatus(i, reviews) !== statusFilter) {
         return false
       }
@@ -114,6 +109,22 @@ export function ShowCollection({
 
   return (
     <div className="collection">
+      {currentItems.length > 0 ? (
+        <section className="collection__section" aria-label="Current shows">
+          <h2 className="collection__section-title">Current</h2>
+          <div className="collection__grid collection__grid--current">
+            {currentItems.map((item) => (
+              <ShowCard
+                key={item.id}
+                item={item}
+                review={reviewFor(item, reviews)}
+                onSelect={onSelect}
+              />
+            ))}
+          </div>
+        </section>
+      ) : null}
+
       <div className="collection__toolbar">
         <label className="collection__filter" htmlFor="sort-mode">
           <span className="collection__filter-label">Sort</span>
@@ -167,25 +178,9 @@ export function ShowCollection({
         ) : null}
       </div>
 
-      {currentItems.length > 0 ? (
-        <section className="collection__section" aria-label="Current shows">
-          <h2 className="collection__section-title">Current</h2>
-          <div className="collection__grid collection__grid--current">
-            {currentItems.map((item) => (
-              <ShowCard
-                key={item.id}
-                item={item}
-                review={reviewFor(item, reviews)}
-                onSelect={onSelect}
-              />
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      {sorted.length === 0 && currentItems.length === 0 ? (
+      {sorted.length === 0 ? (
         <p className="collection__empty">No shows in this list.</p>
-      ) : sorted.length > 0 ? (
+      ) : (
         <div className="collection__grid">
           {sorted.map((item) => (
             <ShowCard
@@ -196,7 +191,7 @@ export function ShowCollection({
             />
           ))}
         </div>
-      ) : null}
+      )}
     </div>
   )
 }
