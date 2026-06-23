@@ -115,9 +115,9 @@ export function ShowCollection({
 
   return (
     <div className="collection">
-      {currentItems.length > 0 ? (
-        <section className="collection__section" aria-label="Current shows">
-          <h2 className="collection__section-title">Current</h2>
+      <section className="collection__section" aria-label="Current shows">
+        <h2 className="collection__section-title">Current</h2>
+        {currentItems.length > 0 ? (
           <div className="collection__grid collection__grid--current">
             {currentItems.map((item) => (
               <ShowCard
@@ -128,8 +128,12 @@ export function ShowCollection({
               />
             ))}
           </div>
-        </section>
-      ) : null}
+        ) : (
+          <p className="collection__section-empty">
+            Tag a show as Current to pin it here.
+          </p>
+        )}
+      </section>
 
       <div className="collection__toolbar">
         <label className="collection__filter" htmlFor="sort-mode">

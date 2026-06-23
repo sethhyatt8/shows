@@ -189,6 +189,12 @@
   color: var(--text-h);
 }
 
+.collection__section-empty {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--text);
+}
+
 .collection__grid--current {
   grid-template-columns: repeat(8, minmax(0, 1fr));
 }
