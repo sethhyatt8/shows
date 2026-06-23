@@ -33,6 +33,48 @@ function showStatus(item: LibraryTvItem, reviews: ReviewsMap): WatchStatus {
   return reviews[item.id]?.status ?? item.mine.status
 }
 
+function matchesStreamingFilter(
+  item: LibraryTvItem,
+  streamingFilter: string,
+): boolean {
+  return (
+    streamingFilter === 'all' || hasStreamingProvider(item, streamingFilter)
+  )
+}
+
+function sortItems(
+  list: LibraryTvItem[],
+  reviews: ReviewsMap,
+  sortMode: SortMode,
+): LibraryTvItem[] {
+  return [...list].sort((a, b) => {
+    if (sortMode === 'streaming') {
+      const pa = primaryStreamingProvider(a) ?? '\uffff'
+      const pb = primaryStreamingProvider(b) ?? '\uffff'
+      const byProvider = pa.localeCompare(pb)
+      if (byProvider !== 0) return byProvider
+      return displayTitle(a).localeCompare(displayTitle(b))
+    }
+    const ra = reviewRating(reviews, a.id)
+    const rb = reviewRating(reviews, b.id)
+    if (ra == null && rb == null) return 0
+    if (ra == null) return 1
+    if (rb == null) return -1
+    return rb - ra
+  })
+}
+
+function reviewFor(item: LibraryTvItem, reviews: ReviewsMap) {
+  return (
+    reviews[item.id] ?? {
+      rating: null,
+      review: '',
+      status: item.mine.status,
+      updatedAt: null,
+    }
+  )
+}
+
 export function ShowCollection({
   items,
   reviews,
@@ -49,34 +91,26 @@ export function ShowCollection({
     [items],
   )
 
-  const filtered = items.filter((i) => {
-    if (statusFilter !== 'all' && showStatus(i, reviews) !== statusFilter) {
-      return false
-    }
-    if (
-      streamingFilter !== 'all' &&
-      !hasStreamingProvider(i, streamingFilter)
-    ) {
-      return false
-    }
-    return true
-  })
+  const currentItems = useMemo(() => {
+    const list = items.filter(
+      (i) =>
+        showStatus(i, reviews) === 'current' &&
+        matchesStreamingFilter(i, streamingFilter),
+    )
+    return sortItems(list, reviews, sortMode)
+  }, [items, reviews, streamingFilter, sortMode])
 
-  const sorted = [...filtered].sort((a, b) => {
-    if (sortMode === 'streaming') {
-      const pa = primaryStreamingProvider(a) ?? '\uffff'
-      const pb = primaryStreamingProvider(b) ?? '\uffff'
-      const byProvider = pa.localeCompare(pb)
-      if (byProvider !== 0) return byProvider
-      return displayTitle(a).localeCompare(displayTitle(b))
-    }
-    const ra = reviewRating(reviews, a.id)
-    const rb = reviewRating(reviews, b.id)
-    if (ra == null && rb == null) return 0
-    if (ra == null) return 1
-    if (rb == null) return -1
-    return rb - ra
-  })
+  const sorted = useMemo(() => {
+    const list = items.filter((i) => {
+      if (showStatus(i, reviews) === 'current') return false
+      if (statusFilter !== 'all' && showStatus(i, reviews) !== statusFilter) {
+        return false
+      }
+      if (!matchesStreamingFilter(i, streamingFilter)) return false
+      return true
+    })
+    return sortItems(list, reviews, sortMode)
+  }, [items, reviews, statusFilter, streamingFilter, sortMode])
 
   return (
     <div className="collection">
@@ -103,11 +137,13 @@ export function ShowCollection({
             onChange={(e) => onStatusFilter(e.target.value as StatusFilter)}
           >
             <option value="all">All</option>
-            {WATCH_STATUS_OPTIONS.map(({ value, label }) => (
-              <option key={value} value={value}>
-                {label}
-              </option>
-            ))}
+            {WATCH_STATUS_OPTIONS.filter(({ value }) => value !== 'current').map(
+              ({ value, label }) => (
+                <option key={value} value={value}>
+                  {label}
+                </option>
+              ),
+            )}
           </select>
         </label>
 
@@ -131,20 +167,36 @@ export function ShowCollection({
         ) : null}
       </div>
 
-      {sorted.length === 0 ? (
+      {currentItems.length > 0 ? (
+        <section className="collection__section" aria-label="Current shows">
+          <h2 className="collection__section-title">Current</h2>
+          <div className="collection__grid collection__grid--current">
+            {currentItems.map((item) => (
+              <ShowCard
+                key={item.id}
+                item={item}
+                review={reviewFor(item, reviews)}
+                onSelect={onSelect}
+              />
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      {sorted.length === 0 && currentItems.length === 0 ? (
         <p className="collection__empty">No shows in this list.</p>
-      ) : (
+      ) : sorted.length > 0 ? (
         <div className="collection__grid">
           {sorted.map((item) => (
             <ShowCard
               key={item.id}
               item={item}
-              review={reviews[item.id] ?? { rating: null, review: '', status: item.mine.status, updatedAt: null }}
+              review={reviewFor(item, reviews)}
               onSelect={onSelect}
             />
           ))}
         </div>
-      )}
+      ) : null}
     </div>
   )
 }
