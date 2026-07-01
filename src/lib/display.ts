@@ -9,5 +9,5 @@ export function posterUrl(item: LibraryTvItem): string | null {
 }
 
 export function displayTitle(item: LibraryTvItem): string {
-  return item.cached.title ?? item.mine.title
+  return item.mine.title || item.cached.title || 'Untitled'
 }

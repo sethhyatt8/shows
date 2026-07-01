@@ -223,7 +223,6 @@
         "streamingProviders": [
           "HBO Max",
           "HBO Max Amazon Channel",
-          "Spectrum On Demand",
           "YouTube TV"
         ]
       },
@@ -393,7 +392,7 @@
       "cached": {
         "title": "Gen V",
         "overview": "At America's only college for superheroes, gifted students put their moral boundaries to the test, competing for the university's top ranking, and a chance to join The Seven, Vought International's elite superhero team. When the school's dark secrets come to light, they must decide what kind of heroes they want to become.",
-        "posterPath": "/uuot1N5AgZ7xRCKgm4ZCwOhgIJu.jpg",
+        "posterPath": "/tEv842Nd5uMSavURG4aQO1pNtst.jpg",
         "backdropPath": "/tldMHeR7UnihV5ffrxxM8cDhbtT.jpg",
         "genreNames": [
           "Action & Adventure",
@@ -542,7 +541,7 @@
         "title": "Rick and Morty",
         "overview": "Follows a sociopathic genius scientist who drags his inherently timid grandson on adventures across the universe.",
         "posterPath": "/owhkU6KRqdXoUQpjV8uyZGPtX58.jpg",
-        "backdropPath": "/9In9QgVJx7PlFOAgVHCKKSbo605.jpg",
+        "backdropPath": "/5BDNWWHweQL0q1fmTv7gmRXfnl4.jpg",
         "genreNames": [
           "Animation",
           "Comedy",
@@ -1723,7 +1722,7 @@
         "title": "MobLand",
         "overview": "Two mob families clash in a war that threatens to topple empires and lives.",
         "posterPath": "/abeH7n5pcuQcwYcTxG6DTZvXLP1.jpg",
-        "backdropPath": "/cxejGoxpynd144zaivyEKFxCktm.jpg",
+        "backdropPath": "/tQqbbxBAdW2ql8vbOqMOJbtSQ7O.jpg",
         "genreNames": [
           "Crime",
           "Drama"
@@ -2037,7 +2036,7 @@
         "title": "House of the Dragon",
         "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
         "posterPath": "/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
-        "backdropPath": "/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
+        "backdropPath": "/h37hqVLmCW00ImewLAHT1DadOky.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
           "Drama",
@@ -2048,8 +2047,8 @@
           "Matt Smith",
           "Emma D'Arcy",
           "Olivia Cooke",
-          "Steve Toussaint",
-          "Rhys Ifans"
+          "James Norton",
+          "Steve Toussaint"
         ],
         "streamingProviders": [
           "HBO Max",
@@ -2763,7 +2762,7 @@
       "cached": {
         "title": "Half Man",
         "overview": "When Niall's estranged 'brother' Ruben shows up at his wedding, it leads to an explosion of violence that catapults us back through their lives.",
-        "posterPath": "/vjVTRhKLo6n4KxslvsnaKNTguuZ.jpg",
+        "posterPath": "/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
         "backdropPath": "/loZCtN8s1yjSBD75rbHsRisWfUc.jpg",
         "genreNames": [
           "Drama"
@@ -3023,7 +3022,7 @@
       "cached": {
         "title": "Dark",
         "overview": "A missing child sets four families on a frantic hunt for answers as they unearth a mind-bending mystery that spans three generations.",
-        "posterPath": "/1DLjjvSWMYo17B7wuz6YikB96hH.jpg",
+        "posterPath": "/apbrbWs8M9lyOpJYU5WXrpFbk1Z.jpg",
         "backdropPath": "/3jDXL4Xvj3AzDOF6UH1xeyHW8MH.jpg",
         "genreNames": [
           "Crime",
@@ -3279,6 +3278,8 @@
           "Kevin Nealon"
         ],
         "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
           "MovieSphere+ Amazon Channel"
         ]
       },
@@ -3448,7 +3449,7 @@
       "cached": {
         "title": "Babylon Berlin",
         "overview": "Beneath the decadence of 1929 Berlin, lies an underworld city of sin. Police investigator Gereon Rath has been transferred from Cologne to the epicenter of political and social changes in the Golden Twenties.",
-        "posterPath": "/jYShWyYllx9DhOS6d92mN2yVsbA.jpg",
+        "posterPath": "/hr18RHPMQSA0zbCzAZN2asIOqy5.jpg",
         "backdropPath": "/7hezSIqkDjhP7MNGFN9vRkyWgO9.jpg",
         "genreNames": [
           "Drama",
@@ -4103,7 +4104,7 @@
         "title": "30 Rock",
         "overview": "Liz Lemon, the head writer for a late-night TV variety show in New York, tries to juggle all the egos around her while chasing her own dream.",
         "posterPath": "/eYYQWACx7ttUzRwTNYuo6zveqpE.jpg",
-        "backdropPath": "/cGQmSoB0e0bpuNJky5xj6U61erq.jpg",
+        "backdropPath": "/cK5AbLFBY2JDoqEdVXk0697e2SV.jpg",
         "genreNames": [
           "Comedy"
         ],
@@ -4725,7 +4726,7 @@
       "cached": {
         "title": "Big Little Lies",
         "overview": "The tale of three mothers of first graders whose apparently perfect lives unravel to the point of murder.",
-        "posterPath": "/b4HNJOc2N6SGyEhf2RagdpAKBK6.jpg",
+        "posterPath": "/zxGkno93ExrTMsJVllH6mzQ652z.jpg",
         "backdropPath": "/8Wo2Pqjxn7Xmd7p2dxRMIJtyMV7.jpg",
         "genreNames": [
           "Drama"
@@ -5582,6 +5583,918 @@
       },
       "mine": {
         "title": "Fallout",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-simpsons",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 456,
+        "searchQuery": "The Simpsons"
+      },
+      "cached": {
+        "title": "The Simpsons",
+        "overview": "Set in Springfield, the average American town, the show focuses on the antics and everyday adventures of the Simpson family; Homer, Marge, Bart, Lisa and Maggie, as well as a virtual cast of thousands. Since the beginning, the series has been a pop culture icon, attracting hundreds of celebrities to guest star. The show has also made name for itself in its fearless satirical take on politics, media and American life in general.",
+        "posterPath": "/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
+        "backdropPath": "/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg",
+        "genreNames": [
+          "Family",
+          "Animation",
+          "Comedy"
+        ],
+        "firstAirYear": "1989",
+        "topCast": [
+          "Dan Castellaneta",
+          "Julie Kavner",
+          "Nancy Cartwright",
+          "Yeardley Smith",
+          "Hank Azaria"
+        ],
+        "streamingProviders": [
+          "Disney Plus",
+          "FOX One Amazon Channel",
+          "fuboTV",
+          "Hulu",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "The Simpsons",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "secret-city",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 66357,
+        "searchQuery": "Secret City"
+      },
+      "cached": {
+        "title": "Secret City",
+        "overview": "Beneath the placid facade of Canberra, amidst rising tension between China and America, senior political journalist Harriet Dunkley uncovers a secret city of interlocked conspiracies, putting innocent lives in danger including her own.",
+        "posterPath": "/c8MWyp6WuA3QT1WwTc3SmASEhN2.jpg",
+        "backdropPath": "/gkoSE7ojM6ez2UDVznnbbUfyGyD.jpg",
+        "genreNames": [
+          "Drama",
+          "War & Politics"
+        ],
+        "firstAirYear": "2016",
+        "topCast": [
+          "Anna Torv",
+          "Justin Smith",
+          "Marcus Graham",
+          "Aleks Mikic",
+          "Laura Gordon"
+        ],
+        "streamingProviders": []
+      },
+      "mine": {
+        "title": "Secret City",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "chad",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 89578,
+        "searchQuery": "Chad"
+      },
+      "cached": {
+        "title": "Chad",
+        "overview": "A 14-year-old Persian-American boy desperately tries to fit in, cope with his mother's dating life, and figure out his cultural identity.",
+        "posterPath": "/8i3KBIgdnxpHgzE0eBr0CuKWTF5.jpg",
+        "backdropPath": "/u1kpk0wsmO7KEZWRhOdVsn8NuPb.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Nasim Pedrad",
+          "Ella Mika",
+          "Saba Homayoon",
+          "Paul Chahidi",
+          "Jake Ryan"
+        ],
+        "streamingProviders": []
+      },
+      "mine": {
+        "title": "Chad",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "community",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 18347,
+        "searchQuery": "Community"
+      },
+      "cached": {
+        "title": "Community",
+        "overview": "Follow the lives of a group of students at what is possibly the world’s worst community college in the fictional locale of Greendale, Colorado.",
+        "posterPath": "/3KUjDt8XY7w2Ku70UE0SECmv1zP.jpg",
+        "backdropPath": "/1xRfgONYmK3T6FSmbtcuo8eyxVt.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2009",
+        "topCast": [
+          "Joel McHale",
+          "Gillian Jacobs",
+          "Alison Brie",
+          "Jim Rash",
+          "Danny Pudi"
+        ],
+        "streamingProviders": [
+          "Hulu",
+          "Peacock Premium",
+          "Peacock Premium Plus",
+          "Philo"
+        ]
+      },
+      "mine": {
+        "title": "Community",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "chernobyl",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 87108,
+        "searchQuery": "Chernobyl"
+      },
+      "cached": {
+        "title": "Chernobyl",
+        "overview": "The true story of one of the worst man-made catastrophes in history: the catastrophic nuclear accident at Chernobyl. A tale of the brave men and women who sacrificed to save Europe from unimaginable disaster.",
+        "posterPath": "/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg",
+        "backdropPath": "/3URK0z9PzpVNJrGE7XOuyy6KFzk.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Jared Harris",
+          "Stellan Skarsgård",
+          "Emily Watson",
+          "Paul Ritter",
+          "Jessie Buckley"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Chernobyl",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "cunk-on-earth",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 79063,
+        "searchQuery": "Cunk on Earth"
+      },
+      "cached": {
+        "title": "Cunk on...",
+        "overview": "Landmark mockumentary-maker Philomena Cunk traces the history of Britain and Earth.",
+        "posterPath": "/2ZEZF2IVQkaAlfC8l3Oh7j8ZjDy.jpg",
+        "backdropPath": "/4nXIoy86Z5kUgKvWNZYyLEqtp7p.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Diane Morgan"
+        ],
+        "streamingProviders": []
+      },
+      "mine": {
+        "title": "Cunk on Earth",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "dark-matter",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 196322,
+        "searchQuery": "Dark Matter"
+      },
+      "cached": {
+        "title": "Dark Matter",
+        "overview": "Jason Dessen is abducted into an alternate version of his life. To get back to his true family, he embarks on a harrowing journey to save them from the most terrifying foe imaginable: himself.",
+        "posterPath": "/c6MRUtPk0nEPQ9FBD9RdRKt2rIm.jpg",
+        "backdropPath": "/wFEAy4xRes1eeclsu7Z73Vzz7ET.jpg",
+        "genreNames": [
+          "Sci-Fi & Fantasy",
+          "Drama"
+        ],
+        "firstAirYear": "2024",
+        "topCast": [
+          "Joel Edgerton",
+          "Jennifer Connelly",
+          "Alice Braga",
+          "Jimmi Simpson",
+          "Dayo Okeniyi"
+        ],
+        "streamingProviders": [
+          "Apple TV",
+          "Apple TV Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Dark Matter",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "dave",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 97084,
+        "searchQuery": "Dave"
+      },
+      "cached": {
+        "title": "DAVE",
+        "overview": "A suburban neurotic man in his late 20s has convinced himself that he’s destined to be one of the best rappers of all time. Now he must convince his closest friends, because with their help, he might actually convince the world.",
+        "posterPath": "/iorStu3DHuscNfQiIyQomvMyO0h.jpg",
+        "backdropPath": "/fmMOozdSXbzhl6cc2avXI8Y46VK.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2020",
+        "topCast": [
+          "Lil Dicky",
+          "Taylor Misiak",
+          "Andrew Santino",
+          "GaTa",
+          "Travis \"Taco\" Bennett"
+        ],
+        "streamingProviders": [
+          "FXNow",
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Dave",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "deadwood",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1406,
+        "searchQuery": "Deadwood"
+      },
+      "cached": {
+        "title": "Deadwood",
+        "overview": "The story of the early days of Deadwood, South Dakota; woven around actual historic events with most of the main characters based on real people. Deadwood starts as a gold mining camp and gradually turns from a lawless wild-west community into an organized wild-west civilized town. The story focuses on the real-life characters Seth Bullock and Al Swearengen.",
+        "posterPath": "/fWwxYAuqY4Na7fKI3Qq2nFWCwG8.jpg",
+        "backdropPath": "/dGzPJnh8YcUS4J10sNunohaXMVn.jpg",
+        "genreNames": [
+          "Western",
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2004",
+        "topCast": [
+          "Timothy Olyphant",
+          "Ian McShane",
+          "Molly Parker",
+          "Jim Beaver",
+          "W. Earl Brown"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Deadwood",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "derry-girls",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 76148,
+        "searchQuery": "Derry Girls"
+      },
+      "cached": {
+        "title": "Derry Girls",
+        "overview": "Amidst the political conflict of Northern Ireland in the 1990s, five secondary school students square off with the universal challenges of being a teenager.",
+        "posterPath": "/btIm8LOtm2qgHIA2IHmQJvD1Mju.jpg",
+        "backdropPath": "/nQyQ4c8DUvXra1LDWnNfV9QJluD.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2018",
+        "topCast": [
+          "Saoirse-Monica Jackson",
+          "Louisa Harland",
+          "Nicola Coughlan",
+          "Jamie Lee O'Donnell",
+          "Dylan Llewellyn"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Derry Girls",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-detectorists",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 61828,
+        "searchQuery": "The Detectorists"
+      },
+      "cached": {
+        "title": "Detectorists",
+        "overview": "The lives of two eccentric metal detectorists, who spend their days plodding along ploughed tracks and open fields, hoping to disturb the tedium by unearthing the fortune of a lifetime.",
+        "posterPath": "/5BCQaZ8HrLjq6diLsIQxZuzXqiK.jpg",
+        "backdropPath": "/AcwI0dQaPEiU4a4l3kQqUI1070.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2014",
+        "topCast": [
+          "Mackenzie Crook",
+          "Toby Jones",
+          "Rachael Stirling",
+          "Gerard Horan",
+          "Divian Ladwa"
+        ],
+        "streamingProviders": [
+          "Acorn TV",
+          "Acorn TV Apple TV",
+          "AcornTV Amazon Channel",
+          "fuboTV",
+          "Spectrum On Demand",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "The Detectorists",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "dexter",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1405,
+        "searchQuery": "Dexter"
+      },
+      "cached": {
+        "title": "Dexter",
+        "overview": "Dexter Morgan, a blood spatter pattern analyst for the Miami Metro Police also leads a secret life as a serial killer, hunting down criminals who have slipped through the cracks of justice.",
+        "posterPath": "/q8dWfc4JwQuv3HayIZeO84jAXED.jpg",
+        "backdropPath": "/aSGSxGMTP893DPMCvMl9AdnEICE.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama",
+          "Mystery"
+        ],
+        "firstAirYear": "2006",
+        "topCast": [
+          "Michael C. Hall",
+          "Jennifer Carpenter",
+          "Geoff Pierson",
+          "David Zayas",
+          "James Remar"
+        ],
+        "streamingProviders": [
+          "fuboTV",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "Spectrum On Demand"
+        ]
+      },
+      "mine": {
+        "title": "Dexter",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "downton-abbey",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 33907,
+        "searchQuery": "Downton Abbey"
+      },
+      "cached": {
+        "title": "Downton Abbey",
+        "overview": "A chronicle of the lives of the aristocratic Crawley family and their servants in the post-Edwardian era—with great events in history having an effect on their lives and on the British social hierarchy.\n\n",
+        "posterPath": "/7HgDYRYjym4BwbhKaqTQq771SKb.jpg",
+        "backdropPath": "/1wgqpYNtQDn7TDkyQ2jsIAqxorW.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2010",
+        "topCast": [
+          "Maggie Smith",
+          "Michelle Dockery",
+          "Laura Carmichael",
+          "Joanne Froggatt",
+          "Hugh Bonneville"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "BritBox",
+          "BritBox Amazon Channel",
+          "Britbox Apple TV Channel ",
+          "PBS",
+          "PBS Masterpiece Amazon Channel",
+          "Peacock Premium",
+          "Peacock Premium Plus",
+          "WETA+"
+        ]
+      },
+      "mine": {
+        "title": "Downton Abbey",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "el-chapo",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 71411,
+        "searchQuery": "El Chapo"
+      },
+      "cached": {
+        "title": "El Chapo",
+        "overview": "A look at the life of notorious drug kingpin, El Chapo, from his early days in the 1980s working for the Guadalajara Cartel, to his rise to power of during the '90s and his ultimate downfall in 2016.",
+        "posterPath": "/3FzlvQ5Ea35Zdz71Ye7JSvB6VdB.jpg",
+        "backdropPath": "/4kp7ZwgminnWqgFwO5QEiWS5BNa.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Marco de la O",
+          "Valentina Acosta",
+          "Juan Carlos Olivas",
+          "Humberto Busto",
+          "Alejandro Aguilar"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads",
+          "REELZ+ Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "El Chapo",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "fauda",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 69557,
+        "searchQuery": "Fauda"
+      },
+      "cached": {
+        "title": "Fauda",
+        "overview": "A top Israeli agent comes out of retirement to hunt for a Palestinian militant he thought he'd killed, setting a chaotic chain of events into motion.",
+        "posterPath": "/bc6XIKP1TrnugYMzIIUz9YCL8VM.jpg",
+        "backdropPath": "/l7BDJsD2zRYHvu3G7qV1v7q5hoF.jpg",
+        "genreNames": [
+          "Drama",
+          "Action & Adventure",
+          "War & Politics"
+        ],
+        "firstAirYear": "2015",
+        "topCast": [
+          "Lior Raz",
+          "Netta Garti",
+          "Doron Ben-David",
+          "Rona-Lee Shimon",
+          "Itzik Cohen"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Fauda",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "friday-night-lights",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 4278,
+        "searchQuery": "Friday Night Lights"
+      },
+      "cached": {
+        "title": "Friday Night Lights",
+        "overview": "The trials and triumphs of life in the small town of Dillon, Texas, where high school football is everything.",
+        "posterPath": "/Eu7MzZY1DldJ683z7vLkILHNRD.jpg",
+        "backdropPath": "/dzHSMD1IY6RriYxkS3T2ysFdvdp.jpg",
+        "genreNames": [
+          "Drama"
+        ],
+        "firstAirYear": "2006",
+        "topCast": [
+          "Kyle Chandler",
+          "Connie Britton",
+          "Aimee Teegarden",
+          "Michael B. Jordan",
+          "Jurnee Smollett"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ]
+      },
+      "mine": {
+        "title": "Friday Night Lights",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "friends",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 1668,
+        "searchQuery": "Friends"
+      },
+      "cached": {
+        "title": "Friends",
+        "overview": "Six young people from New York City, on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.",
+        "posterPath": "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+        "backdropPath": "/l0qVZIpXtIo7km9u5Yqh0nKPOr5.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "1994",
+        "topCast": [
+          "Jennifer Aniston",
+          "Courteney Cox",
+          "Lisa Kudrow",
+          "Matt LeBlanc",
+          "Matthew Perry"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "TBS",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Friends",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "gangs-of-london",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 85021,
+        "searchQuery": "Gangs of London"
+      },
+      "cached": {
+        "title": "Gangs of London",
+        "overview": "When the head of a criminal organisation, Finn Wallace is assassinated, the sudden power vacuum his death creates threatens the fragile peace between the intricate web of gangs operating on the streets of the city. Now it’s up to the grieving, volatile and impulsive Sean Wallace to restore control and find those responsible for killing his father.",
+        "posterPath": "/fVgwa6wGw9ddGM5O7mqrrwB6gHK.jpg",
+        "backdropPath": "/9aJ6KwLASA38WzdMRVjk7ILpuTv.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Drama",
+          "Crime"
+        ],
+        "firstAirYear": "2020",
+        "topCast": [
+          "Ṣọpẹ́ Dìrísù",
+          "Michelle Fairley",
+          "Orli Shuka",
+          "Lucian Msamati",
+          "Jasmine Armando"
+        ],
+        "streamingProviders": [
+          "AMC Plus Apple TV Channel ",
+          "AMC+",
+          "AMC+ Amazon Channel",
+          "AMC+ Roku Premium Channel",
+          "Philo",
+          "Spectrum On Demand",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Gangs of London",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "gangs-of-oslo",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 216604,
+        "searchQuery": "Gangs of Oslo"
+      },
+      "cached": {
+        "title": "Gangs of Oslo",
+        "overview": "Policeman Moaz Ibrahim is forced into living a dangerous double life with the criminal gang Enemiez as an attempt to keep his shady past hidden from the outside world.",
+        "posterPath": "/zz9fPM8AfrRU9RwxW8hnfshpIDD.jpg",
+        "backdropPath": "/5ewfvbuIc1k37g8BKaPynfv15Ri.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2023",
+        "topCast": [
+          "Emir Zamwa",
+          "Mohammed Youssef",
+          "Ishak Kaya",
+          "Christopher Rygh",
+          "Heidi Toini"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Gangs of Oslo",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "glow",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 70573,
+        "searchQuery": "GLOW"
+      },
+      "cached": {
+        "title": "GLOW",
+        "overview": "In 1980s LA, a crew of misfits reinvent themselves as the Gorgeous Ladies of Wrestling.",
+        "posterPath": "/aqQlgRgUwVTfbdxe33vfDEMiCa2.jpg",
+        "backdropPath": "/30totGPtBLM5ginollLv0sjyglK.jpg",
+        "genreNames": [
+          "Comedy",
+          "Drama"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Alison Brie",
+          "Betty Gilpin",
+          "Marc Maron",
+          "Sydelle Noel",
+          "Britney Young"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "GLOW",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "ghosts",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 126027,
+        "searchQuery": "Ghosts"
+      },
+      "cached": {
+        "title": "Ghosts",
+        "overview": "Samantha and Jay throw caution to the wind when they convert their recently inherited country estate into a bed-and-breakfast. Call it mislaid plans. Not only is the place falling apart, but it’s also inhabited by spirits of previous residents -- whom only Samantha can see and hear.",
+        "posterPath": "/8yBQYa6AdvMY5H9CiAv0HkvF3UE.jpg",
+        "backdropPath": "/3MmRal3Uw3O0TVMvhfM63Z3mPz3.jpg",
+        "genreNames": [
+          "Comedy",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Rose McIver",
+          "Utkarsh Ambudkar",
+          "Brandon Scott Jones",
+          "Danielle Pinnock",
+          "Richie Moriarty"
+        ],
+        "streamingProviders": [
+          "fuboTV",
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Ghosts (US)",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "get-shorty",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 71951,
+        "searchQuery": "Get Shorty"
+      },
+      "cached": {
+        "title": "Get Shorty",
+        "overview": "Miles Daly works as muscle for a murderous crime ring in Nevada and attempts to change professions and become a movie producer, laundering money through a Hollywood film with the help of washed-up filmmaker Rick Moreweather.  Based on Elmore Leonard’s 1990 New York Times bestselling novel.",
+        "posterPath": "/ism3TUNdIl5MpQR6E8ApjE89LQy.jpg",
+        "backdropPath": "/whKuIfYI6iESs3ogaZYbeZVkxRb.jpg",
+        "genreNames": [
+          "Crime",
+          "Comedy"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Chris O'Dowd",
+          "Ray Romano",
+          "Sean Bridgers",
+          "Lidia Porto",
+          "Goya Robles"
+        ],
+        "streamingProviders": []
+      },
+      "mine": {
+        "title": "Get Shorty",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "ghosts-bbc",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 17174,
+        "searchQuery": "Ghosts"
+      },
+      "cached": {
+        "title": "Ghosts",
+        "overview": "A cash-strapped young couple inherits a grand country house, only to find it is both falling apart and teeming with the ghosts of former inhabitants.",
+        "posterPath": "/3Xz4JtqISyVCKct96O94k4Mz5sU.jpg",
+        "backdropPath": "/2FXDdIGjDhEoBkuFk5NhHWLd3VX.jpg",
+        "genreNames": [
+          "Comedy",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2019",
+        "topCast": [
+          "Charlotte Ritchie",
+          "Kiell Smith-Bynoe",
+          "Mathew Baynton",
+          "Simon Farnaby",
+          "Martha Howe-Douglas"
+        ],
+        "streamingProviders": [
+          "Paramount Plus Apple TV Channel ",
+          "Paramount Plus Essential",
+          "Paramount Plus Premium",
+          "Paramount+ Amazon Channel",
+          "Paramount+ Roku Premium Channel"
+        ]
+      },
+      "mine": {
+        "title": "Ghosts (BBC)",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "godless",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 73467,
+        "searchQuery": "Godless"
+      },
+      "cached": {
+        "title": "Godless",
+        "overview": "A ruthless outlaw terrorizes the West in search of a former member of his gang, who’s found a new life in a quiet town populated only by women.",
+        "posterPath": "/ePOD0ofGWFDTbZR84QhM7kpYMPX.jpg",
+        "backdropPath": "/3CdnJBsEm2hZffF23wOJtfC0EIq.jpg",
+        "genreNames": [
+          "Western",
+          "Drama"
+        ],
+        "firstAirYear": "2017",
+        "topCast": [
+          "Jack O'Connell",
+          "Michelle Dockery",
+          "Scoot McNairy",
+          "Merritt Wever",
+          "Thomas Brodie-Sangster"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Godless",
         "status": "watching",
         "rating": null,
         "notes": "",
