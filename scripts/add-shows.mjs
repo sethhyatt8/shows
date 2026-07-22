@@ -160,6 +160,8 @@ const NEW_SHOWS = [
   ['get-shorty', 'Get Shorty'],
   ['ghosts-bbc', 'Ghosts (BBC)', 'Ghosts BBC', 17174],
   ['godless', 'Godless', 'Godless', 73467],
+  ['the-hawk', 'The Hawk', 'The Hawk', 254528],
+  ['landscapers', 'Landscapers', 'Landscapers', 113987],
 ]
 
 const emptyCached = {

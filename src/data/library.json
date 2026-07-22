@@ -12,7 +12,7 @@
         "title": "Widow's Bay",
         "overview": "The mayor of a New England town resolves to turn it into the next tourist hot spot, despite local warnings that it's cursed.",
         "posterPath": "/vKq8XEJKxQTHd2Bm5zZMFPUrke7.jpg",
-        "backdropPath": "/u6XtMg9Ai9siEbEs0UudPS3EaZY.jpg",
+        "backdropPath": "/yx0sfeYOoXol2fjT22SXo9YyviI.jpg",
         "genreNames": [
           "Drama",
           "Comedy",
@@ -430,7 +430,7 @@
       "cached": {
         "title": "Silo",
         "overview": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo.",
-        "posterPath": "/fDMTqUcEh6qJwWZP1SHTfoaqsCy.jpg",
+        "posterPath": "/gMYZZvnkVNTqSVnVCphWbPXwWwb.jpg",
         "backdropPath": "/uTWhbLc7Bj4qNSdW3ZvZKL8cOHv.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
@@ -440,11 +440,13 @@
         "topCast": [
           "Rebecca Ferguson",
           "Common",
-          "Harriet Walter",
           "Chinaza Uche",
-          "Avi Nash"
+          "Ashley Zukerman",
+          "Shane McRae"
         ],
         "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
           "Apple TV",
           "Apple TV Amazon Channel"
         ]
@@ -964,6 +966,7 @@
           "Annie Potts"
         ],
         "streamingProviders": [
+          "FOX One",
           "FOX One Amazon Channel",
           "fuboTV",
           "Hulu",
@@ -1177,7 +1180,7 @@
         "title": "Taskmaster",
         "overview": "Greg Davies is the Taskmaster, and with the help of his ever-loyal assistant Alex Horne, they will set out to test the wiles, wit, wisdom and skills of five hyper-competitive comedians. Who will be crowned the Taskmaster champion?",
         "posterPath": "/oHLZyN7G7EpXCHxYdpMcuUNCUgS.jpg",
-        "backdropPath": "/wQc6l7RaUi7cPMuCTNnYMKCjvUt.jpg",
+        "backdropPath": "/otzksZ4I7kC0fNrHEFZYANHL7q3.jpg",
         "genreNames": [
           "Comedy"
         ],
@@ -2036,7 +2039,7 @@
         "title": "House of the Dragon",
         "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
         "posterPath": "/7V0Ebks0GgpKvQ7QbLAIdX5dos4.jpg",
-        "backdropPath": "/h37hqVLmCW00ImewLAHT1DadOky.jpg",
+        "backdropPath": "/577eXC8wFQT0eUrJcgznSiFPRmk.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
           "Drama",
@@ -2433,7 +2436,7 @@
       "cached": {
         "title": "Star City",
         "overview": "Step into a thrilling chapter inspired by For All Mankind. Same alt-history universe. Different perspective: the Soviet Union's. Go behind the Iron Curtain with the cosmonauts, engineers, and intelligence officers who risked it all in the race for the Moon.",
-        "posterPath": "/aOyhj8ERPpijIyrwJoTd4ZEhqJR.jpg",
+        "posterPath": "/b8VtW6IEIyEWYdnJHx8bG8RdAak.jpg",
         "backdropPath": "/asROh8ULhbYpB4C7x1Q3iFtcxsB.jpg",
         "genreNames": [
           "Drama",
@@ -2471,7 +2474,7 @@
       "cached": {
         "title": "Maximum Pleasure Guaranteed",
         "overview": "A newly divorced mom falls down a dangerous rabbit hole of blackmail, murder, and youth soccer.",
-        "posterPath": "/f9U0oTlvLlqbww2Gm5j8Lhf1r9W.jpg",
+        "posterPath": "/oeD9rnfk7AohNiJTRoCx4SOKhXj.jpg",
         "backdropPath": "/9mZlvYlGA4jblCvAvOpinrgn6hr.jpg",
         "genreNames": [
           "Comedy"
@@ -2762,7 +2765,7 @@
       "cached": {
         "title": "Half Man",
         "overview": "When Niall's estranged 'brother' Ruben shows up at his wedding, it leads to an explosion of violence that catapults us back through their lives.",
-        "posterPath": "/fV1XBxZSl0nxiMIhDuorIbfW8kG.jpg",
+        "posterPath": "/bHjm3ZmVsRJrbsBSrUEPaTcVZgF.jpg",
         "backdropPath": "/loZCtN8s1yjSBD75rbHsRisWfUc.jpg",
         "genreNames": [
           "Drama"
@@ -3072,13 +3075,11 @@
           "Jerome Flynn"
         ],
         "streamingProviders": [
-          "fuboTV",
           "Paramount Plus Apple TV Channel ",
           "Paramount Plus Essential",
           "Paramount Plus Premium",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel",
-          "Philo",
           "YouTube TV"
         ]
       },
@@ -3115,13 +3116,11 @@
           "LaMonica Garrett"
         ],
         "streamingProviders": [
-          "fuboTV",
           "Paramount Plus Apple TV Channel ",
           "Paramount Plus Essential",
           "Paramount Plus Premium",
           "Paramount+ Amazon Channel",
           "Paramount+ Roku Premium Channel",
-          "Philo",
           "YouTube TV"
         ]
       },
@@ -3194,7 +3193,6 @@
           "Toby Schmitz"
         ],
         "streamingProviders": [
-          "MovieSphere+ Amazon Channel",
           "Philo",
           "Spectrum On Demand",
           "Starz",
@@ -3523,7 +3521,7 @@
       "cached": {
         "title": "The Big Bang Theory",
         "overview": "Physicists Leonard and Sheldon find their nerd-centric social circle with pals Howard and Raj expanding when aspiring actress Penny moves in next door.",
-        "posterPath": "/an3uTx1P0XgHPylgfPV6W7yxKAo.jpg",
+        "posterPath": "/euKFiO5M125rpngFRBbSW83beeI.jpg",
         "backdropPath": "/rwYvhVv0vwbulMwxOfEsuAr1JrT.jpg",
         "genreNames": [
           "Comedy"
@@ -3594,7 +3592,7 @@
       "cached": {
         "title": "WandaVision",
         "overview": "Wanda Maximoff and Vision—two super-powered beings living idealized suburban lives—begin to suspect that everything is not as it seems.",
-        "posterPath": "/frobUz2X5Pc8OiVZU8Oo5K3NKMM.jpg",
+        "posterPath": "/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
         "backdropPath": "/lOr9NKxh4vMweufMOUDJjJhCRHW.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
@@ -3631,7 +3629,7 @@
       "cached": {
         "title": "Obi-Wan Kenobi",
         "overview": "During the reign of the Galactic Empire, former Jedi Master, Obi-Wan Kenobi, embarks on a crucial mission to confront allies turned enemies and face the wrath of the Empire.",
-        "posterPath": "/4Lok3HBSfbQxibQZBygoVCwKKrZ.jpg",
+        "posterPath": "/qJRB789ceLryrLvOKrZqLKr2CGf.jpg",
         "backdropPath": "/p3Jmm6d1ShUrJEuU3DYD2K19c66.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
@@ -3995,8 +3993,8 @@
           "Gary Oldman",
           "Jack Lowden",
           "Kristin Scott Thomas",
-          "Saskia Reeves",
-          "Christopher Chung"
+          "Hugo Weaving",
+          "Saskia Reeves"
         ],
         "streamingProviders": [
           "Apple TV",
@@ -4183,8 +4181,7 @@
         "backdropPath": "/loDy1LWCkPjECjVTRmyKtOoUpNN.jpg",
         "genreNames": [
           "Sci-Fi & Fantasy",
-          "Action & Adventure",
-          "Drama"
+          "Action & Adventure"
         ],
         "firstAirYear": "2023",
         "topCast": [
@@ -4431,7 +4428,7 @@
         "title": "Atypical",
         "overview": "Sam, an 18-year-old on the autism spectrum, takes a funny, yet painful, journey of self-discovery for love and independence and upends his family.",
         "posterPath": "/kNif3eZAjQ7qU3Ol9E7zo0kjPMo.jpg",
-        "backdropPath": "/1VSwy48zZE5EchorC3ra1entcj6.jpg",
+        "backdropPath": "/uy3yFKKjd2PvrUTHVMjDM8gD0eP.jpg",
         "genreNames": [
           "Drama",
           "Comedy"
@@ -6495,6 +6492,80 @@
       },
       "mine": {
         "title": "Godless",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "the-hawk",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 254528,
+        "searchQuery": "The Hawk"
+      },
+      "cached": {
+        "title": "The Hawk",
+        "overview": "On the back nine of his career, golf legend Lonnie \"The Hawk\" Hawkins chases one final major — and drags everyone he loves into the chaos.",
+        "posterPath": "/6XCbqv7t0rYE2U1jzjh52fBxczj.jpg",
+        "backdropPath": "/fBVNJL85Q60njpKPD6YaLi6tEsX.jpg",
+        "genreNames": [
+          "Comedy"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Will Ferrell",
+          "Molly Shannon",
+          "Jimmy Tatro",
+          "Fortune Feimster"
+        ],
+        "streamingProviders": [
+          "Netflix",
+          "Netflix Standard with Ads"
+        ]
+      },
+      "mine": {
+        "title": "The Hawk",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "landscapers",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 113987,
+        "searchQuery": "Landscapers"
+      },
+      "cached": {
+        "title": "Landscapers",
+        "overview": "A seemingly ordinary British couple become the focus of an extraordinary investigation when two dead bodies are discovered in the back garden of a house in Nottingham.",
+        "posterPath": "/gdtEDSv1j6HXRHheQfUYCiJk7G5.jpg",
+        "backdropPath": "/lJKPrgD8NPK7Jgcr6PrkUEp60ka.jpg",
+        "genreNames": [
+          "Comedy",
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2021",
+        "topCast": [
+          "Olivia Colman",
+          "David Thewlis",
+          "Dipo Ola",
+          "Kate O'Flynn",
+          "Samuel Anderson"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel",
+          "YouTube TV"
+        ]
+      },
+      "mine": {
+        "title": "Landscapers",
         "status": "watching",
         "rating": null,
         "notes": "",
