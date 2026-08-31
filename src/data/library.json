@@ -6571,6 +6571,118 @@
         "notes": "",
         "tags": []
       }
+    },
+    {
+      "id": "lanterns",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 95350,
+        "searchQuery": "Lanterns"
+      },
+      "cached": {
+        "title": "Lanterns",
+        "overview": "Two intergalactic cops, new recruit John Stewart and Lantern legend Hal Jordan, are drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
+        "posterPath": "/gpC7h43xPMEV3goYMQShfJbTtLq.jpg",
+        "backdropPath": "/mdbWfpbWhvxgG3k5MHpo90UgAUe.jpg",
+        "genreNames": [
+          "Drama",
+          "Mystery",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Kyle Chandler",
+          "Aaron Pierre",
+          "Kelly Macdonald",
+          "Garret Dillahunt",
+          "Poorna Jagannathan"
+        ],
+        "streamingProviders": [
+          "HBO Max",
+          "HBO Max Amazon Channel"
+        ]
+      },
+      "mine": {
+        "title": "Lanterns",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "rings-of-power",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 84773,
+        "searchQuery": "The Lord of the Rings: The Rings of Power"
+      },
+      "cached": {
+        "title": "The Lord of the Rings: The Rings of Power",
+        "overview": "Beginning in a time of relative peace, we follow an ensemble cast of characters as they confront the re-emergence of evil to Middle-earth. From the darkest depths of the Misty Mountains, to the majestic forests of Lindon, to the breathtaking island kingdom of Númenor, to the furthest reaches of the map, these kingdoms and characters will carve out legacies that live on long after they are gone.",
+        "posterPath": "/kf5Hz70tjNAHg4swGDzOr9BfoZ1.jpg",
+        "backdropPath": "/o2wg8QiSCQrhj91tBfxunE3O5Ba.jpg",
+        "genreNames": [
+          "Action & Adventure",
+          "Drama",
+          "Sci-Fi & Fantasy"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Charlie Vickers",
+          "Morfydd Clark",
+          "Robert Aramayo",
+          "Charles Edwards",
+          "Owain Arthur"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads"
+        ]
+      },
+      "mine": {
+        "title": "Rings of Power",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "paradise",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 245927,
+        "searchQuery": "Paradise"
+      },
+      "cached": {
+        "title": "Paradise",
+        "overview": "The tranquility in a serene, wealthy community inhabited by some of the world's most prominent individuals explodes when a shocking murder occurs and a high stakes investigation unfolds.",
+        "posterPath": "/l8RqfhqEk04W5sSOjQ9zeWU1DyM.jpg",
+        "backdropPath": "/5QsLvWh8J1mXl1W05wNJknMmhzR.jpg",
+        "genreNames": [
+          "Crime",
+          "Drama"
+        ],
+        "firstAirYear": "2025",
+        "topCast": [
+          "Sterling K. Brown",
+          "Julianne Nicholson",
+          "Sarah Shahi",
+          "Nicole Brydon Bloom",
+          "Krys Marshall"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Paradise",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
     }
   ]
 }
