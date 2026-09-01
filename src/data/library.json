@@ -6683,6 +6683,85 @@
         "notes": "",
         "tags": []
       }
+    },
+    {
+      "id": "furious",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 287238,
+        "searchQuery": "Furious"
+      },
+      "cached": {
+        "title": "Furious",
+        "overview": "FBI agent Alice Black is on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.",
+        "posterPath": "/xnxxrEKtBaIcI1ewq50pLkOMU6u.jpg",
+        "backdropPath": "/iAOPgUlh7inOebFrUFHAjnFRCGS.jpg",
+        "genreNames": [
+          "Drama",
+          "Crime"
+        ],
+        "firstAirYear": "2026",
+        "topCast": [
+          "Emmy Rossum",
+          "Lola Petticrew",
+          "Scoot McNairy",
+          "Quincy Tyler Bernstine"
+        ],
+        "streamingProviders": [
+          "Hulu"
+        ]
+      },
+      "mine": {
+        "title": "Furious",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
+    },
+    {
+      "id": "rogue-heroes",
+      "kind": "tv",
+      "external": {
+        "tmdbId": 93870,
+        "searchQuery": "SAS Rogue Heroes"
+      },
+      "cached": {
+        "title": "SAS Rogue Heroes",
+        "overview": "The dramatised account of how the world’s greatest Special Forces unit, the SAS, was formed under extraordinary circumstances in the darkest days of World War Two.",
+        "posterPath": "/Tc1mRuP5QrGaetGKcitZkhTU9g.jpg",
+        "backdropPath": "/hGdTq9BX3DB2gwGGFMLTdipCBPk.jpg",
+        "genreNames": [
+          "Drama",
+          "War & Politics",
+          "Action & Adventure"
+        ],
+        "firstAirYear": "2022",
+        "topCast": [
+          "Connor Swindells",
+          "Jack O'Connell",
+          "Sofia Boutella",
+          "Corin Silva",
+          "Theo Barklem-Biggs"
+        ],
+        "streamingProviders": [
+          "Amazon Prime Video",
+          "Amazon Prime Video with Ads",
+          "fuboTV",
+          "MGM Plus",
+          "MGM Plus Roku Premium Channel",
+          "MGM+ Amazon Channel",
+          "Philo",
+          "Spectrum On Demand"
+        ]
+      },
+      "mine": {
+        "title": "Rogue Heroes",
+        "status": "watching",
+        "rating": null,
+        "notes": "",
+        "tags": []
+      }
     }
   ]
 }
